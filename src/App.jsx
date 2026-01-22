@@ -21,6 +21,29 @@ function App() {
     'Cyberpunk', 'Minimalism', 'Portrait', 'Food', 'Nature', 'Architecture'
   ];
 
+  const CATEGORY_FILES = {
+    'All': 'featured.csv',
+    'Profile/Avatar': 'profile-avatar.csv',
+    'Social Media': 'social-media.csv',
+    'Infographic': 'infographic.csv',
+    'YouTube Thumbnail': 'youtube-thumbnail.csv',
+    'Comic/Storyboard': 'comic-storyboard.csv',
+    'Product Marketing': 'product-marketing.csv',
+    'E-commerce': 'ecommerce.csv',
+    'Game Asset': 'game-asset.csv',
+    'Photography': 'photography.csv',
+    'Cinematic': 'cinematic.csv',
+    'Anime/Manga': 'anime-manga.csv',
+    '3D Render': '3d-render.csv',
+    'Pixel Art': 'pixel-art.csv',
+    'Cyberpunk': 'cyberpunk.csv',
+    'Minimalism': 'minimalism.csv',
+    'Portrait': 'profile-avatar.csv',
+    'Food': 'food.csv',
+    'Nature': 'nature.csv',
+    'Architecture': 'architecture.csv'
+  };
+
   const copyImageToClipboard = async (imageUrl) => {
     try {
       const response = await fetch(imageUrl);
@@ -64,8 +87,26 @@ function App() {
       alert('Image URL copied (Browser blocked image copy)');
     }
   }
+
+  // Helper to optimize external images (simulating CDN behavior)
+  const optimizeImageUrl = (url) => {
+    if (!url) return 'https://via.placeholder.com/400x600?text=No+Image';
+
+    // If it's already a local/relative path or jsDelivr, return as is
+    if (url.startsWith('/') || url.includes('jsdelivr.net')) return url;
+
+    // For external images (Twitter, etc.), use images.weserv.nl for caching & optimization
+    // This provides CDN-like benefits without hosting all images locally
+    return `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=800&q=80&output=webp`;
+  }
+
   const handleDoubleClick = (prompt, imageUrl) => {
-    setSelectedPrompt({ ...prompt, imageUrl });
+    // For the modal, use higher quality
+    const largeUrl = imageUrl.includes('weserv.nl')
+      ? imageUrl.replace('&w=800', '&w=1600')
+      : optimizeImageUrl(prompt.originalImageUrl || imageUrl).replace('&w=800', '&w=1600');
+
+    setSelectedPrompt({ ...prompt, imageUrl: largeUrl });
     setShowPrompt(false);
   }
 
@@ -74,76 +115,69 @@ function App() {
   }
 
   useEffect(() => {
-    fetchPrompts()
-  }, [])
+    fetchPrompts(selectedCategory)
+  }, [selectedCategory])
 
-  const fetchPrompts = async () => {
+  const fetchPrompts = async (category) => {
     setLoading(true)
     try {
-      const urls = ['/data.csv', '/template02.csv'];
+      const fileName = CATEGORY_FILES[category] || 'featured.csv';
+      const url = `https://cdn.jsdelivr.net/gh/ezdproduct/EZPrompt@main/public/categories/${fileName}`;
 
-      const responses = await Promise.all(
-        urls.map(url => fetch(url).then(res => res.text()))
-      );
+      console.log(`Fetching prompts for category: ${category} from ${url}`);
 
-      const parsePromise = (csvText) => {
-        return new Promise((resolve) => {
-          Papa.parse(csvText, {
-            header: true,
-            skipEmptyLines: true,
-            complete: (results) => {
-              const parsedData = results.data.map(item => {
-                let author = {};
-                try {
-                  author = item.author ? JSON.parse(item.author) : {};
-                } catch (e) {
-                  author = { name: item.author || 'Unknown' };
-                }
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`Failed to fetch ${url}`);
+      const csvText = await response.text();
 
-                let sourceMedia = [];
-                try {
-                  sourceMedia = item.sourceMedia ? JSON.parse(item.sourceMedia) : [];
-                } catch (e) {
-                  sourceMedia = [item.sourceMedia];
-                }
+      Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true,
+        complete: (results) => {
+          const parsedData = results.data.map(item => {
+            let author = {};
+            try {
+              author = item.author ? JSON.parse(item.author) : {};
+            } catch (e) {
+              author = { name: item.author || 'Unknown' };
+            }
 
-                return {
-                  ...item,
-                  author,
-                  sourceMedia
-                };
-              }).filter(item => item.sourceMedia && item.sourceMedia.length > 0);
-              resolve(parsedData);
-            },
-            error: () => resolve([])
-          });
-        });
-      };
+            let sourceMedia = [];
+            try {
+              sourceMedia = item.sourceMedia ? JSON.parse(item.sourceMedia) : [];
+            } catch (e) {
+              sourceMedia = [item.sourceMedia];
+            }
 
-      const allDataArrays = await Promise.all(responses.map(text => parsePromise(text)));
-      // Flatten the array of arrays
-      const combinedData = allDataArrays.flat();
+            return {
+              ...item,
+              author,
+              sourceMedia
+            };
+          }).filter(item => item.sourceMedia && item.sourceMedia.length > 0);
 
-      setPrompts(combinedData);
+          setPrompts(parsedData);
+          setLoading(false);
+        },
+        error: (err) => {
+          console.error('CSV Parse Error:', err);
+          setPrompts([]);
+          setLoading(false);
+        }
+      });
+
     } catch (error) {
       console.error('Error fetching CSVs:', error);
+      setPrompts([]);
+      setLoading(false);
     }
-    setLoading(false)
   }
 
   const filteredPrompts = prompts.filter(p => {
     const matchesSearch = p.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
       p.description?.toLowerCase().includes(searchTerm.toLowerCase());
 
-    if (!matchesSearch) return false;
-
-    if (selectedCategory === 'All') return true;
-
-    // Simple keyword matching for categories
-    const contentToSearch = (p.title + ' ' + p.description).toLowerCase();
-    const categoryKeywords = selectedCategory.toLowerCase().split(/[ /]/).filter(s => s.length > 2);
-
-    return categoryKeywords.some(keyword => contentToSearch.includes(keyword));
+    return matchesSearch;
   })
 
   const breakpointColumnsObj = {
@@ -230,19 +264,23 @@ function App() {
               // BUT usually we want visuals.
               if (images.length === 0) images = [null];
 
-              return images.map((imageUrl, imgIdx) => {
+              return images.map((rawUrl, imgIdx) => {
                 const uniqueKey = `${prompt.id || promptIdx}-${imgIdx}`;
-                const finalImageUrl = imageUrl || 'https://via.placeholder.com/400x600?text=No+Image';
+                const originalUrl = rawUrl || '';
+                const displayUrl = optimizeImageUrl(originalUrl);
                 const authorName = prompt.author?.name || 'Unknown User';
+
+                // We pass the original URL metadata so double-click knows the source
+                const promptWithMeta = { ...prompt, originalImageUrl: originalUrl };
 
                 return (
                   <div
                     key={uniqueKey}
                     className="pin-card"
-                    onDoubleClick={() => handleDoubleClick(prompt, finalImageUrl)}
+                    onDoubleClick={() => handleDoubleClick(promptWithMeta, displayUrl)}
                   >
                     <div className="pin-image-wrapper">
-                      <img src={finalImageUrl} alt={prompt.title} className="pin-image" loading="lazy" />
+                      <img src={displayUrl} alt={prompt.title} className="pin-image" loading="lazy" />
                       <div className="pin-overlay">
                         <div style={{ // Top right actions if any 
                         }}></div>
