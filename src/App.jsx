@@ -62,38 +62,7 @@ function App() {
 
   const navigate = useNavigate();
   const loadMoreRef = useRef(null);
-
-  useEffect(() => {
-    localStorage.setItem('appLanguage', language)
-  }, [language])
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && !loading && processedPins.length > 0) {
-          // Add more items. If we're getting close to the end of loopedPins, append more shuffled items
-          if (visibleItemsCount + 20 >= loopedPins.length) {
-            const extra = shuffleArray(processedPins);
-            setLoopedPins(prev => [...prev, ...extra]);
-          }
-          setVisibleItemsCount(prev => prev + 20);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (loadMoreRef.current) {
-      observer.observe(loadMoreRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, [loading, processedPins, loopedPins.length, visibleItemsCount]);
-
-  useEffect(() => {
-    setVisibleItemsCount(20); // Reset when category or search changes
-  }, [selectedCategory, searchTerm]);
-
-  const t = translations[language]
+  const categoryCache = useRef({});
 
   const categories = [
     'All',
@@ -168,12 +137,10 @@ function App() {
   }
 
   const handlePromptClick = (prompt, displayUrl) => {
-    // Navigate to a separate page instead of showing modal
     const largeUrl = displayUrl.includes('weserv.nl')
       ? displayUrl.replace('&w=800', '&w=1600')
       : optimizeImageUrl(prompt.originalImageUrl || displayUrl).replace('&w=800', '&w=1600');
 
-    // Passing full data via state for immediate load
     const promptId = prompt.id || Math.random().toString(36).substr(2, 9);
     navigate(`/prompt/${promptId}`, {
       state: {
@@ -184,28 +151,14 @@ function App() {
     });
   }
 
-  useEffect(() => {
-    fetchPrompts(selectedCategory)
-  }, [selectedCategory])
-
-  useEffect(() => {
-    if (pendingCategoryNav && !loading && processedPins.length > 0) {
-      const firstPin = processedPins[0];
-      handlePromptClick(firstPin.prompt, firstPin.displayUrl);
-      setPendingCategoryNav(false);
-    } else if (pendingCategoryNav && !loading && processedPins.length === 0) {
-      setPendingCategoryNav(false);
+  const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-  }, [loading, processedPins, pendingCategoryNav]);
-
-  const handleCategoryClick = (cat) => {
-    setSelectedCategory(cat);
-    if (cat !== 'All') {
-      setPendingCategoryNav(true);
-    }
+    return shuffled;
   };
-
-  const categoryCache = useRef({})
 
   const fetchPrompts = async (category) => {
     if (categoryCache.current[category] && categoryCache.current[category].length > 0) {
@@ -284,24 +237,66 @@ function App() {
       });
   }, [prompts, searchTerm]);
 
-  const shuffleArray = (array) => {
-    const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  useEffect(() => {
+    localStorage.setItem('appLanguage', language)
+  }, [language])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !loading && processedPins.length > 0) {
+          if (visibleItemsCount + 20 >= loopedPins.length) {
+            const extra = shuffleArray(processedPins);
+            setLoopedPins(prev => [...prev, ...extra]);
+          }
+          setVisibleItemsCount(prev => prev + 20);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (loadMoreRef.current) {
+      observer.observe(loadMoreRef.current);
     }
-    return shuffled;
-  };
+
+    return () => observer.disconnect();
+  }, [loading, processedPins, loopedPins.length, visibleItemsCount]);
+
+  useEffect(() => {
+    setVisibleItemsCount(20);
+  }, [selectedCategory, searchTerm]);
+
+  useEffect(() => {
+    fetchPrompts(selectedCategory)
+  }, [selectedCategory])
+
+  useEffect(() => {
+    if (pendingCategoryNav && !loading && processedPins.length > 0) {
+      const firstPin = processedPins[0];
+      handlePromptClick(firstPin.prompt, firstPin.displayUrl);
+      setPendingCategoryNav(false);
+    } else if (pendingCategoryNav && !loading && processedPins.length === 0) {
+      setPendingCategoryNav(false);
+    }
+  }, [loading, processedPins, pendingCategoryNav]);
 
   useEffect(() => {
     if (processedPins.length > 0) {
-      // Initialize with shuffled version
       setLoopedPins(shuffleArray(processedPins));
       setVisibleItemsCount(20);
     } else {
       setLoopedPins([]);
     }
   }, [processedPins]);
+
+  const handleCategoryClick = (cat) => {
+    setSelectedCategory(cat);
+    if (cat !== 'All') {
+      setPendingCategoryNav(true);
+    }
+  };
+
+  const t = translations[language]
 
   const breakpointColumnsObj = {
     default: 5,
