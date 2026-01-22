@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import Masonry from 'react-masonry-css'
 import Papa from 'papaparse'
 import { supabase } from './supabaseClient'
-import { IoSearch, IoNotifications, IoChatbubbleEllipses, IoPersonCircle, IoChevronDown, IoCopy, IoEye, IoEyeOff, IoImage } from 'react-icons/io5'
+import { IoSearch, IoNotifications, IoChatbubbleEllipses, IoPersonCircle, IoChevronDown, IoCopy, IoEye, IoEyeOff, IoImage, IoGlobeOutline } from 'react-icons/io5'
+import { translations } from './translations'
 import { FaPinterest } from 'react-icons/fa'
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
   const [selectedPrompt, setSelectedPrompt] = useState(null)
   const [showPrompt, setShowPrompt] = useState(false)
   const [selectedCategory, setSelectedCategory] = useState('All')
+  const [language, setLanguage] = useState('vi')
+
+  const t = translations[language]
 
   const categories = [
     'All',
@@ -69,22 +73,22 @@ function App() {
             await navigator.clipboard.write([
               new ClipboardItem({ 'image/png': pngBlob })
             ]);
-            alert('Image copied!');
+            alert(t.imageCopied);
           } catch (err) {
             console.error('Canvas export failed:', err);
-            alert('Failed to copy image');
+            alert(t.copyFailed);
           }
         }, 'image/png');
       } else {
         await navigator.clipboard.write([
           new ClipboardItem({ [blob.type]: blob })
         ]);
-        alert('Image copied!');
+        alert(t.imageCopied);
       }
     } catch (err) {
       console.error('Clipboard write failed:', err);
       navigator.clipboard.writeText(imageUrl);
-      alert('Image URL copied (Browser blocked image copy)');
+      alert(t.urlCopied);
     }
   }
 
@@ -200,12 +204,19 @@ function App() {
           <IoSearch color="#767676" size={20} />
           <input
             type="text"
-            placeholder="Search for easy prompts"
+            placeholder={t.searchPlaceholder}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
         <div className="header-actions">
+          <button
+            className="btn-icon"
+            onClick={() => setLanguage(l => l === 'en' ? 'vi' : 'en')}
+            style={{ width: 'auto', padding: '0 8px', fontSize: '14px', fontWeight: 'bold' }}
+          >
+            {language === 'en' ? 'EN' : 'VI'}
+          </button>
           <button className="btn-icon">
             <IoNotifications />
           </button>
@@ -229,7 +240,7 @@ function App() {
             className={`category-chip ${selectedCategory === cat ? 'active' : ''}`}
             onClick={() => setSelectedCategory(cat)}
           >
-            {cat}
+            {t.categories[cat] || cat}
           </button>
         ))}
       </div>
@@ -268,7 +279,8 @@ function App() {
                 const uniqueKey = `${prompt.id || promptIdx}-${imgIdx}`;
                 const originalUrl = rawUrl || '';
                 const displayUrl = optimizeImageUrl(originalUrl);
-                const authorName = prompt.author?.name || 'Unknown User';
+                const rawAuthor = prompt.author?.name || 'Unknown';
+                const authorName = (rawAuthor === 'Unknown' || rawAuthor === 'Unknown User') ? t.unknownUser : rawAuthor;
 
                 // We pass the original URL metadata so double-click knows the source
                 const promptWithMeta = { ...prompt, originalImageUrl: originalUrl };
@@ -284,7 +296,7 @@ function App() {
                       <div className="pin-overlay">
                         <div style={{ // Top right actions if any 
                         }}></div>
-                        <button className="save-btn">Save</button>
+                        <button className="save-btn">{t.save}</button>
                       </div>
                     </div>
                     <div className="pin-info">
@@ -334,12 +346,12 @@ function App() {
                 <button
                   onClick={() => {
                     navigator.clipboard.writeText(selectedPrompt.content);
-                    alert('Prompt copied!');
+                    alert(t.promptCopied);
                   }}
                   className="save-btn"
                   style={{ background: '#efefef', color: '#111' }}
                 >
-                  <IoCopy style={{ marginRight: '6px' }} /> Copy Prompt
+                  <IoCopy style={{ marginRight: '6px' }} /> {t.copyPrompt}
                 </button>
 
                 <button
@@ -348,7 +360,7 @@ function App() {
                   style={{ background: '#efefef', color: '#111' }}
                 >
                   {showPrompt ? <IoEyeOff style={{ marginRight: '6px' }} /> : <IoEye style={{ marginRight: '6px' }} />}
-                  {showPrompt ? 'Hide Prompt' : 'View Prompt'}
+                  {showPrompt ? t.hidePrompt : t.viewPrompt}
                 </button>
 
                 <button
@@ -356,7 +368,7 @@ function App() {
                   className="save-btn"
                   style={{ background: '#efefef', color: '#111' }}
                 >
-                  <IoImage style={{ marginRight: '6px' }} /> Copy Image
+                  <IoImage style={{ marginRight: '6px' }} /> {t.copyImage}
                 </button>
               </div>
 
@@ -370,12 +382,12 @@ function App() {
               <div className="author-section" style={{ borderTop: 'none', paddingTop: 0 }}>
                 {/* Keep author info but minimal */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '14px', color: '#767676' }}>
-                  <span>By {selectedPrompt.author?.name || 'Unknown'}</span>
+                  <span>{t.by} {selectedPrompt.author?.name || t.unknown}</span>
                   {selectedPrompt.sourceLink && (
                     <>
                       <span>•</span>
                       <a href={selectedPrompt.sourceLink} target="_blank" rel="noopener noreferrer" style={{ color: '#111', fontWeight: 600, textDecoration: 'none' }}>
-                        Source ↗
+                        {t.source} ↗
                       </a>
                     </>
                   )}
