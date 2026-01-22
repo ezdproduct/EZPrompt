@@ -252,7 +252,10 @@ function App() {
           setVisibleItemsCount(prev => prev + 20);
         }
       },
-      { threshold: 0.1 }
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px 800px 0px' // Trigger loading ~800px before reaching the bottom (approx 70% scroll)
+      }
     );
 
     if (loadMoreRef.current) {

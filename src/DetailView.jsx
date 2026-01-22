@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { IoCopy, IoEye, IoEyeOff, IoImage, IoArrowBack } from 'react-icons/io5';
+import { IoCopy, IoEye, IoEyeOff, IoImage } from 'react-icons/io5';
 import Masonry from 'react-masonry-css';
 import Papa from 'papaparse';
 import { categoryTranslations } from './categoryTranslations';
@@ -10,19 +10,36 @@ const DetailView = ({ language = 'vi' }) => {
     const { id } = useParams();
     const navigate = useNavigate();
     const location = useLocation();
+    const loadMoreRelatedRef = useRef(null);
 
     // Data from navigation state
     const { prompt, category, categoryFiles } = location.state || {};
 
     const [currentPrompt, setCurrentPrompt] = useState(prompt);
-    const [relatedPrompts, setRelatedPrompts] = useState([]);
-    const [otherPrompts, setOtherPrompts] = useState([]);
+    const [rawRelatedPrompts, setRawRelatedPrompts] = useState([]);
+    const [rawOtherPrompts, setRawOtherPrompts] = useState([]);
+
+    const [loopedRelated, setLoopedRelated] = useState([]);
+    const [loopedOther, setLoopedOther] = useState([]);
+
+    const [visibleRelatedCount, setVisibleRelatedCount] = useState(12);
+    const [visibleOtherCount, setVisibleOtherCount] = useState(12);
+
     const [showPrompt, setShowPrompt] = useState(false);
     const [copiedPrompt, setCopiedPrompt] = useState(false);
     const [copiedImage, setCopiedImage] = useState(false);
     const [loadingRelated, setLoadingRelated] = useState(true);
 
     const t = categoryTranslations[language] || categoryTranslations['en'];
+
+    const shuffleArray = (array) => {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    };
 
     const optimizeImageUrl = (url) => {
         if (!url) return 'https://via.placeholder.com/400x600?text=No+Image';
@@ -41,6 +58,31 @@ const DetailView = ({ language = 'vi' }) => {
         fetchRelatedData();
     }, [id, prompt, navigate]);
 
+    // Infinite scroll observer for related sections
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting && !loadingRelated) {
+                    // Loop Related
+                    if (visibleRelatedCount + 12 >= loopedRelated.length && rawRelatedPrompts.length > 0) {
+                        setLoopedRelated(prev => [...prev, ...shuffleArray(rawRelatedPrompts)]);
+                    }
+                    // Loop Other
+                    if (visibleOtherCount + 12 >= loopedOther.length && rawOtherPrompts.length > 0) {
+                        setLoopedOther(prev => [...prev, ...shuffleArray(rawOtherPrompts)]);
+                    }
+
+                    setVisibleRelatedCount(prev => prev + 12);
+                    setVisibleOtherCount(prev => prev + 12);
+                }
+            },
+            { threshold: 0.1, rootMargin: '0px 0px 800px 0px' }
+        );
+
+        if (loadMoreRelatedRef.current) observer.observe(loadMoreRelatedRef.current);
+        return () => observer.disconnect();
+    }, [loadingRelated, loopedRelated.length, loopedOther.length, visibleRelatedCount, visibleOtherCount, rawRelatedPrompts, rawOtherPrompts]);
+
     const fetchRelatedData = async () => {
         if (!category || !categoryFiles) return;
         setLoadingRelated(true);
@@ -56,8 +98,10 @@ const DetailView = ({ language = 'vi' }) => {
                 skipEmptyLines: true,
                 complete: (results) => {
                     const parsed = processRawData(results.data);
-                    // Filter out current prompt
-                    setRelatedPrompts(parsed.filter(p => (p.id || p.title) !== (prompt.id || prompt.title)).slice(0, 12));
+                    const filtered = parsed.filter(p => (p.id || p.title) !== (prompt.id || prompt.title));
+                    setRawRelatedPrompts(filtered);
+                    setLoopedRelated(shuffleArray(filtered));
+                    setVisibleRelatedCount(12);
                 }
             });
 
@@ -73,7 +117,10 @@ const DetailView = ({ language = 'vi' }) => {
                 header: true,
                 skipEmptyLines: true,
                 complete: (results) => {
-                    setOtherPrompts(processRawData(results.data).slice(0, 12));
+                    const parsed = processRawData(results.data);
+                    setRawOtherPrompts(parsed);
+                    setLoopedOther(shuffleArray(parsed));
+                    setVisibleOtherCount(12);
                     setLoadingRelated(false);
                 }
             });
@@ -128,7 +175,7 @@ const DetailView = ({ language = 'vi' }) => {
         navigate(`/prompt/${p.id || Math.random().toString(36).substr(2, 9)}`, {
             state: {
                 prompt: { ...p, imageUrl: largeUrl },
-                category: category, // Keep same category context or you could detect it
+                category: category,
                 categoryFiles: categoryFiles
             }
         });
@@ -218,7 +265,6 @@ const DetailView = ({ language = 'vi' }) => {
                     </div>
                 </div>
 
-                {/* Related Section */}
                 <div className="related-section">
                     <h2 className="related-title">
                         {language === 'vi' ? 'Thêm ý tưởng từ ' : 'More from '}
@@ -229,8 +275,8 @@ const DetailView = ({ language = 'vi' }) => {
                         <div className="related-loading"><div className="spinner-small"></div></div>
                     ) : (
                         <Masonry breakpointCols={breakpointColumns} className="my-masonry-grid" columnClassName="my-masonry-grid_column">
-                            {relatedPrompts.map(p => (
-                                <div key={p.id || p.title} className="pin-card" onClick={() => handlePromptClick(p)}>
+                            {loopedRelated.slice(0, visibleRelatedCount).map((p, idx) => (
+                                <div key={`${p.id || p.title}-${idx}`} className="pin-card" onClick={() => handlePromptClick(p)}>
                                     <div className="pin-image-wrapper">
                                         <img src={optimizeImageUrl(p.sourceMedia[0])} alt={p.title} className="pin-image" loading="lazy" />
                                     </div>
@@ -248,8 +294,8 @@ const DetailView = ({ language = 'vi' }) => {
 
                     {!loadingRelated && (
                         <Masonry breakpointCols={breakpointColumns} className="my-masonry-grid" columnClassName="my-masonry-grid_column">
-                            {otherPrompts.map(p => (
-                                <div key={p.id || p.title} className="pin-card" onClick={() => handlePromptClick(p)}>
+                            {loopedOther.slice(0, visibleOtherCount).map((p, idx) => (
+                                <div key={`${p.id || p.title}-${idx}`} className="pin-card" onClick={() => handlePromptClick(p)}>
                                     <div className="pin-image-wrapper">
                                         <img src={optimizeImageUrl(p.sourceMedia[0])} alt={p.title} className="pin-image" loading="lazy" />
                                     </div>
@@ -260,6 +306,9 @@ const DetailView = ({ language = 'vi' }) => {
                             ))}
                         </Masonry>
                     )}
+
+                    {/* Infinite Scroll Detector */}
+                    <div ref={loadMoreRelatedRef} style={{ height: '20px', margin: '20px 0' }}></div>
                 </div>
             </div>
         </div>
