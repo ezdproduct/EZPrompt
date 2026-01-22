@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import Masonry from 'react-masonry-css'
 import Papa from 'papaparse'
 import { supabase } from './supabaseClient'
@@ -126,7 +126,17 @@ function App() {
     fetchPrompts(selectedCategory)
   }, [selectedCategory])
 
+  const categoryCache = useRef({})
+
   const fetchPrompts = async (category) => {
+    // Check cache first
+    if (categoryCache.current[category] && categoryCache.current[category].length > 0) {
+      console.log(`Serving prompts for category: ${category} from cache`);
+      setPrompts(categoryCache.current[category]);
+      setLoading(false);
+      return;
+    }
+
     setLoading(true)
     try {
       const fileName = CATEGORY_FILES[category] || 'featured.csv';
@@ -163,6 +173,9 @@ function App() {
               sourceMedia
             };
           }).filter(item => item.sourceMedia && item.sourceMedia.length > 0);
+
+          // Update cache
+          categoryCache.current[category] = parsedData;
 
           setPrompts(parsedData);
           setLoading(false);
