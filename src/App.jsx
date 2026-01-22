@@ -13,7 +13,11 @@ function App() {
   const [selectedPrompt, setSelectedPrompt] = useState(null)
   const [showPrompt, setShowPrompt] = useState(false)
   const [selectedCategory, setSelectedCategory] = useState('All')
-  const [language, setLanguage] = useState('vi')
+  const [language, setLanguage] = useState(() => localStorage.getItem('appLanguage') || 'vi')
+
+  useEffect(() => {
+    localStorage.setItem('appLanguage', language)
+  }, [language])
 
   const t = translations[language]
 
