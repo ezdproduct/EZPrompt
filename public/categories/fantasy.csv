@@ -1,0 +1,1066 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+9,Cảnh căn phòng otaku chụp ảnh selfie qua gương chi tiết,"Một prompt Nano Banana rất chi tiết mô tả ảnh selfie trước gương của một cô gái trong góc máy tính otaku tông màu xanh lam, với đầy đủ thông số kỹ thuật về nhân vật, môi trường, ánh sáng, máy ảnh và các prompt phủ định.","### Bối cảnh
+Ảnh selfie qua gương trong góc máy tính phong cách otaku, tông màu xanh.
+
+### Chủ thể
+* Biểu cảm giới tính: nữ
+* Tuổi: khoảng 25
+* Dân tộc: Đông Á
+* Dáng người: mảnh mai, eo thon; tỷ lệ cơ thể tự nhiên
+* Tông da: tông trung tính sáng
+* Kiểu tóc:
+    * Độ dài: tóc dài ngang eo
+    * Kiểu: thẳng với phần đuôi hơi xoăn nhẹ
+    * Màu: nâu trung bình
+* Tư thế:
+    * Dáng đứng: đứng hơi contrapposto
+    * Tay phải: cầm điện thoại thông minh trước mặt (giấu danh tính)
+    * Tay trái: buông tự nhiên dọc thân
+    * Thân trên: thân hơi ngả về sau; eo và bụng lộ ra
+* Trang phục:
+    * Áo trên: áo khoác len dệt kim dáng lửng màu xanh nhạt, cài hai cúc trên cùng; áo ngực kiểu Pháp màu xanh mờ ảo
+    * Quần dưới: quần short denim siêu ngắn, với một chiếc nơ ruy băng satin màu xanh ở mỗi bên hông
+    * Vớ: vớ cao quá gối sọc ngang xanh trắng
+    * Phụ kiện: ốp điện thoại hình linh vật dễ thương màu xanh
+
+### Môi trường
+* Mô tả: góc máy tính trong phòng ngủ nhìn qua gương treo tường
+* Đồ đạc:
+    * Bàn làm việc màu trắng
+    * Một màn hình hiển thị hình nền màu xanh dịu (không có chữ có thể đọc được)
+    * Bàn phím cơ với keycap màu trắng trên tấm lót bàn màu xanh
+    * Chuột trên tấm lót chuột nhỏ màu xanh
+    * Thùng máy tính ở bên phải với đèn case màu xanh
+    * Ba mô hình anime trên hoặc gần thùng máy tính
+    * Một tấm áp phích hình chùa trên tường
+    * Đèn bàn hình mèo có điểm nhấn màu xanh
+    * Một ly nước thủy tinh trong suốt
+    * Một cây xanh lá cao bên cửa sổ (ở phía bên trái khung hình)
+* Thay thế màu sắc: thay thế tất cả các yếu tố ban đầu màu hồng (quần áo và đồ trang trí phòng) bằng tông màu xanh (từ xanh da trời nhạt đến xanh da trời/xanh dừa cạn).
+
+### Ánh sáng
+* Nguồn sáng: ánh sáng ban ngày từ cửa sổ lớn bên trái máy ảnh, xuyên qua rèm mỏng
+* Chất lượng ánh sáng: ánh sáng mềm, khuếch tán
+* Cân bằng trắng (K): 5200
+
+### Máy ảnh
+* Chế độ: camera sau của điện thoại thông minh chụp qua gương (không có chế độ chân dung/bokeh)
+* Tiêu cự tương đương (mm): 26
+* Khoảng cách (m):
+    * Chủ thể đến gương: 0.6
+    * Máy ảnh đến gương: 0.5
+* Phơi sáng:
+    * Khẩu độ (f): 1.8
+    * ISO: 100
+    * Tốc độ màn trập (s): 0.01
+    * Bù trừ phơi sáng (EV): -0.3
+* Lấy nét: lấy nét vào phần thân trên và quần short trong ảnh phản chiếu qua gương
+* Độ sâu trường ảnh: độ sâu trường ảnh sâu tự nhiên của điện thoại thông minh; hậu cảnh hiển thị rõ ràng không bị làm mờ nhân tạo
+* Bố cục:
+    * Tỷ lệ khung hình: 1:1
+    * Cắt: từ đỉnh đầu đến giữa đùi; bao gồm bàn làm việc, màn hình, thùng máy tính và cây xanh trong khung hình
+    * Góc: góc hơi cao từ góc nhìn của gương
+    * Ghi chú bố cục: giữ chủ thể ở giữa; để tránh biến dạng cạnh góc rộng, hãy để cô ấy đứng xa hơn một chút và cắt thành hình vuông sau.
+
+### Lời nhắc tiêu cực
+* Bất kỳ sự xuất hiện nào của màu hồng/đỏ tươi ở bất cứ đâu
+* Bộ lọc làm đẹp/da quá mịn; vẻ ngoài da không có lỗ chân lông
+* Giải phẫu phóng đại hoặc biến dạng
+* NSFW, vải xuyên thấu, sự cố trang phục
+* Logo, tên thương hiệu hoặc văn bản giao diện người dùng có thể đọc được
+* Hiệu ứng làm mờ chế độ chân dung giả, cảm giác CGI/minh họa","[""https://cms-assets.youmind.com/media/1763889946850_689z0h_G23i3sJW0AASGUw.jpg""]","{""name"":""宝玉"",""url"":""https://x.com/dotey""}",https://x.com/dotey/status/1976485558319722711,"Chân dung, Nhiếp ảnh, Minh họa, 3D, Anime, Nhân vật, Văn bản, Logo, Poster, UI/UX"
+13,Hồ sơ / Ảnh đại diện - Chân Dung Biên Tập Chụp Ảnh Tự Sướng Ban Đêm Với Đèn Flash,"Một JSON prompt rất cụ thể để tạo ảnh chân dung selfie cận cảnh siêu chân thực được chụp vào ban đêm bằng đèn flash trực tiếp từ điện thoại, đạt được vẻ ngoài tự nhiên nhưng mang tính biên tập. Nó yêu cầu khóa nhận dạng khuôn mặt nghiêm ngặt, mô tả chi tiết ngoại hình của chủ thể (tóc đen nhánh, chuỗi ngọc trai trên đầu), và chỉ định ánh sáng cùng phông nền (phòng chờ thiếu sáng, hiệu ứng bokeh nổi bật).","{
+  ""generation_request"": {
+    ""meta_data"": {
+      ""tool"": ""NanoBanana Pro"",
+      ""task_type"": ""photoreal_selfie_flash_nightlife_editorial"",
+      ""version"": ""v1.0_PEARL_HEADCHAIN_SELFIE_FLASH_NO_AI_LOOK_NO_TEXT"",
+      ""priority"": ""highest""
+    },
+
+    ""references"": {
+      ""reference_image_1"": {
+        ""source"": ""UPLOAD_REFERENCE_IMAGE (OPTIONAL)"",
+        ""purpose"": ""FACE_IDENTITY_AND_GLAM_STYLE_LOCK"",
+        ""strict_lock"": true,
+        ""face_similarity_priority"": ""MAX"",
+        ""no_identity_blending"": true,
+        ""no_beautify"": true,
+        ""no_age_shift"": true,
+        ""preserve_skin_texture"": true,
+        ""preserve_facial_proportions"": true,
+        ""preserve_expression"": true
+      }
+    },
+
+    ""output_settings"": {
+      ""aspect_ratio"": ""4:5"",
+      ""orientation"": ""portrait"",
+      ""resolution_target"": ""ultra_high_res"",
+      ""render_style"": ""flash_candid_editorial"",
+      ""sharpness"": ""flash_crisp_face_soft_background"",
+      ""film_grain"": ""subtle_35mm"",
+      ""color_grade"": ""warm_night_flash_neutral_skin"",
+      ""dynamic_range"": ""natural_not_hdr"",
+      ""skin_rendering"": ""real_texture_editorial_finish""
+    },
+
+    ""creative_prompt"": {
+      ""scene_summary"": ""Chân dung selfie cận cảnh siêu chân thực vào ban đêm với đèn flash điện thoại trực tiếp. Một phụ nữ trẻ quyến rũ với mái tóc đen nhánh dài thẳng nhìn vào máy ảnh với vẻ tự tin, hơi bĩu môi. Cô ấy đeo một chuỗi ngọc trai và pha lê phức tạp (kiểu lưới) phủ lên đường chân tóc với những giọt nhỏ lủng lẳng, cùng với đôi bông tai ngọc trai dài. Trang phục là một chiếc váy yếm lụa óng ánh màu ngà thanh lịch với độ che phủ vừa phải và các nếp vải chân thực. Tổng thể toát lên vẻ sang trọng của cuộc sống về đêm, tự nhiên nhưng mang tính biên tập, với kết cấu da sạch và cấu trúc khuôn mặt hoàn hảo."",
+
+      ""environment"": {
+        ""location"": ""phòng chờ trong nhà/ngoài trời mờ ảo / lối vào biệt thự vào ban đêm"",
+        ""background"": ""xà gỗ tối màu, ánh sáng thực tế dịu nhẹ xung quanh, độ sâu trường ảnh nông, hiệu ứng bokeh nổi bật"",
+        ""lighting"": ""đèn flash điện thoại trực tiếp là nguồn sáng chính, ánh sáng lấp đầy xung quanh tối thiểu, điểm nhấn phản chiếu chân thực trên ngọc trai""
+      },
+
+      ""subject"": {
+        ""appearance"": {
+          ""hair"": ""tóc đen dài thẳng, bóng mượt nhưng tự nhiên, sợi tóc rõ ràng, không bị bóng nhờn"",
+          ""makeup"": ""trang điểm nhẹ nhàng quyến rũ, kẻ mắt sắc nét, lông mày rõ ràng, má hồng nhẹ, môi nude bóng, lỗ chân lông chân thực"",
+          ""skin"": ""kết cấu da thật, không làm mịn, không có lớp hoàn thiện bằng nhựa""
+        },
+        ""accessories"": {
+          ""headpiece"": ""chuỗi ngọc trai và pha lê dạng lưới, hoa văn lưới đối xứng trên đỉnh đầu, những giọt ngọc trai nhỏ lủng lẳng ở trán và hai bên, lấp lánh chân thực"",
+          ""earrings"": ""bông tai ngọc trai dài, thanh lịch, phản chiếu chân thực""
+        },
+        ""wardrobe"": {
+          ""dress"": ""váy yếm lụa óng ánh màu ngà, đường viền cổ thanh lịch, độ che phủ vừa phải, rủ tự nhiên và lấp lánh nhẹ""
+        },
+        ""pose"": ""góc chụp selfie, cánh tay duỗi về phía máy ảnh, vai thư giãn""
+      }
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890662377_5diu24_G_DbnLqWoAAEqSM.jpg""]","{""name"":""Özge Döner"",""url"":""https://x.com/astronomerozge1""}",https://x.com/astronomerozge1/status/2013350554542498168,"Chân dung, Nhiếp ảnh, Điện ảnh, 3D, Nhân vật, Văn bản, Logo, UI/UX"
+15,Hồ sơ / Ảnh đại diện - Lời nhắc chụp ảnh tự sướng trong gương phòng gym siêu thực (Mô phỏng iPhone 17 Pro),"Một prompt mang tính kỹ thuật cao dành cho Gemini Nano Banana Pro được thiết kế để mô phỏng một bức ảnh selfie trong gương phòng gym thô, có độ tương phản cao, được chụp bằng ống kính iPhone 17 Pro góc siêu rộng. Nó yêu cầu độ chân thực sinh học cực cao, lấy nét sắc nét trên mọi mặt phẳng (không có hiệu ứng bokeh), làm thon gọn cơ thể một cách mạnh mẽ và chi tiết kết cấu chân thực trên quần áo và da, hướng tới một vẻ đẹp tự nhiên, không chỉnh sửa như khi đăng lên mạng xã hội.","(Tỷ lệ khung hình điện thoại thông minh 9:16 dọc). Một bức ảnh [Chụp gương nội thất phòng gym] thô, độ tương phản cao được chụp bằng iPhone 17 Pro sử dụng ống kính góc siêu rộng 0.5x. KHÔNG CÓ BOKEH NHÂN TẠO. Mọi mặt phẳng tiêu cự đều SẮC NÉT và rõ ràng, từ làn da của chủ thể đến thiết bị tập gym ở xa.
+Chủ thể & Nhận dạng:
+• Nhận dạng: Giữ nguyên cấu trúc khuôn mặt hình trái tim chính xác và các đặc điểm độc đáo của người phụ nữ trong Hình ảnh 1 (Selfie).
+• Độ trung thực sinh học: Kết xuất vật lý sinh học ""TrueLens"" độ trung thực cao: các lỗ chân lông siêu nhỏ có thể nhìn thấy, làn da ẩm mượt tự nhiên ""satin-finish"" vào ban đêm, và lông tơ mịn bắt sáng từ đèn trên cao CHỈ dọc theo đường quai hàm.
+• Hiệu chỉnh hình dáng (TỐI ĐA YẾU TỐ UFF): Ưu tiên thể tích phần thân trên có cấu trúc nổi bật và độ sâu giải phẫu đáng kể, săn chắc ở các chi dưới. Tập trung vào việc thuôn nhọn mạnh mẽ ở phần giữa cơ thể để tối đa hóa hình học đường cong chữ S.
+Trang phục & Tương tác kết cấu:
+• Trang phục: Một chiếc áo phông dệt kim kỹ thuật màu đen mờ, mật độ cao và quần đùi thể thao tối giản có độ căng cao phù hợp.
+• Độ căng: Vải kỹ thuật thể hiện độ căng cơ học cực cao và vừa vặn như chân không, tạo ra sự giãn nở kết cấu chân thực và ""đường căng"" nơi vật liệu ôm sát hình dáng cơ thể cô ấy.
+• Vật lý vật chất: Vớ cổ thuyền bằng cotton mật độ cao màu trắng thể hiện sự tiếp xúc kết cấu chân thực và phân bổ trọng lượng trên sàn gạch.
+Tư thế & Bố cục:
+• Tư thế: Một bức ảnh selfie trong gương góc 3/4. Cô ấy đang đứng với phần thân xoay trục về phía gương, ưỡn lưng và hất hông để làm nổi bật thể tích 3D đối xứng của vóc dáng.
+• Hành động: TAY PHẢI cô ấy cầm một chiếc điện thoại thông minh có vỏ trang trí, chụp lại hình ảnh phản chiếu ""kiểm tra trang phục"" toàn thân.
+• Lớp phủ UI: Một dấu thời gian đồng hồ kỹ thuật số màu trắng ở góc trên bên trái hiển thị ""8:33 PM"" bằng phông chữ sans-serif đơn giản.
+Môi trường & Hiện thực xã hội:
+• Ánh sáng: Ánh sáng công nghiệp trực tiếp, gay gắt từ trên cao tạo ra các điểm sáng phản chiếu độ tương phản cao và bóng sâu, rõ nét làm nổi bật hình dạng 3D của cô ấy.
+• Nền (SẮC NÉT): Nội thất phòng gym thương mại chi tiết. Một cột cấu trúc màu xanh neon rực rỡ, sàn gạch trắng với các đường ron có thể nhìn thấy, và ghế tập thể dục màu tối đều được LẤY NÉT hoàn hảo. Không có làm mờ nhân tạo.
+Chất lượng: Thẩm mỹ ảnh đăng mạng xã hội thô, chưa chỉnh sửa, dải động cao, nhiễu kỹ thuật số có thể nhìn thấy trong các vùng bóng tối sâu (kiểu ISO 1600), độ phân giải 8k. Mọi thứ đều sắc nét, chi tiết và chân thực về mặt vật lý.","[""https://cms-assets.youmind.com/media/1768890706556_m6fybh_G_CcP-yXYAEMd4u.jpg""]","{""name"":""Dan Reed"",""url"":""https://x.com/daaaaanc""}",https://x.com/daaaaanc/status/2013280839228866742,"Chân dung, Nhiếp ảnh, 3D, Tối giản, Tương lai, Nội thất, Văn bản, UI/UX"
+17,Hồ sơ / Ảnh đại diện - Gợi ý chụp ảnh selfie bãi biển tự nhiên bằng iPhone 15 Pro,"Một JSON prompt cực kỳ chi tiết, có cấu trúc cho Nano Banana Pro, mô phỏng một bức ảnh selfie tự nhiên, chụp từ góc cao bằng iPhone 15 Pro trên một bãi biển đầy nắng. Prompt này chỉ định các chi tiết chủ thể siêu thực (đặc điểm búp bê sứ, trang phục cụ thể và biểu cảm) cùng các ràng buộc kỹ thuật, bao gồm ánh sáng, môi trường và danh sách negative prompt.","{
+    ""format"": {
+      ""type"": ""biên tập"",
+      ""intent"": ""thẳng thắn/tự chụp/ngẫu nhiên"",
+      ""aspect_ratio"": ""9:16"",
+      ""resolution"": ""4K""
+    },
+    ""camera_system"": {
+      ""body"": ""iPhone 15 Pro"",
+      ""lens"": ""Camera Chính"",
+      ""focal_length"": ""24mm"",
+      ""associative_traits"": ""nhiếp ảnh điện toán, độ sâu trường ảnh sâu, hiển thị kỹ thuật số sắc nét, phơi sáng tự động""
+    },
+    ""subject"": {
+      ""identity"": ""cô gái trẻ với những đặc điểm búp bê sứ đặc trưng"",
+      ""physical_details"": ""làn da trắng ngần không tì vết, đôi mắt xanh băng giá to tròn với hàng mi rõ nét, mũi nhỏ thanh tú, miệng chúm chím tự nhiên, tóc vàng bạch kim tết hai bím chặt, móng tay sơn màu xanh dương rực rỡ"",
+      ""clothing"": ""áo ôm sát màu xanh nhạt với đường xẻ cổ chữ V rất sâu và rộng để lộ rõ vòng một"",
+      ""action"": ""góc nhìn selfie từ trên cao, một tay che mắt chống lại ánh sáng chói ven biển, nhìn lên camera"",
+      ""expression"": ""trung tính, mắt mở to, vô cảm, ánh nhìn trống rỗng như búp bê""
+    },
+    ""lighting"": {
+      ""source"": ""ánh sáng ban ngày tự nhiên chói chang ven biển + phản xạ từ cát"",
+      ""direction"": ""chiếu từ trên cao và lấp đầy đa hướng"",
+      ""quality"": ""mềm mại, khuếch tán nhưng rất sáng"",
+      ""color_temp"": ""ánh sáng ban ngày trung tính (5500K)"",
+      ""fill"": ""lấp đầy tối đa từ phản xạ cát trắng sáng"",
+      ""distribution"": ""chiếu sáng đều, ít bóng, làm nổi bật kết cấu da"",
+      ""intent"": ""ngày biển sáng""
+    },
+    ""environment"": {
+      ""setting"": ""bãi biển đầy cát vào ban ngày"",
+      ""hero_materials"": [
+        {
+          ""material"": ""cát"",
+          ""micro_detail"": ""hạt trắng mịn, phản chiếu cao""
+        },
+        {
+          ""material"": ""vải"",
+          ""micro_detail"": ""đồ bơi màu xanh nhạt/hỗn hợp cotton co giãn""
+        },
+        {
+          ""material"": ""da"",
+          ""micro_detail"": ""mịn màng, không lỗ chân lông, kết cấu sứ, hơi ẩm ướt do nóng""
+        }
+      ],
+      ""objects"": ""đường chân trời đại dương mờ ảo ở phía xa, bãi cát rộng lớn"",
+      ""state"": ""sáng sủa, nắng, ven biển""
+    },
+    ""technical_finish"": {
+      ""film_stock"": ""Nguồn Kỹ thuật số"",
+      ""exposure"": ""phơi sáng rực rỡ (high key)"",
+      ""grain"": ""không/nhiễu kỹ thuật số"",
+      ""tone_curve"": ""đường cong tông màu trung tính tuyến tính"",
+      ""color_science"": ""bảng màu pastel (xanh nhạt, cát trắng, da nhợt nhạt), màu sắc ánh sáng ban ngày tự nhiên""
+    },
+    ""constraints"": {
+      ""avoid"": [
+        ""tuyết"",
+        ""quần áo mùa đông"",
+        ""móng tay đỏ"",
+        ""áo đen"",
+        ""cổ áo kín đáo"",
+        ""bóng tối đậm""
+      ],
+      ""must_include"": [
+        ""móng tay xanh"",
+        ""áo xanh nhạt"",
+        ""khe ngực sâu"",
+        ""phông nền bãi biển"",
+        ""đặc điểm búp bê sứ""
+      ]
+    }
+  }","[""https://cms-assets.youmind.com/media/1768890705798_znhp8b_G_BJSVuWEAAzAMR.jpg""]","{""name"":""Emily"",""url"":""https://x.com/IamEmily2050""}",https://x.com/IamEmily2050/status/2013189624848633963,"Chân dung, Nhiếp ảnh, Điện ảnh, Nhân vật, Thời trang, Văn bản, Logo"
+18,Hồ sơ / Ảnh đại diện - Chuyển đổi ảnh selfie thành ảnh đại diện LinkedIn chuyên nghiệp,"Một lời nhắc hướng dẫn AI chuyển đổi ảnh selfie đã tải lên thành ảnh chân dung LinkedIn chuyên nghiệp. Nó chỉ định một phông nền văn phòng mờ nhẹ với cửa sổ lớn, phong cách sạch sẽ và chân thực, chỉnh sửa tinh tế và ánh sáng ban ngày dịu nhẹ, đồng thời giữ nguyên các đặc điểm khuôn mặt và kiểu tóc từ ảnh gốc.","Biến ảnh selfie này thành ảnh chân dung LinkedIn chuyên nghiệp của một người đàn ông. Nền: văn phòng mờ nhẹ với cửa sổ lớn. Phong cách: gọn gàng, chân thực, chỉnh sửa tinh tế, không dùng bộ lọc nặng. Ánh sáng: ánh sáng ban ngày dịu nhẹ từ phía trước. Ràng buộc: giữ nguyên các đặc điểm khuôn mặt và kiểu tóc, không có chữ.","[""https://cms-assets.youmind.com/media/1768890667139_mn1d69_G_BHdvxW4AA41Hs.jpg""]","{""name"":""Snow"",""url"":""https://x.com/iamrealsnow""}",https://x.com/iamrealsnow/status/2013187622299156726,"Chân dung, Văn bản"
+20,Hồ sơ / Ảnh đại diện - E-Girl Chụp Ảnh Tự Sướng Trong Ánh Sáng Hoàng Hôn,"Một JSON prompt chi tiết cho Gemini Nano Banana Pro, tập trung vào việc tạo ra một bức ảnh selfie chân thực như ảnh chụp của một người phụ nữ theo phong cách 'e-girl' hoặc 'soft grunge'. Nó chỉ định tóc vàng bạch kim, áo corset satin trắng in hình hoạt hình, và bối cảnh là hành lang trong nhà ngập tràn ánh nắng vàng ấm áp của giờ vàng.","{
+  ""prompt_description"": {
+    ""subject"": {
+      ""type"": ""phụ nữ"",
+      ""hair"": ""tóc dài, thẳng, màu vàng bạch kim"",
+      ""features"": ""tông da sáng, trang điểm nhẹ nhàng, ngón tay đặt trên môi"",
+      ""tattoos"": ""hình xăm chữ nhỏ trên ngực, hình xăm 'XXX' trên cổ tay""
+    },
+    ""outfit"": {
+      ""top"": ""áo corset satin trắng có họa tiết hoạt hình/anime màu hồng (kiểu {argument name=\""cartoon character\"" default=\""My Melody\""}), viền ren, dây buộc nơ phía trước"",
+      ""bottom"": ""chân váy mini xếp ly màu đen, gấu váy cắt thô"",
+      ""accessories"": ""vớ đùi cao màu đen có ren phía trên, quần tất lưới"",
+      ""phone_case"": ""ốp điện thoại minh họa phong cách anime đen trắng đồ họa""
+    },
+    ""pose"": {
+      ""type"": ""selfie gương"",
+      ""stance"": ""đứng, một bên hông hếch lên"",
+      ""hand_position"": ""cầm điện thoại bằng tay phải, tay trái chạm môi""
+    },
+    ""environment"": {
+      ""location"": ""hành lang hoặc phòng ngủ trong nhà"",
+      ""background"": ""tường trắng, sàn gạch xám, áp phích đóng khung trên tường"",
+      ""lighting"": ""ánh sáng mặt trời hoàng hôn vàng ấm, bóng đổ mềm mại"",
+      ""decor"": ""tối giản, cây cảnh trong chậu ở hậu cảnh""
+    },
+    ""style"": {
+      ""aesthetic"": ""e-girl, soft grunge, coquette, hợp thời trang"",
+      ""camera_angle"": ""ngang tầm mắt, phản chiếu"",
+      ""quality"": ""độ nét cao, chân thực như ảnh, màu sắc sống động""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890708248_z2jdm2_G-_zv_DXYAAIGDC.jpg""]","{""name"":""Mira"",""url"":""https://x.com/xmiiru_""}",https://x.com/xmiiru_/status/2013095567547666866,"Chân dung, Nhiếp ảnh, Điện ảnh, Minh họa, Anime, Tối giản, Nhân vật, Xe cộ, Thời trang, Văn bản, Poster"
+22,Hồ sơ / Ảnh đại diện - E-Girl Tự Chụp Ảnh Trong Ánh Sáng Hoàng Hôn (Bản Sao),"Một JSON prompt chi tiết cho Gemini Nano Banana Pro, tập trung vào việc tạo ra một bức ảnh selfie chân thực như ảnh chụp của một người phụ nữ theo phong cách 'e-girl' hoặc 'soft grunge'. Nó chỉ định tóc vàng bạch kim, áo corset bằng sa tanh trắng có in hình hoạt hình và bối cảnh là hành lang trong nhà ngập tràn ánh nắng vàng ấm áp của giờ vàng. (Bản sao của 2013095567547666866)","{
+  ""prompt_description"": {
+    ""subject"": {
+      ""type"": ""phụ nữ"",
+      ""hair"": ""tóc dài, thẳng, vàng bạch kim"",
+      ""features"": ""da sáng, trang điểm nhẹ nhàng, ngón tay đặt trên môi"",
+      ""tattoos"": ""hình xăm chữ nhỏ trên ngực, hình xăm 'XXX' trên cổ tay""
+    },
+    ""outfit"": {
+      ""top"": ""áo corset satin trắng in hình hoạt hình/anime màu hồng (kiểu {argument name=\""cartoon character\"" default=\""My Melody\""}), viền ren, dây buộc nơ phía trước"",
+      ""bottom"": ""chân váy mini xếp ly màu đen, gấu váy cắt thô"",
+      ""accessories"": ""vớ đùi cao màu đen có ren, quần tất lưới"",
+      ""phone_case"": ""ốp điện thoại minh họa phong cách anime đen trắng đồ họa""
+    },
+    ""pose"": {
+      ""type"": ""tự chụp ảnh qua gương"",
+      ""stance"": ""đứng, một bên hông hếch lên"",
+      ""hand_position"": ""cầm điện thoại bằng tay phải, tay trái chạm môi""
+    },
+    ""environment"": {
+      ""location"": ""hành lang hoặc phòng ngủ trong nhà"",
+      ""background"": ""tường trắng, sàn gạch xám, áp phích đóng khung trên tường"",
+      ""lighting"": ""ánh sáng mặt trời hoàng hôn vàng ấm, bóng đổ mềm mại"",
+      ""decor"": ""tối giản, cây cảnh trong chậu ở hậu cảnh""
+    },
+    ""style"": {
+      ""aesthetic"": ""e-girl, soft grunge, coquette, hợp thời trang"",
+      ""camera_angle"": ""ngang tầm mắt, phản chiếu"",
+      ""quality"": ""độ nét cao, chân thực như ảnh, màu sắc sống động""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890709718_8jx82s_G-_pBv0W0AAv4gM.jpg""]","{""name"":""Sudee🥀"",""url"":""https://x.com/NameIsSudee""}",https://x.com/NameIsSudee/status/2013083792937009531,"Chân dung, Nhiếp ảnh, Điện ảnh, Minh họa, Anime, Tối giản, Nhân vật, Xe cộ, Thời trang, Văn bản, Poster"
+23,Hồ sơ / Ảnh đại diện - Chụp ảnh selfie điện thoại thiếu sáng với ánh sáng màn hình,"Một văn bản nhắc chi tiết cho Nano Banana Pro để tạo ra một bức ảnh selfie điện thoại dọc, chân thực, thiếu sáng trong phòng ngủ mờ ảo, nhấn mạnh ánh sáng xanh tím mát lạnh từ màn hình hắt lên khuôn mặt và một vẻ đẹp buồn ngủ, lo-fi, yêu cầu sử dụng khuôn mặt tham chiếu.","Chụp ảnh selfie bằng điện thoại theo chiều dọc, chân thực, trong điều kiện ánh sáng yếu, trong phòng ngủ thiếu sáng vào ban đêm. Khuôn mặt giống như ảnh tham khảo (không thay đổi). Ánh sáng xanh tím mát lạnh từ màn hình chiếu lên khuôn mặt nhợt nhạt; hậu cảnh chủ yếu tối với rèm cửa màu be cản sáng ở bên trái. Cảm giác buồn ngủ, ấm cúng, không khí lo-fi đêm khuya.
+Cận cảnh, góc hơi thấp. Chủ thể nằm sấp, tựa vào chiếc gối màu xám có họa tiết tinh tế. Tóc đen bù xù với mái lưa thưa. Ánh mắt dịu dàng, mơ màng/trống rỗng, miệng hơi hé. Tay gần mặt, ngón trỏ chạm vào môi dưới.
+Mặc một chiếc {argument name=""clothing item"" default=""áo hai dây màu đen""}; dây áo ren mỏng có thể nhìn thấy, vai trái trần. Lấy nét mềm, có thể nhìn thấy hạt/nhiễu, độ tương phản cao giữa khuôn mặt được chiếu sáng và hậu cảnh tối.
+Negative Prompt:
+ánh sáng ban ngày chói chang, nắng, ánh sáng studio/đèn flash, tông màu ấm/cam, ngoài trời, lấy nét sắc nét, máy ảnh chuyên nghiệp, 4k sạch, da mịn màng, trang điểm đậm, hoạt hình, anime, kết xuất 3D, bàn tay biến dạng, thừa/thiếu ngón tay, khuôn mặt mất nét.","[""https://cms-assets.youmind.com/media/1768804273563_s6vi3f_G-9PfqUbUAA0A3k.jpg""]","{""name"":""Kevin Hudson"",""url"":""https://x.com/fnjialun""}",https://x.com/fnjialun/status/2012914967117541703,"Chân dung, 3D, Anime, Thời trang"
+26,Hồ sơ / Ảnh đại diện - Gen Z Influencer Chụp Ảnh Tự Sướng Trong Hành Lang Màu Pastel,"Một lời nhắc tạo ảnh cực kỳ chi tiết, chân thực như ảnh chụp cho một bức ảnh selfie trước gương với phong cách của một influencer Gen Z. Nó mô tả ngoại hình của chủ thể (tóc búi không gian màu vàng bạch kim, trang điểm cụ thể), trang phục (váy ống xếp ly màu xanh pastel, giày cao gót màu cam), tư thế (quỳ gối, kéo tóc) và một môi trường hành lang trong nhà màu pastel chi tiết, bao gồm cả chi tiết điện thoại cụ thể.","{
+  ""meta_data"": {
+    ""prompt_version"": ""2.0"",
+    ""use_case"": ""Tạo ảnh siêu thực"",
+    ""main_subject_count"": 1
+  },
+  ""subject_layer"": {
+    ""anatomy"": {
+      ""demographics"": {
+        ""gender"": ""Nữ"",
+        ""age_group"": ""Người trẻ tuổi"",
+        ""ethnicity"": ""Da trắng"",
+        ""skin_tone"": ""Sáng với tông đào ấm"",
+        ""build"": ""Cân đối, nhỏ nhắn""
+      },
+      ""face_detail"": {
+        ""eyes"": {
+          ""color"": ""Xanh dương"",
+          ""makeup"": ""Kẻ mắt mèo đen sắc sảo, lông mi rõ nét""
+        },
+        ""nose"": ""Nhỏ, hình cúc áo"",
+        ""mouth"": {
+          ""shape"": ""Mở hình chữ 'O' (chu môi/ngạc nhiên)"",
+          ""teeth_visibility"": ""Thấy răng trên"",
+          ""tongue_visibility"": ""Hơi thấy lưỡi phía sau răng"",
+          ""lip_color"": ""Hồng nhạt, tự nhiên""
+        },
+        ""complexion_accents"": ""Má hồng đậm màu hồng cánh sen trên má và sống mũi (kiểu da rám nắng)""
+      },
+      ""hair"": {
+        ""color"": ""Tóc vàng bạch kim"",
+        ""style_core"": ""Hai búi tóc không gọn gàng trên đỉnh đầu"",
+        ""framing"": ""Những sợi tóc dài buông lơi ôm lấy khuôn mặt"",
+        ""interaction"": ""Chủ thể đang kéo một sợi tóc dài sang một bên bằng tay trái""
+      }
+    },
+    ""attire_layer"": {
+      ""garment_main"": {
+        ""item"": ""Đầm ống"",
+        ""length"": ""Ngắn"",
+        ""fit"": ""Ôm sát/Bodycon"",
+        ""color"": ""{argument name=\""dress color\"" default=\""Xanh lá chanh pastel\""}"",
+        ""texture"": ""Vải nhún, các nếp gấp ngang tự nhiên""
+      },
+      ""accessories"": {
+        ""neck"": ""Vòng cổ choker hạt màu xanh ngọc/xanh mòng két to bản""
+      },
+      ""footwear"": {
+        ""type"": ""Giày cao gót mũi nhọn"",
+        ""visibility"": ""Một chiếc giày có thể nhìn thấy trên bàn chân nhấc lên"",
+        ""color_way"": ""Cam""
+      }
+    },
+    ""pose_dynamics"": {
+      ""posture"": ""Quỳ trên sàn, đầu gối dang rộng, hơi ưỡn lưng dưới"",
+      ""orientation"": ""Hướng mặt về phía gương"",
+      ""limb_placement"": {
+        ""right_arm"": ""Giơ lên cầm điện thoại gần mặt"",
+        ""left_arm"": ""Duỗi sang bên giữ sợi tóc"",
+        ""legs"": ""Quỳ gối, một bàn chân hơi nhấc lên phía sau""
+      }
+    }
+  },
+  ""environment_layer"": {
+    ""setting_type"": ""Hành lang/sảnh trong nhà"",
+    ""spatial_layout"": {
+      ""floor"": ""Thảm trải sàn màu vàng nhạt sang trọng"",
+      ""walls"": ""Sơn màu hồng nhạt, ván chân tường màu trắng"",
+      ""background_left"": ""Cửa gỗ màu đỏ với tay nắm bạc, công tắc đèn màu trắng"",
+      ""background_right"": ""Cầu thang với lan can màu hồng và bậc thang trải thảm màu tím""
+    }
+  },
+  ""composition_and_tech"": {
+    ""framing"": {
+      ""type"": ""Ảnh tự chụp qua gương"",
+      ""angle"": ""Ngang tầm mắt"",
+      ""prop_device"": ""Điện thoại thông minh iPhone màu trắng ngà, ốp lưng óng ánh/cầu vồng, camera sau có thể nhìn thấy""
+    },
+    ""lighting"": {
+      ""source"": ""Ánh sáng tự nhiên trong nhà khuếch tán"",
+      ""direction"": ""Trước/Phải"",
+      ""shadows"": ""Bóng mềm, tự nhiên trên tường phía sau""
+    },
+    ""aesthetic_style"": {
+      ""visual_core"": ""Chủ nghĩa siêu thực"",
+      ""vibe"": ""Gen Z Infl""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768804290245_yyhrbj_G-8HddUX0AAJbA4.jpg"",""https://cms-assets.youmind.com/media/1768804290325_vsx8to_G-8w2MhWsAANB8i.jpg"",""https://cms-assets.youmind.com/media/1768804290419_4oztcw_G-8w2OvWIAAvfYU.jpg"",""https://cms-assets.youmind.com/media/1768804291792_2opmkn_G-8HddUWsAA21S7.jpg""]","{""name"":""KeorUnreal"",""url"":""https://x.com/KeorUnreal""}",https://x.com/KeorUnreal/status/2012881277297311760,"Chân dung, Nhóm người, Nhiếp ảnh, Điện ảnh, Thành phố, Văn bản, UI/UX"
+27,Hồ sơ / Ảnh đại diện - Ảnh Chụp Selfie Phản Chiếu Chân Thực Với Tóc Búi Không Gian Và Váy Hồng (Bản Sao),"Một JSON prompt chi tiết cho Nano Banana Pro để tạo ra một bức ảnh selfie phản chiếu chân thực của một phụ nữ trẻ đang quỳ trên sàn trải thảm, mặc một chiếc váy ống màu hồng pastel và đi giày thể thao cổ cao, nhấn mạnh các biểu cảm khuôn mặt cụ thể, kiểu tóc (tóc búi hai bên), và bố cục môi trường chi tiết.","{
+  ""meta_data"": {
+    ""prompt_version"": ""2.0"",
+    ""use_case"": ""Photorealistic Image Generation"",
+    ""main_subject_count"": 1
+  },
+  ""subject_layer"": {
+    ""anatomy"": {
+      ""demographics"": {
+        ""gender"": ""Nữ"",
+        ""age_group"": ""Người trẻ tuổi"",
+        ""ethnicity"": ""Da trắng"",
+        ""skin_tone"": ""Sáng với tông đào ấm"",
+        ""build"": ""Mảnh mai, nhỏ nhắn""
+      },
+      ""face_detail"": {
+        ""eyes"": {
+          ""color"": ""Xanh dương/Xám"",
+          ""makeup"": ""Kẻ mắt mèo sắc nét màu đen, lông mi rõ ràng""
+        },
+        ""nose"": ""Nhỏ, hình cúc áo"",
+        ""mouth"": {
+          ""shape"": ""Mở hình chữ 'O' (chu môi/ngạc nhiên)"",
+          ""teeth_visibility"": ""Thấy răng hàm trên"",
+          ""tongue_visibility"": ""Hơi thấy lưỡi phía sau răng"",
+          ""lip_color"": ""Hồng nhạt, tự nhiên""
+        },
+        ""complexion_accents"": ""Má hồng đậm màu hồng phấn trên má và sống mũi (kiểu da rám nắng)""
+      },
+      ""hair"": {
+        ""color"": ""Vàng sẫm đến nâu nhạt"",
+        ""style_core"": ""Hai búi tóc cao lộn xộn"",
+        ""framing"": ""Những sợi tóc dài lỏng lẻo ôm lấy khuôn mặt"",
+        ""interaction"": ""Chủ thể đang dùng tay trái kéo một sợi tóc dài sang một bên""
+      }
+    },
+    ""attire_layer"": {
+      ""garment_main"": {
+        ""item"": ""Váy ống"",
+        ""length"": ""Ngắn"",
+        ""fit"": ""Ôm sát/Bodycon"",
+        ""color"": ""{argument name=\""dress color\"" default=\""Hồng pastel\""}"",
+        ""texture"": ""Vải nhún, các nếp gấp ngang tự nhiên""
+      },
+      ""accessories"": {
+        ""neck"": ""Vòng cổ choker hạt màu xanh ngọc/xanh mòng két to bản""
+      },
+      ""footwear"": {
+        ""type"": ""Giày thể thao cổ cao"",
+        ""visibility"": ""Một chiếc giày có thể nhìn thấy trên bàn chân nhấc lên"",
+        ""color_way"": ""Đế trắng với các mảng màu xanh navy và xám""
+      }
+    },
+    ""pose_dynamics"": {
+      ""posture"": ""Quỳ trên sàn, hai đầu gối dang rộng, hơi ưỡn lưng dưới"",
+      ""orientation"": ""Hướng mặt về phía gương"",
+      ""limb_placement"": {
+        ""right_arm"": ""Giơ lên cầm điện thoại gần mặt"",
+        ""left_arm"": ""Duỗi sang một bên giữ sợi tóc"",
+        ""legs"": ""Quỳ, một bàn chân hơi nhấc lên phía sau""
+      }
+    }
+  },
+  ""environment_layer"": {
+    ""setting_type"": ""Hành lang/ chiếu nghỉ trong nhà"",
+    ""spatial_layout"": {
+      ""floor"": ""Thảm lông màu xám nhạt trải kín sàn"",
+      ""walls"": ""Sơn màu xanh lam-xám nhạt, chân tường màu trắng"",
+      ""background_left"": ""Cửa gỗ màu trắng với tay nắm bạc, công tắc đèn màu trắng"",
+      ""background_right"": ""Cầu thang với lan can trắng và bậc thang trải thảm xám""
+    }
+  },
+  ""composition_and_tech"": {
+    ""framing"": {
+      ""type"": ""Chụp ảnh tự sướng qua gương"",
+      ""angle"": ""Ngang tầm mắt"",
+      ""prop_device"": ""Điện thoại thông minh màu trắng, ốp lưng màu ngọc trai/cầu vồng, có thể nhìn thấy camera sau""
+    },
+    ""lighting"": {
+      ""source"": ""Ánh sáng tự nhiên trong nhà khuếch tán"",
+      ""direction"": ""Phía trước/Bên phải"",
+      ""shadows"": ""Bóng mềm mại, tự nhiên trên bức tường phía sau""
+    },
+    ""aesthetic_style"": {
+      ""visual_core"": ""Chủ nghĩa hiện thực ảnh"",
+      ""vibe"": """"
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768804287979_vtssaf_G-8kul8XQAEeLFK.jpg""]","{""name"":""Emer"",""url"":""https://x.com/emer_web3""}",https://x.com/emer_web3/status/2012867953574936773,"Chân dung, Nhóm người, Nhiếp ảnh, Điện ảnh, Thành phố, Văn bản, UI/UX"
+28,Hồ sơ / Ảnh đại diện - Ảnh selfie chân thực như ảnh chụp gương với tóc búi hai bên và váy hồng,"Một JSON prompt chi tiết cho Nano Banana Pro để tạo ra một bức ảnh selfie chân thực như ảnh chụp của một phụ nữ trẻ đang quỳ trên sàn trải thảm, mặc một chiếc váy ống màu hồng pastel và đi giày thể thao cổ cao, nhấn mạnh các biểu cảm khuôn mặt cụ thể, kiểu tóc (tóc búi hai bên), và bố cục môi trường chi tiết.","{
+  ""meta_data"": {
+    ""prompt_version"": ""2.0"",
+    ""use_case"": ""Photorealistic Image Generation"",
+    ""main_subject_count"": 1
+  },
+  ""subject_layer"": {
+    ""anatomy"": {
+      ""demographics"": {
+        ""gender"": ""Nữ"",
+        ""age_group"": ""Người trẻ tuổi"",
+        ""ethnicity"": ""Da trắng"",
+        ""skin_tone"": ""Sáng với tông đào ấm"",
+        ""build"": ""Mảnh mai, nhỏ nhắn""
+      },
+      ""face_detail"": {
+        ""eyes"": {
+          ""color"": ""Xanh dương/Xám"",
+          ""makeup"": ""Kẻ mắt mèo đen sắc sảo, lông mi rõ nét""
+        },
+        ""nose"": ""Nhỏ, hình cúc áo"",
+        ""mouth"": {
+          ""shape"": ""Mở hình chữ 'O' (chu môi/ngạc nhiên)"",
+          ""teeth_visibility"": ""Thấy răng hàm trên"",
+          ""tongue_visibility"": ""Hơi thấy lưỡi phía sau răng"",
+          ""lip_color"": ""Hồng nhạt, tự nhiên""
+        },
+        ""complexion_accents"": ""Má hồng đậm màu hồng phấn trên má và sống mũi (kiểu da rám nắng)""
+      },
+      ""hair"": {
+        ""color"": ""Vàng sẫm đến nâu nhạt"",
+        ""style_core"": ""Hai búi tóc cao lộn xộn"",
+        ""framing"": ""Những lọn tóc dài buông lơi ôm lấy khuôn mặt"",
+        ""interaction"": ""Chủ thể đang dùng tay trái kéo một lọn tóc dài sang một bên""
+      }
+    },
+    ""attire_layer"": {
+      ""garment_main"": {
+        ""item"": ""Váy ống"",
+        ""length"": ""Ngắn"",
+        ""fit"": ""Ôm sát/Bodycon"",
+        ""color"": ""{argument name=\""dress color\"" default=\""Hồng pastel\""}"",
+        ""texture"": ""Vải nhún, có các nếp gấp ngang tự nhiên""
+      },
+      ""accessories"": {
+        ""neck"": ""Vòng cổ choker hạt màu xanh ngọc/xanh mòng két to bản""
+      },
+      ""footwear"": {
+        ""type"": ""Giày thể thao cổ cao"",
+        ""visibility"": ""Một chiếc giày có thể nhìn thấy trên bàn chân nhấc lên"",
+        ""color_way"": ""Đế trắng với các mảng màu xanh navy và xám""
+      }
+    },
+    ""pose_dynamics"": {
+      ""posture"": ""Quỳ trên sàn, đầu gối dang rộng, hơi ưỡn lưng dưới"",
+      ""orientation"": ""Hướng mặt về phía gương"",
+      ""limb_placement"": {
+        ""right_arm"": ""Giơ lên cầm điện thoại gần mặt"",
+        ""left_arm"": ""Duỗi sang bên giữ lọn tóc"",
+        ""legs"": ""Quỳ, một bàn chân hơi nhấc lên phía sau""
+      }
+    }
+  },
+  ""environment_layer"": {
+    ""setting_type"": ""Hành lang/ chiếu nghỉ trong nhà"",
+    ""spatial_layout"": {
+      ""floor"": ""Thảm lông màu xám nhạt trải kín sàn"",
+      ""walls"": ""Sơn màu xanh xám nhạt, chân tường màu trắng"",
+      ""background_left"": ""Cửa gỗ màu trắng có ô kính với tay nắm bạc, công tắc đèn màu trắng"",
+      ""background_right"": ""Cầu thang với lan can màu trắng và bậc thang trải thảm xám""
+    }
+  },
+  ""composition_and_tech"": {
+    ""framing"": {
+      ""type"": ""Chụp ảnh tự sướng qua gương"",
+      ""angle"": ""Ngang tầm mắt"",
+      ""prop_device"": ""Điện thoại thông minh màu trắng, ốp lưng màu ngọc trai/cầu vồng, có thể nhìn thấy camera sau""
+    },
+    ""lighting"": {
+      ""source"": ""Ánh sáng tự nhiên trong nhà khuếch tán"",
+      ""direction"": ""Phía trước/Bên phải"",
+      ""shadows"": ""Bóng đổ mềm mại, tự nhiên trên bức tường phía sau""
+    },
+    ""aesthetic_style"": {
+      ""visual_core"": ""Chủ nghĩa hiện thực ảnh"",
+      ""vibe"": """"
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768804277697_9ns3jh_G-8HddUX0AAJbA4.jpg"",""https://cms-assets.youmind.com/media/1768804278178_tuzoub_G-8HddUWsAA21S7.jpg""]","{""name"":""Melisa♡"",""url"":""https://x.com/xmliisu""}",https://x.com/xmliisu/status/2012835782151594157,"Chân dung, Nhóm người, Nhiếp ảnh, Điện ảnh, Thành phố, Văn bản, UI/UX"
+29,Hồ sơ / Ảnh đại diện - Chụp ảnh selfie từ trên cao bằng điện thoại thông minh với mèo đen,"Một lời nhắc tạo ảnh mang tính kỹ thuật cao, tập trung vào việc mô phỏng một bức ảnh selfie chụp từ trên cao, góc nhìn từ trên xuống, được chụp bằng camera điện thoại thông minh. Lời nhắc xác định tỉ mỉ các chế độ lỗi của camera (cắt sáng, nhiễu sắc độ), biến dạng ống kính (méo hình nhẹ) và các hiệu ứng nhiếp ảnh tính toán (làm mịn da, quầng sắc nét) để tối đa hóa tính chân thực vật lý và bắt chước một phong cách thẩm mỹ cụ thể, với hình ảnh một người phụ nữ và một con mèo đen.","{
+  ""intent"": {
+    ""image_type"": ""selfie"",
+    ""era_preset"": ""modern_standard"",
+    ""notes"": ""Tối đa hóa tính chân thực vật lý bằng cách xác định tương tác ánh sáng-vật liệu và các chế độ lỗi cảm biến.""
+  },
+  ""subjects"": {
+    ""count"": 1,
+    ""primary"": {
+      ""type"": ""person"",
+      ""age_range"": ""20-25"",
+      ""gender_presentation"": ""female"",
+      ""region_target"": ""unspecified"",
+      ""expression"": ""trung tính, nhìn lên"",
+      ""pose"": ""nhìn thẳng vào camera từ phía dưới"",
+      ""gaze"": ""nhìn vào ống kính""
+    },
+    ""additional"": [
+      {
+        ""type"": ""mèo đen"",
+        ""position"": ""ngang sàn, nhìn lên"",
+        ""material"": ""lông hữu cơ dày với ria mép trong mờ""
+      }
+    ]
+  },
+  ""framing_and_perspective"": {
+    ""framing"": ""góc_cao_nhìn_xuống"",
+    ""subject_fill_ratio"": 0.82,
+    ""camera_angle"": ""trực_tiếp_từ_trên_xuống"",
+    ""distance"": ""chiều_dài_cánh_tay"",
+    ""camera_class"": ""camera_trước_điện_thoại_thông_minh"",
+    ""lens_equiv_mm"": 24,
+    ""distortion"": {
+      ""type"": ""méo_thùng_nhẹ"",
+      ""strength_1to5"": 4
+    },
+    ""perspective_effects"": {
+      ""foreground_scale_emphasis_1to5"": 5,
+      ""nose_emphasis_1to5"": 3,
+      ""ear_recession_1to5"": 4
+    },
+    ""depth_of_field"": {
+      ""mode"": ""tối_thiểu"",
+      ""strength_1to5"": 2,
+      ""focus_target"": ""mắt""
+    }
+  },
+  ""lighting_and_exposure"": {
+    ""key_light"": {
+      ""type"": ""đèn_panel_trên_đầu"",
+      ""direction"": ""từ_trên_xuống"",
+      ""hardness_1to5"": 5,
+      ""halo_bloom_1to5"": 2
+    },
+    ""exposure_behavior"": {
+      ""auto_exposure"": true,
+      ""hdr_tone_mapping_1to5"": 4,
+      ""overall_brightness_1to5"": 5,
+      ""contrast_1to5"": 3,
+      ""shadow_depth_1to5"": 2,
+      ""highlight_overflow_1to5"": 5
+    },
+    ""failure_modes_active"": {
+      ""highlight_clipping"": true,
+      ""shadow_chroma_noise"": true,
+      ""denoise_smear"": false,
+      ""sharpen_halos"": true,
+      ""motion_blur"": false,
+      ""jpeg_ringing_banding"": false,
+      ""banding_in_gradients"": false,
+      ""focus_falloff_edge_softness"": true
+    }
+  },
+  ""computational_pipeline"": {
+    ""skin_smoothing"": {
+      ""method"": ""nhận_biết_cạnh"",
+      ""strength_1to5"": 2,
+      ""specular_preservation"": ""bắt_buộc""
+    },
+    ""sharpening"": {
+      ""strength_1to5"": 3,
+      ""halo_risk_1to5"": 2
+    },
+    ""noise_and_denoise"": {
+      ""shadow_chroma_noise_1to5"": 3,
+      ""denoise_smear_1to5"": 2,
+      ""grain_strength_1to5"": 2
+    },
+    ""compression"": {
+      ""jpeg_artifacts_1to5"": 1,
+      ""banding_risk_1to5"": 1
+    },
+    ""white_balance"": {
+      ""mode"": ""tự_động"",
+      ""highlight_temp_bias"": ""lạnh"",
+      ""shadow_temp_bias"": ""trung_tính""
+    }
+  },
+  ""region_and_face_feature_sliders"": {
+    ""non_stereotype_policy"": ""thanh_trượt_thay_nhãn"",
+    ""beauty_mark_under_right_eye"": false,
+    ""sliders_1to5"": {
+      ""face_oval_vline_1to5"": 3,
+      ""cheekbone_prominence_1to5"": 3,
+      ""brow_definition_1to5"": 3,
+      ""eye_emphasis_1to5"": 4,
+      ""eyelid_crease_definition_1to5"": 3,
+      ""nose_bridge_definition_1to5"": 3,
+      ""lip_fullness_1to5"": 3
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768804295304_b0lxqb_G-8FTwBXgAEjkOg.jpg""]","{""name"":""Emily"",""url"":""https://x.com/IamEmily2050""}",https://x.com/IamEmily2050/status/2012833771528307100,"Chân dung, Nhiếp ảnh, Điện ảnh, Nhân vật, UI/UX"
+32,Bài đăng trên mạng xã hội - Lời nhắc tổng hợp quảng cáo trên mạng xã hội,"Một Nano Banana Pro prompt có cấu trúc chặt chẽ được thiết kế để tạo ra một hình ảnh tổng hợp, trong đó một nhân vật (dựa trên hình ảnh tham chiếu) được ghép lên một ảnh chụp màn hình trang hồ sơ mạng xã hội, đang tích cực chỉ vào nút 'Follow'. Nó chỉ định tính nhất quán về danh tính, góc chụp selfie từ trên cao và cử chỉ tay chi tiết để mô phỏng việc nhấn nút đăng ký, nhằm mục đích tạo phong cách quảng cáo của người có ảnh hưởng.","{
+  ""edit_type"": ""creative_composite_layering"",
+
+  ""source"": {
+    ""_hint"": ""Logic cơ bản: Nhân vật (Tham chiếu 1) được đặt LÊN TRÊN Ảnh nền (Tham chiếu 2)."",
+    ""mode"": ""EDIT"",
+    ""reference_images"": {
+      ""first"": ""foreground_character_person"",
+      ""second"": ""background_scenery_or_pattern""
+    },
+    ""preserve_from_first"": {
+      ""same_person_or_group"": true,
+      ""same_faces"": true,
+      ""same_hairstyles"": true,
+      ""same_outfits"": true
+    }
+  },
+
+  ""identity"": {
+    ""keep_identity_consistent"": true,
+    ""expression"": ""bright_engaging_smile_at_camera""
+  },
+
+  ""camera_effect"": {
+    ""_hint"": ""Phong cách selfie góc cao, tạo cảm giác chiều sâu giữa bàn tay và khuôn mặt."",
+    ""perspective"": ""high_angle_shot_looking_down"",
+    ""style"": ""social_media_call_to_action"",
+    ""depth_of_field"": ""focus_on_face_and_pointing_finger"",
+    ""framing"": ""character_centered_with_space_at_top_right""
+  },
+
+  ""pose"": {
+    ""_hint"": ""Hành động chính: Nằm nhưng chủ động chỉ vào khu vực nút 'Theo dõi' (Trên cùng bên phải)."",
+    ""pose_style"": ""lying_down_or_reclining_on_back"",
+    ""face_direction"": ""looking_directly_up_into_lens"",
+    ""hand_gestures"": {
+      ""right_hand_action"": ""pointing_index_finger"",
+      ""target_direction"": ""upper_right_corner_45_degrees"",
+      ""purpose"": ""mimicking_pressing_subscribe_button"",
+      ""arm_position"": ""extended_towards_camera_top_right""
+    },
+    ""body_language"": ""inviting_and_energetic"",
+    ""style_tags"": [
+      ""kpop_idol_fan_service"",
+      ""influencer_promo_style"",
+      ""dynamic_perspective""
+    ]
+  },
+
+  ""background_integration"": {
+    ""_hint"": ""Hình ảnh tham chiếu thứ hai là nền/sàn."",
+    ""method"": ""full_background_replacement"",
+    ""target_area"": ""entire_canvas_behind_character"",
+    ""content_source"": ""reference_image_second"",
+    ""perspective_match"": ""flat_lay_style"",
+    ""rules"": {
+      ""character_must_be_top_layer"": true,
+      ""leave_space_in_upper_right_for_ui"": true
+    }
+  },
+
+  ""composition"": {
+    ""_hi"": """"
+  }
+}","[""https://cms-assets.youmind.com/media/1768890722190_d6cx29_G_Fa-sGXwAASQrG.jpg""]","{""name"":""BeautyVerse"",""url"":""https://x.com/BeautyVerse_Lab""}",https://x.com/BeautyVerse_Lab/status/2013490554466939282,"Chân dung, Nhóm người, Nhiếp ảnh, Tối giản, Sản phẩm, Nhân vật, Thời trang, Trừu tượng, Logo, UI/UX"
+33,Bài đăng trên mạng xã hội - Lời nhắc hiện thực siêu chân thực về người có ảnh hưởng đen tối,"Một lời nhắc (prompt) định dạng JSON cực kỳ chi tiết để tạo ra hình ảnh siêu chân thực của một phụ nữ đang chụp ảnh selfie trước gương trong phòng thay đồ của một căn penthouse sang trọng, nhấn mạnh phong cách hiện thực của những người có ảnh hưởng (influencer) với tông màu tối, ánh sáng yếu và kết cấu da tự nhiên.","{
+  ""meta"": {
+    ""aspect_ratio"": ""9:16"",
+    ""quality"": ""ultra_photorealistic"",
+    ""resolution"": ""8k"",
+    ""camera"": ""iPhone 15 Pro"",
+    ""lens"": ""26mm"",
+    ""style"": ""dark influencer realism, low light iphone look, natural skin texture, subtle grain, imperfect handheld framing""
+  },
+
+  ""scene"": {
+    ""location"": ""phòng thay đồ sang trọng trong căn penthouse"",
+    ""environment"": [
+      ""tấm gương lớn từ sàn đến trần"",
+      ""cửa tủ quần áo màu đen bóng"",
+      ""ghế nhung màu be ấm áp"",
+      ""khay trang sức mở với các món đồ nằm rải rác"",
+      ""đường chân trời thành phố mờ ảo nhìn qua cửa kính""
+    ],
+    ""time"": ""sau nửa đêm"",
+    ""atmosphere"": ""riêng tư, đắt tiền, hơi nóng sau bữa tiệc, thân mật một cách nguy hiểm""
+  },
+
+  ""lighting"": {
+    ""type"": ""ánh sáng xung quanh thấp + điểm nhấn ấm áp"",
+    ""sources"": [
+      ""đèn mờ ấm áp phía sau chủ thể"",
+      ""dải đèn LED nhỏ bên trong các kệ tủ quần áo"",
+      ""ánh sáng mờ ảo từ thành phố qua cửa sổ""
+    ],
+    ""direction"": ""ánh sáng viền phía sau + bên hông tạo hình hông, eo và ngực"",
+    ""effect"": ""bóng sâu, điểm sáng ấm áp trên các đường cong, bóng tối điện ảnh, nhiễu hạt nhẹ kiểu iPhone""
+  },
+
+  ""subject"": {
+    ""gender"": ""{argument name=\""gender\"" default=\""female\""}"",
+    ""age_vibe"": ""người trẻ tuổi"",
+    ""ethnicity"": ""người Đông Âu tóc vàng"",
+
+    ""body"": {
+      ""type"": ""dáng đồng hồ cát mảnh mai"",
+      ""chest"": ""rất đầy đặn và nổi bật"",
+      ""waist"": ""nhỏ nhắn"",
+      ""hips"": ""tròn và cong"",
+      ""legs"": ""dài, mịn màng, thanh lịch""
+    },
+
+    ""skin"": {
+      ""tone"": ""sứ với ánh sáng ấm áp mờ ảo"",
+      ""texture"": ""lỗ chân lông thật, bóng tự nhiên, không chỉnh sửa bằng airbrush""
+    },
+
+    ""hair"": {
+      ""color"": ""tóc vàng bạch kim"",
+      ""style"": ""tóc gợn sóng dài buông xõa"",
+      ""details"": ""những lọn tóc bóng mượt bắt ánh đèn ấm áp""
+    },
+
+    ""face"": {
+      ""structure"": ""rất xinh đẹp, như búp bê"",
+      ""expression"": ""tự tin lạnh lùng, điềm tĩnh"",
+      ""eyes"": ""mắt xanh nhạt, khép hờ"",
+      ""mouth"": ""môi đầy đặn hơi hé mở"",
+      ""makeup"": ""trang điểm nhẹ nhàng quyến rũ, lông mi dày, tạo khối tinh tế, môi bóng""
+    }
+  },
+
+  ""pose"": {
+    ""overall"": ""chụp ảnh tự sướng qua gương, đứng góc 3/4, lưng cong sâu"",
+
+    ""lower_body"": {
+      ""legs"": ""một chân thẳng, chân kia hơi cong nhẹ"",
+      ""stance"": ""ổn định và có chủ ý""
+    },
+
+    ""hips"": {
+      ""position"": ""đẩy ra sau và hơi nghiêng"",
+      ""effect"": ""hông chiếm ưu thế khung hình với bóng đổ""
+    },
+
+    ""torso"": {
+      ""arch"": ""lưng dưới cong sâu"",
+      ""chest"": ""hướng về phía trước một cách tự nhiên"",
+      ""posture"": ""sự thống trị thầm lặng, sự tự tin được thương mại hóa""
+    },
+
+    ""arms"": {
+      ""one_arm"": ""một tay nhẹ nhàng chạm mép gương"",
+      ""other_arm"": ""tay kia cầm điện thoại thấp gần hông""
+    },
+
+    ""head"": {
+      ""tilt"": ""hơi nghiêng"",
+      ""gaze"": ""nhìn vào màn hình điện thoại qua gương, không bận tâm""
+    }
+  },
+
+  ""outfit"": {
+    ""clothing"": {
+      ""top"": {
+        ""type"": ""áo crop top co giãn siêu mỏng màu đen"",
+        ""fit"": ""ôm sát, không áo ngực, hơi trong suốt dưới ánh sáng ấm áp"",
+        ""details"": ""độ căng của vải và đường nét tinh tế có thể nhìn thấy, tinh tế nhưng rõ ràng""
+      },
+      ""bott"": """"
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890742772_2kidkw_G-fbe_DWIAEJy3e.jpg""]","{""name"":""babydoll"",""url"":""https://x.com/bananababydoll""}",https://x.com/bananababydoll/status/2013488410506179036,"Chân dung, Nhiếp ảnh, Điện ảnh, Nhân vật, Thời trang, Thành phố, Văn bản"
+39,Bài đăng trên mạng xã hội - Lời nhắc chụp ảnh selfie gương bằng iPhone để thay thế nhân vật,"Một lời nhắc định dạng JSON cực kỳ chi tiết được thiết kế để tạo ra một bức ảnh selfie gương iPhone siêu thực. Nó chỉ định các thông số kỹ thuật phức tạp như độ phân giải 8K, xử lý Apple Smart HDR và các thuộc tính chủ thể chi tiết (tư thế, quần áo, kết cấu) đồng thời yêu cầu rõ ràng thay thế chủ thể mặc định bằng một nhân vật tham chiếu được cung cấp, làm cho nó lý tưởng để tạo ra hình ảnh khóa danh tính.","{
+  ""prompt_type"": ""chụp ảnh selfie qua gương bằng iPhone"",
+  ""capture_device"": {
+    ""device"": ""iPhone Pro"",
+    ""camera_mode"": ""Selfie qua gương - Chân dung"",
+    ""lens_equivalent"": ""ống kính góc rộng phía sau iPhone"",
+    ""processing"": ""Apple Smart HDR + Deep Fusion"",
+    ""look"": ""phản chiếu qua gương tự nhiên, rõ ràng, chân thực""
+  },
+  ""quality"": {
+    ""resolution"": ""8K"",
+    ""sharpness"": ""độ sắc nét tự nhiên cao"",
+    ""detail_level"": ""chi tiết cực kỳ tinh xảo"",
+    ""texture"": ""vải thật, kết cấu da thật"",
+    ""noise"": ""nhiễu cảm biến iPhone tự nhiên rất nhẹ"",
+    ""dynamic_range"": ""vùng sáng và vùng tối cân bằng""
+  },
+  ""subject"": {
+    ""type"": ""nhân vật nữ"",
+    ""identity"": ""{argument name=\""reference character\"" default=\""REFERENCE_CHARACTER\""}"",
+    ""replacement_instruction"": ""Thay thế cô gái ban đầu bằng nhân vật tham chiếu được cung cấp trong khi vẫn giữ nguyên tư thế, tỷ lệ cơ thể, ánh sáng, phản chiếu và tính chân thực"",
+    ""age"": ""người lớn"",
+    ""body"": {
+      ""build"": ""cân đối, nữ tính, đường cong tự nhiên"",
+      ""proportions"": ""giải phẫu cơ thể người thực tế"",
+      ""skin"": ""kết cấu da tự nhiên, lỗ chân lông có thể nhìn thấy, không làm mịn""
+    },
+    ""expression"": {
+      ""emotion"": ""bình tĩnh, tự tin, thư thái"",
+      ""face"": ""biểu cảm nhẹ nhàng trung tính"",
+      ""gaze"": ""nhìn vào màn hình điện thoại qua gương""
+    },
+    ""pose"": {
+      ""position"": ""ngồi trên mép giường"",
+      ""legs"": ""khép lại, bàn chân chạm sàn"",
+      ""arms"": ""một tay cầm điện thoại, tay còn lại đặt trên giường"",
+      ""posture"": ""thẳng lưng nhưng thư giãn""
+    },
+    ""hair"": {
+      ""style"": ""dài, gợn sóng nhẹ"",
+      ""texture"": ""độ phồng tự nhiên, từng sợi tóc có thể nhìn thấy""
+    }
+  },
+  ""clothing"": {
+    ""outfit"": ""bodysuit liền thân bó sát"",
+    ""design"": ""{argument name=\""bodysuit design\"" default=\""màu đen với họa tiết mạng nhện đỏ\""}"",
+    ""fit"": ""ôm sát, thể thao"",
+    ""fabric"": {
+      ""material"": ""vải tổng hợp co giãn"",
+      ""texture"": ""mịn với độ bóng nhẹ"",
+      ""behavior"": ""ôm sát cơ thể một cách tự nhiên""
+    }
+  },
+  ""environment"": {
+    ""location"": ""phòng ngủ hiện đại tối giản"",
+    ""mirror"": ""gương toàn thân khung gỗ"",
+    ""bed"": {
+      ""style"": ""khung giường gỗ đơn giản"",
+      ""bedding"": ""chăn bông họa tiết trung tính""
+    },
+    ""floor"": ""sàn gỗ sáng màu"",
+    ""decor"": ""nội thất tối giản, sạch sẽ, tông màu ấm"",
+    ""atmosphere"": ""không gian trong nhà yên tĩnh, ấm cúng, riêng tư""
+  },
+  ""lighting"": {
+    ""primary_light"": ""ánh sáng môi trường trong nhà ấm áp"",
+    ""secondary_light"": ""ánh sáng trần hoặc tường dịu nhẹ"",
+    ""style"": ""iPhone indoor Smart HDR"",
+    ""shadows"": ""mềm mại và tự nhiên"",
+    ""white_balance"": ""tông màu trung tính ấm áp trong nhà""
+  },
+  ""camera"": {
+    ""angle"": ""góc gương thẳng"",
+    ""distance"": ""toàn thân có thể nhìn thấy trong gương"",
+    ""framing"": ""selfie toàn thân qua gương"",
+    ""depth_of_field"": ""độ sâu trường ảnh nông tự nhiên từ xử lý chân dung"",
+    ""focus"": ""lấy nét sắc nét vào phản chiếu của chủ thể""
+  },
+  ""style"": {
+    ""genre"": ""selfie qua gương bằng iPhone chân thực"",
+    ""aesthetic"": ""sạch sẽ, hiện đại, chân thực như trên mạng xã hội"",
+    ""color_science"": ""màu sắc tự nhiên của Apple""
+  }
+}","[""https://cms-assets.youmind.com/media/1768890684295_adr050_G_Dlz8qX0AECzSk.jpg""]","{""name"":""Clara"",""url"":""https://x.com/veclaraa""}",https://x.com/veclaraa/status/2013362053948268625,"Chân dung, Nhiếp ảnh, Điện ảnh, Tối giản, Nội thất, Nhân vật, Thời trang, Văn bản, Logo, UI/UX"
+51,Infographic / Hình ảnh giáo dục - Minh họa Quảng cáo Sữa 3D Thu nhỏ Kỳ ảo,"Một lời nhắc văn bản chi tiết cho Gemini Nano Banana Pro để tạo ra hình minh họa diorama 3D thu nhỏ cao cấp cho Nestlé, với những công nhân tí hon vận hành máy móc xung quanh một chai sữa khổng lồ theo phong cách thương hiệu thực phẩm cao cấp, vui tươi, đặt trong khung cảnh trang trại quyến rũ.","Một hình minh họa quảng cáo theo phong cách diorama 3D thu nhỏ, cao cấp, kỳ ảo về một cảnh sản xuất sữa với tính thẩm mỹ thương hiệu thực phẩm vui tươi nhưng cao cấp. Ở trung tâm là một chai sữa Nestlé khổng lồ giống hệt bao bì Nestlé thật: một chai hình trụ màu trắng đục mịn với những đường cong tinh tế và nhãn logo Nestlé màu đỏ cổ điển, chắc chắn và không bằng thủy tinh, được đặt trực tiếp trên một bệ công nghiệp bằng kim loại. Sữa tươi đang được đổ từ các thùng chứa và đường ống do công nhân vận hành vào miệng chai, với kết cấu kem mịn, thanh lịch có thể nhìn thấy rõ bên trong; sữa không từ trên trời rơi xuống mà có nguồn gốc vật lý rõ ràng. Những công nhân nhỏ bé trong bộ đồ liền thân màu {argument name=""worker uniform color"" default=""vàng""} sáng và mũ bảo hiểm an toàn màu vàng đang tích cực vận hành quy trình: hai người đứng trên giàn giáo kim loại phía trên chai cẩn thận đổ sữa từ các thùng có tay cầm, trong khi những người khác đẩy hộp carton, hướng dẫn sản phẩm dọc theo băng chuyền và vận hành máy móc sữa nhỏ gọn với tư thế phối hợp, tập trung. Ở tiền cảnh, các sản phẩm sữa di chuyển tự nhiên dọc theo dây chuyền băng tải. Xung quanh bệ là thảm cỏ xanh tươi với những bông hoa dại nhỏ màu trắng và vàng. Bối cảnh là một phong cảnh trang trại quyến rũ với những cánh đồng xanh nhấp nhô, một chuồng trại bằng gỗ đỏ với viền trắng, một con bò đen trắng bình tĩnh đang gặm cỏ gần đó và một cối xay gió màu trắng trên những ngọn đồi thoai thoải dưới bầu trời xanh sống động với những đám mây trắng mềm mại. Ánh sáng là ánh sáng ban ngày ấm áp, dịu nhẹ với bóng đổ nhẹ nhàng và điểm nhấn tinh tế, tạo nên một vẻ ngoài quảng cáo sạch sẽ, đáng tin cậy. Phong cách tổng thể là hình minh họa thương mại cao cấp, vui tươi, chi tiết phong phú với bố cục kể chuyện mạnh mẽ, bố cục cân đối, bảng màu pastel, độ sâu trường ảnh sâu, chi tiết cực kỳ sắc nét, độ tương phản tỷ lệ thu nhỏ điện ảnh—rõ ràng là một hình minh họa, không phải nhiếp ảnh, không phải màn hình mô hình và không được bao bọc trong bất kỳ mái vòm hoặc tủ trưng bày bằng kính nào.","[""https://cms-assets.youmind.com/media/1768804287448_3ga4jo_G-7_3dYW8AEpY0i.jpg""]","{""name"":""Latte"",""url"":""https://x.com/0xbisc""}",https://x.com/0xbisc/status/2012828926633250902,"Nhiếp ảnh, Điện ảnh, Minh họa, 3D, Cổ điển, Thiên nhiên, Sản phẩm, Xe cộ, Logo, UI/UX, Giáo dục"
+81,Truyện tranh / Bảng phân cảnh - Chuyển đổi ảnh Selfie thành Claymation,"Một prompt được sử dụng với Nano Banana Pro để biến một bức ảnh selfie thành phong cách hoạt hình đất sét (claymation), tập trung vào kết cấu đất sét chân thực, các dấu vân tay có thể nhìn thấy và sự ấm áp của hoạt hình stop-motion. Prompt được chia sẻ trong hình ảnh thứ hai của tweet.","Cận cảnh một người đàn ông cầm kéo, hoạt hình đất sét, hoạt hình stop motion, mô hình diorama thu nhỏ, kết cấu đất sét chân thực, dấu vân tay có thể nhìn thấy, ánh sáng ấm áp, chi tiết cao, 8k","[""https://cms-assets.youmind.com/media/1768804338107_a7zbes_G-8mdaGW8AImTez.jpg"",""https://cms-assets.youmind.com/media/1768804338163_cp1agf_G-8mbMfWgAAQxUU.jpg""]","{""name"":""ハサミおじさん♪北海道のまちゼミ好きな二代目理容師"",""url"":""https://x.com/hasami_ojisan""}",https://x.com/hasami_ojisan/status/2012870063456686140,"Chân dung, Anime"
+85,Truyện tranh / Bảng phân cảnh - Mô hình LEGO Diorama thu nhỏ bối cảnh phim kinh dị 'The Nun',"Một lời nhắc JSON sáng tạo để tạo cảnh mô hình LEGO thu nhỏ mô tả phim trường của bộ phim kinh dị 'The Nun'. Nó bao gồm các mô tả chi tiết về nội thất đá Gothic, nhân vật nữ tu LEGO và nhiều thành viên đoàn làm phim LEGO minifigure (người quay phim, người cầm micro boom, đạo diễn) tương tác với thiết bị làm phim, tất cả được thể hiện bằng ánh sáng điện ảnh kịch tính, độ tương phản cao.","{
+  ""scene_overview"": {
+    ""setting"": ""Nội thất đá kiểu Gothic giống bối cảnh nhà thờ hoặc thánh đường"",
+    ""environment_style"": ""Mô hình LEGO thu nhỏ"",
+    ""location_type"": ""Trường quay / sản xuất phim hậu trường"",
+    ""time_of_day"": ""Trong nhà, ánh sáng được kiểm soát (tâm trạng đêm điện ảnh)"",
+    ""atmosphere"": ""Điện ảnh, kỳ quái, sân khấu, được kiểm soát"",
+    ""mood"": ""Hài hước đen tối, ma quái, vui tươi, sáng tạo"",
+    ""genre_influence"": [""Kinh dị"", ""Làm phim hậu trường"", ""Kỳ ảo""]
+  },
+
+  ""primary_subject"": {
+    ""type"": ""Nhân vật LEGO minifigure"",
+    ""role"": ""Nữ tu / nhân vật kinh dị"",
+    ""appearance"": {
+      ""outfit"": ""Áo nữ tu đen với cổ áo trắng"",
+      ""face"": ""Mặt trắng bệch, mắt trũng đen, biểu cảm kỳ quái"",
+      ""accessories"": ""Dây chuyền thánh giá"",
+      ""pose"": ""Đứng yên, đối diện về phía trước""
+    },
+    ""positioning"": {
+      ""location"": ""Nằm ở trung tâm trong một vòm đá lớn"",
+      ""background"": ""Hốc hoặc buồng được chiếu sáng màu xanh lam rực rỡ""
+    }
+  },
+
+  ""supporting_characters"": {
+    ""crew_members"": [
+      {
+        ""role"": ""Người quay phim"",
+        ""object_interaction"": ""Vận hành một máy quay phim LEGO lớn"",
+        ""position"": ""Phía trước bên trái, ngồi trên xe đẩy máy quay""
+      },
+      {
+        ""role"": ""Người điều khiển micro boom"",
+        ""object_interaction"": ""Giữ micro boom hướng về phía chủ thể"",
+        ""position"": ""Phía trên bên trái tiền cảnh""
+      },
+      {
+        ""role"": ""Kỹ thuật viên ánh sáng"",
+        ""object_interaction"": ""Giữ một tấm phản sáng hình chữ nhật"",
+        ""position"": ""Bên phải, đặt trên giá đỡ""
+      },
+      {
+        ""role"": ""Người điều khiển bảng vỗ"",
+        ""object_interaction"": ""Giữ một bảng vỗ"",
+        ""position"": ""Phía trước trung tâm bên phải""
+      },
+      {
+        ""role"": ""Đạo diễn / Giám sát kịch bản"",
+        ""object_interaction"": ""Giữ bảng kẹp và giấy tờ"",
+        ""position"": ""Phía dưới bên phải tiền cảnh""
+      }
+    ],
+    ""style"": ""Tất cả các nhân vật đều là LEGO minifigure với tông màu da vàng và nhiều kiểu tóc khác nhau""
+  },
+
+  ""props_and_equipment"": {
+    ""film_equipment"": [
+      ""Máy quay phim LEGO"",
+      ""Xe đẩy máy quay trên đường ray"",
+      ""Micro boom có kính chắn gió lông"",
+      ""Tấm phản sáng"",
+      ""Bảng vỗ"",
+      ""Màn hình hiển thị nhân vật nữ tu"",
+      ""Dây cáp cuộn trên sàn""
+    ],
+    ""architectural_elements"": [
+      ""Tường gạch đá"",
+      ""Cửa vòm lớn"",
+      ""Hốc tường lõm"",
+      ""Sàn đá lát gạch""
+    ]
+  },
+  ""lighting"": {
+    ""primary_light"": ""Ánh sáng xanh lục lam mạnh từ phía sau nữ tu"",
+    ""secondary_lighting"": ""Ánh sáng studio trung tính ấm áp trên đoàn làm phim và tiền cảnh"",
+    ""contrast"": ""Độ tương phản cao giữa nền xanh lạnh và tông màu tiền cảnh ấm áp"",
+    ""style"": ""Ánh sáng điện ảnh, kịch tính, lấy cảm hứng kinh dị""
+  },
+
+  ""color_palette"": {
+    ""dominant_colors"": [""Xám đậm"", ""Đen"", ""Xanh lục lam""],
+    ""accent_colors"": [""Vàng ấm (""
+  }
+}","[""https://cms-assets.youmind.com/media/1768631179842_bt4bpk_G-wvqjobQAIEqnQ.jpg""]","{""name"":""Chandan Singh"",""url"":""https://x.com/cbsingh_oo3""}",https://x.com/cbsingh_oo3/status/2012035545812385829,"Chân dung, Điện ảnh, Nội thất, Nhân vật, Xe cộ, Thời trang, Văn bản, UI/UX, Meme"
+89,Truyện tranh / Bảng phân cảnh - Người khổng lồ Urban Fantasy Taylor Swift với Giàn giáo,"Một câu lệnh phức tạp, siêu thực để tạo ra một hình ảnh điện ảnh, siêu thực về một Taylor Swift khổng lồ đứng trên đường phố, được bao quanh bởi giàn giáo xây dựng và những công nhân xây dựng tí hon, nhấn mạnh quy mô và tính thẩm mỹ của thể loại giả tưởng đô thị.","""Một người phụ nữ khổng lồ đứng trên đường phố, trông như đang 'trong quá trình xây dựng' với giàn giáo bao quanh cơ thể cô ấy."",
+      ""thẩm mỹ"": ""Tổng hợp siêu thực, điện ảnh, kỳ ảo đô thị.""
+    },
+    ""chi tiết chủ thể"": {
+      ""giống người nổi tiếng"": ""{argument name=""tên người nổi tiếng"" default=""Taylor Swift""}."",
+      ""đặc điểm"": {
+        ""khuôn mặt"": ""Mắt xanh, son môi đỏ đặc trưng, cấu trúc khuôn mặt rõ nét."",
+        ""tóc"": ""Màu vàng óng, dài, gợn sóng buông xõa qua vai.""
+      },
+      ""trang phục"": {
+        ""váy"": ""Váy slip đen satin với cổ chữ V sâu và đường xẻ cao ở đùi phải."",
+        ""phụ kiện"": ""Cầm một cốc cà phê dùng một lần màu trắng tiêu chuẩn ở tay phải. Mang một túi xách da màu nâu sang trọng ở tay trái."",
+        ""giày dép"": ""Chân trần hoặc giày cao gót (bị che khuất bởi mảnh vụn/vết nứt trên đường).""
+      }
+    },
+    ""yếu tố siêu thực"": {
+      ""giàn giáo"": ""Cấu trúc giàn giáo kim loại phức tạp được xây dựng xung quanh cánh tay, thân và chân cô ấy, theo đường nét cơ thể."",
+      ""tiểu cảnh"": ""Những công nhân xây dựng nhỏ xíu đội mũ bảo hiểm màu vàng và áo phản quang đang leo giàn giáo trên cơ thể cô ấy."",
+      ""phá hủy"": ""Mặt đường nhựa dưới chân cô ấy đang nứt và vỡ vụn dưới sức nặng khổng lồ, tạo thành hình miệng hố.""
+    },
+    ""tư thế chính xác về giải phẫu"": {
+      ""tư thế"": ""Đứng thẳng với một chút contrapposto (trọng lượng dồn về một bên hông)."",
+      ""hướng"": ""Hướng về phía trước, cao chót vót so với người xem/thành phố."",
+      ""cánh tay phải"": ""Gập ở khuỷu tay, giơ lên để giữ cốc cà phê ngang ngực."",
+      ""cánh tay trái"": ""Duỗi xuống giữ túi xách."",
+      ""ánh mắt"": ""Nhìn thẳng, giao tiếp bằng mắt bình tĩnh với máy ảnh."",
+      ""tỷ lệ"": ""Chủ thể dường như cao khoảng 50 tầng, tương đương chiều cao của các tòa nhà chọc trời xung quanh.""
+    },
+    ""môi trường"": {
+      ""vị trí"": ""Đại lộ ở một đô thị lớn (giống Chicago hoặc NYC)."",
+      ""yếu tố"": ""Các tòa nhà chọc trời ở hai bên, giao thông đông đúc với những chiếc taxi và xe buýt màu vàng nhỏ xíu ở phía dưới."",
+      ""góc nhìn"": ""Góc nhìn từ trên cao so với thành phố, nhưng ngang tầm mắt so với chủ thể.""
+    },
+    ""giá trị kỹ thuật máy ảnh"": {
+      ""ống kính"": ""35mm (Góc rộng để thu trọn quy mô của chủ thể so với đường chân trời)."",
+      ""khẩu độ"": ""f/11 (Độ sâu trường ảnh lớn để giữ cho cả chủ thể khổng lồ và nền thành phố tương đối sắc nét)."",
+      ""tốc độ màn trập"": ""1/500s."",
+      ""iso"": ""ISO 100."",
+      ""độ phân giải"": ""8k, kết cấu độ trung thực cao.""
+    },
+    ""thiết lập ánh sáng"": {
+      ""nguồn"": ""Ánh sáng ban ngày tự nhiên."",
+      ""chất lượng"": ""Ánh sáng mặt trời dịu, khuếch tán (hơi nhiều mây)."",
+      ""hướng"": ""Từ trên cao/Phía trước."",
+      ""bóng"": ""Chủ thể đổ một cái bóng khổng lồ, dài xuống các con phố bên dưới.""","[""https://cms-assets.youmind.com/media/1768466924976_rfpiz3_G-jDv1kbQAM7fh2.jpg""]","{""name"":""Iqra Saifi"",""url"":""https://x.com/IqraSaifiii""}",https://x.com/IqraSaifiii/status/2011072648303018074,"Nhiếp ảnh, Điện ảnh, Xe cộ, Thành phố, Văn bản, UI/UX"
+96,Tiếp thị sản phẩm - Lời nhắc tạo đối tượng sợi đan,"Một lời nhắc tạo ảnh chi tiết được thiết kế để hiển thị bất kỳ vật thể nào như thể nó được đan hoàn toàn bằng tay từ sợi len dày. Lời nhắc nhấn mạnh kết cấu, các mũi đan có thể nhìn thấy, các mẫu đan vặn thừng và một vẻ đẹp ấm cúng, tiện dụng, phù hợp để tạo ra những hình ảnh nghệ thuật dệt may kỳ ảo nhưng chân thực. Người dùng cần nhập vật thể mong muốn vào trong dấu ngoặc.","Được tạo hình như thể được đan hoàn toàn bằng tay từ sợi len dày, [{argument name=""object"" default=""lò vi sóng""}] trông vô cùng tiện dụng dù là một món đồ thủ công mềm mại. Các mũi đan rõ ràng, họa tiết đan cáp ở các khu vực cầm nắm, đường gân nơi cần sự linh hoạt và các đầu sợi len được giấu gọn gàng.
+
+Được chụp trên nền phong cách sống ấm cúng hoặc trong một studio có kết cấu len sạch sẽ. Ánh sáng ấm áp, dịu nhẹ làm nổi bật kết cấu sợi len, chất lượng thủ công và sự ấm cúng kỳ lạ của cỗ máy. Lấy nét sắc nét vào các chi tiết mũi đan, màu sắc sợi bão hòa ấm áp, tính thẩm mỹ của sản phẩm phong cách sống, độ phân giải cực cao và sự mềm mại được tạo ra một cách tinh xảo.","[""https://cms-assets.youmind.com/media/1768890733416_f2tclp_G_DlR6gWYAE3UZP.jpg"",""https://cms-assets.youmind.com/media/1768890733497_p4jibb_G_Dlh19WcAAqKYa.jpg"",""https://cms-assets.youmind.com/media/1768890733583_mp5qhy_G_DlR6NWUAACcU8.jpg"",""https://cms-assets.youmind.com/media/1768890734669_j9rf60_G_DlR6NWYAAFnge.jpg""]","{""name"":""TheAIHeadquarters"",""url"":""https://x.com/DavisonDabiri""}",https://x.com/DavisonDabiri/status/2013361411083079850,Sản phẩm

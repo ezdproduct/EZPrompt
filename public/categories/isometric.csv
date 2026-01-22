@@ -1,0 +1,323 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+9,Cảnh căn phòng otaku chụp ảnh selfie qua gương chi tiết,"Một prompt Nano Banana rất chi tiết mô tả ảnh selfie trước gương của một cô gái trong góc máy tính otaku tông màu xanh lam, với đầy đủ thông số kỹ thuật về nhân vật, môi trường, ánh sáng, máy ảnh và các prompt phủ định.","### Bối cảnh
+Ảnh selfie qua gương trong góc máy tính phong cách otaku, tông màu xanh.
+
+### Chủ thể
+* Biểu cảm giới tính: nữ
+* Tuổi: khoảng 25
+* Dân tộc: Đông Á
+* Dáng người: mảnh mai, eo thon; tỷ lệ cơ thể tự nhiên
+* Tông da: tông trung tính sáng
+* Kiểu tóc:
+    * Độ dài: tóc dài ngang eo
+    * Kiểu: thẳng với phần đuôi hơi xoăn nhẹ
+    * Màu: nâu trung bình
+* Tư thế:
+    * Dáng đứng: đứng hơi contrapposto
+    * Tay phải: cầm điện thoại thông minh trước mặt (giấu danh tính)
+    * Tay trái: buông tự nhiên dọc thân
+    * Thân trên: thân hơi ngả về sau; eo và bụng lộ ra
+* Trang phục:
+    * Áo trên: áo khoác len dệt kim dáng lửng màu xanh nhạt, cài hai cúc trên cùng; áo ngực kiểu Pháp màu xanh mờ ảo
+    * Quần dưới: quần short denim siêu ngắn, với một chiếc nơ ruy băng satin màu xanh ở mỗi bên hông
+    * Vớ: vớ cao quá gối sọc ngang xanh trắng
+    * Phụ kiện: ốp điện thoại hình linh vật dễ thương màu xanh
+
+### Môi trường
+* Mô tả: góc máy tính trong phòng ngủ nhìn qua gương treo tường
+* Đồ đạc:
+    * Bàn làm việc màu trắng
+    * Một màn hình hiển thị hình nền màu xanh dịu (không có chữ có thể đọc được)
+    * Bàn phím cơ với keycap màu trắng trên tấm lót bàn màu xanh
+    * Chuột trên tấm lót chuột nhỏ màu xanh
+    * Thùng máy tính ở bên phải với đèn case màu xanh
+    * Ba mô hình anime trên hoặc gần thùng máy tính
+    * Một tấm áp phích hình chùa trên tường
+    * Đèn bàn hình mèo có điểm nhấn màu xanh
+    * Một ly nước thủy tinh trong suốt
+    * Một cây xanh lá cao bên cửa sổ (ở phía bên trái khung hình)
+* Thay thế màu sắc: thay thế tất cả các yếu tố ban đầu màu hồng (quần áo và đồ trang trí phòng) bằng tông màu xanh (từ xanh da trời nhạt đến xanh da trời/xanh dừa cạn).
+
+### Ánh sáng
+* Nguồn sáng: ánh sáng ban ngày từ cửa sổ lớn bên trái máy ảnh, xuyên qua rèm mỏng
+* Chất lượng ánh sáng: ánh sáng mềm, khuếch tán
+* Cân bằng trắng (K): 5200
+
+### Máy ảnh
+* Chế độ: camera sau của điện thoại thông minh chụp qua gương (không có chế độ chân dung/bokeh)
+* Tiêu cự tương đương (mm): 26
+* Khoảng cách (m):
+    * Chủ thể đến gương: 0.6
+    * Máy ảnh đến gương: 0.5
+* Phơi sáng:
+    * Khẩu độ (f): 1.8
+    * ISO: 100
+    * Tốc độ màn trập (s): 0.01
+    * Bù trừ phơi sáng (EV): -0.3
+* Lấy nét: lấy nét vào phần thân trên và quần short trong ảnh phản chiếu qua gương
+* Độ sâu trường ảnh: độ sâu trường ảnh sâu tự nhiên của điện thoại thông minh; hậu cảnh hiển thị rõ ràng không bị làm mờ nhân tạo
+* Bố cục:
+    * Tỷ lệ khung hình: 1:1
+    * Cắt: từ đỉnh đầu đến giữa đùi; bao gồm bàn làm việc, màn hình, thùng máy tính và cây xanh trong khung hình
+    * Góc: góc hơi cao từ góc nhìn của gương
+    * Ghi chú bố cục: giữ chủ thể ở giữa; để tránh biến dạng cạnh góc rộng, hãy để cô ấy đứng xa hơn một chút và cắt thành hình vuông sau.
+
+### Lời nhắc tiêu cực
+* Bất kỳ sự xuất hiện nào của màu hồng/đỏ tươi ở bất cứ đâu
+* Bộ lọc làm đẹp/da quá mịn; vẻ ngoài da không có lỗ chân lông
+* Giải phẫu phóng đại hoặc biến dạng
+* NSFW, vải xuyên thấu, sự cố trang phục
+* Logo, tên thương hiệu hoặc văn bản giao diện người dùng có thể đọc được
+* Hiệu ứng làm mờ chế độ chân dung giả, cảm giác CGI/minh họa","[""https://cms-assets.youmind.com/media/1763889946850_689z0h_G23i3sJW0AASGUw.jpg""]","{""name"":""宝玉"",""url"":""https://x.com/dotey""}",https://x.com/dotey/status/1976485558319722711,"Chân dung, Nhiếp ảnh, Minh họa, 3D, Anime, Nhân vật, Văn bản, Logo, Poster, UI/UX"
+15,Hồ sơ / Ảnh đại diện - Lời nhắc chụp ảnh tự sướng trong gương phòng gym siêu thực (Mô phỏng iPhone 17 Pro),"Một prompt mang tính kỹ thuật cao dành cho Gemini Nano Banana Pro được thiết kế để mô phỏng một bức ảnh selfie trong gương phòng gym thô, có độ tương phản cao, được chụp bằng ống kính iPhone 17 Pro góc siêu rộng. Nó yêu cầu độ chân thực sinh học cực cao, lấy nét sắc nét trên mọi mặt phẳng (không có hiệu ứng bokeh), làm thon gọn cơ thể một cách mạnh mẽ và chi tiết kết cấu chân thực trên quần áo và da, hướng tới một vẻ đẹp tự nhiên, không chỉnh sửa như khi đăng lên mạng xã hội.","(Tỷ lệ khung hình điện thoại thông minh 9:16 dọc). Một bức ảnh [Chụp gương nội thất phòng gym] thô, độ tương phản cao được chụp bằng iPhone 17 Pro sử dụng ống kính góc siêu rộng 0.5x. KHÔNG CÓ BOKEH NHÂN TẠO. Mọi mặt phẳng tiêu cự đều SẮC NÉT và rõ ràng, từ làn da của chủ thể đến thiết bị tập gym ở xa.
+Chủ thể & Nhận dạng:
+• Nhận dạng: Giữ nguyên cấu trúc khuôn mặt hình trái tim chính xác và các đặc điểm độc đáo của người phụ nữ trong Hình ảnh 1 (Selfie).
+• Độ trung thực sinh học: Kết xuất vật lý sinh học ""TrueLens"" độ trung thực cao: các lỗ chân lông siêu nhỏ có thể nhìn thấy, làn da ẩm mượt tự nhiên ""satin-finish"" vào ban đêm, và lông tơ mịn bắt sáng từ đèn trên cao CHỈ dọc theo đường quai hàm.
+• Hiệu chỉnh hình dáng (TỐI ĐA YẾU TỐ UFF): Ưu tiên thể tích phần thân trên có cấu trúc nổi bật và độ sâu giải phẫu đáng kể, săn chắc ở các chi dưới. Tập trung vào việc thuôn nhọn mạnh mẽ ở phần giữa cơ thể để tối đa hóa hình học đường cong chữ S.
+Trang phục & Tương tác kết cấu:
+• Trang phục: Một chiếc áo phông dệt kim kỹ thuật màu đen mờ, mật độ cao và quần đùi thể thao tối giản có độ căng cao phù hợp.
+• Độ căng: Vải kỹ thuật thể hiện độ căng cơ học cực cao và vừa vặn như chân không, tạo ra sự giãn nở kết cấu chân thực và ""đường căng"" nơi vật liệu ôm sát hình dáng cơ thể cô ấy.
+• Vật lý vật chất: Vớ cổ thuyền bằng cotton mật độ cao màu trắng thể hiện sự tiếp xúc kết cấu chân thực và phân bổ trọng lượng trên sàn gạch.
+Tư thế & Bố cục:
+• Tư thế: Một bức ảnh selfie trong gương góc 3/4. Cô ấy đang đứng với phần thân xoay trục về phía gương, ưỡn lưng và hất hông để làm nổi bật thể tích 3D đối xứng của vóc dáng.
+• Hành động: TAY PHẢI cô ấy cầm một chiếc điện thoại thông minh có vỏ trang trí, chụp lại hình ảnh phản chiếu ""kiểm tra trang phục"" toàn thân.
+• Lớp phủ UI: Một dấu thời gian đồng hồ kỹ thuật số màu trắng ở góc trên bên trái hiển thị ""8:33 PM"" bằng phông chữ sans-serif đơn giản.
+Môi trường & Hiện thực xã hội:
+• Ánh sáng: Ánh sáng công nghiệp trực tiếp, gay gắt từ trên cao tạo ra các điểm sáng phản chiếu độ tương phản cao và bóng sâu, rõ nét làm nổi bật hình dạng 3D của cô ấy.
+• Nền (SẮC NÉT): Nội thất phòng gym thương mại chi tiết. Một cột cấu trúc màu xanh neon rực rỡ, sàn gạch trắng với các đường ron có thể nhìn thấy, và ghế tập thể dục màu tối đều được LẤY NÉT hoàn hảo. Không có làm mờ nhân tạo.
+Chất lượng: Thẩm mỹ ảnh đăng mạng xã hội thô, chưa chỉnh sửa, dải động cao, nhiễu kỹ thuật số có thể nhìn thấy trong các vùng bóng tối sâu (kiểu ISO 1600), độ phân giải 8k. Mọi thứ đều sắc nét, chi tiết và chân thực về mặt vật lý.","[""https://cms-assets.youmind.com/media/1768890706556_m6fybh_G_CcP-yXYAEMd4u.jpg""]","{""name"":""Dan Reed"",""url"":""https://x.com/daaaaanc""}",https://x.com/daaaaanc/status/2013280839228866742,"Chân dung, Nhiếp ảnh, 3D, Tối giản, Tương lai, Nội thất, Văn bản, UI/UX"
+43,Bài đăng trên mạng xã hội - Cảnh phim lãng mạn trên vòng quay ngựa gỗ với Identity Lock,"Một lời nhắc JSON phức tạp, có nhiều ràng buộc cho Nano Banana Pro được thiết kế để tạo ra một cảnh quay điện ảnh siêu chân thực về một cặp đôi trên vòng quay ngựa gỗ trong nhà vào ban đêm. Nó yêu cầu khóa nhận dạng nghiêm ngặt dựa trên hai hình ảnh tham chiếu đã tải lên, cài đặt máy ảnh cụ thể (35mm, f/2.0), ánh sáng tungsten ấm áp và các ràng buộc chi tiết về tư thế và môi trường để đạt được tính thẩm mỹ của thể loại romcom.","{
+  ""generation_request"": {
+    ""meta_data"": {
+      ""tool"": ""NanoBanana Pro"",
+      ""task_type"": ""photoreal_cinematic_carousel_couple_close_scene"",
+      ""version"": ""v1.0_CAROUSEL_RIDE_ROMCOM_WARM_LIGHTS_POSE_LOCK"",
+      ""priority"": ""highest""
+    },
+    ""references"": {
+      ""female_reference_image"": {
+        ""slot"": 1,
+        ""purpose"": ""FEMALE_IDENTITY_LOCK"",
+        ""strict_identity_lock"": true,
+        ""no_beautify"": true
+      },
+      ""male_reference_image"": {
+        ""slot"": 2,
+        ""purpose"": ""MALE_IDENTITY_LOCK"",
+        ""strict_identity_lock"": true,
+        ""no_beautify"": true
+      },
+      ""composition_reference_image"": {
+        ""source"": ""UPLOAD_REFERENCE_IMAGE (OPTIONAL)"",
+        ""purpose"": ""EXACT_COMPOSITION_LIGHTING_WARDROBE_ENV_LOCK"",
+        ""strict_lock"": true,
+        ""no_layout_drift"": true,
+        ""preserve_framing"": true
+      }
+    },
+    ""output_settings"": {
+      ""aspect_ratio"": ""4:5"",
+      ""orientation"": ""portrait"",
+      ""resolution"": ""ultra_high_res"",
+      ""render_style"": ""ultra_photoreal_cinematic_lifestyle"",
+      ""sharpness"": ""crisp_faces_natural_texture"",
+      ""film_grain"": ""subtle_analog"",
+      ""color_grade"": ""warm_carnival_golden""
+    },
+    ""hard_constraints"": [
+      ""Chỉ có đúng 2 người (một nữ, một nam)."",
+      ""Khuôn mặt phải khớp với ảnh tham chiếu đã tải lên với độ tương đồng tối đa (không biến dạng, không lệch nhận dạng)."",
+      ""Chỉ ảnh chân thực: kết cấu da tự nhiên, không dùng bộ lọc làm đẹp, không làm mịn da nhân tạo."",
+      ""Bối cảnh vòng quay ngựa gỗ: trần nhà trang trí công phu có thể nhìn thấy + bóng đèn ấm áp + cột vòng quay ngựa gỗ + ngựa gỗ được sơn."",
+      ""Khớp logic tư thế tham chiếu: cặp đôi trên ngựa gỗ, nhìn nhau và mỉm cười."",
+      ""Không có chữ có thể đọc được, không logo, không hình mờ."",
+      ""Giải phẫu chính xác: tay nắm cột tự nhiên, tư thế ngồi trên ngựa gỗ thực tế.""
+    ],
+    ""camera"": {
+      ""style"": ""ảnh phong cách điện ảnh"",
+      ""lens"": ""35mm"",
+      ""aperture"": ""f/2.0"",
+      ""focus"": ""sắc nét trên cả hai khuôn mặt, làm mờ nhẹ nhàng hậu cảnh"",
+      ""shutter_speed"": ""1/125"",
+      ""iso"": 800,
+      ""white_balance"": ""warm_tungsten_carnival""
+    },
+    ""lighting"": {
+      ""type"": ""bóng đèn vòng quay ngựa gỗ + ánh sáng xung quanh ấm áp"",
+      ""contrast"": ""trung bình"",
+      ""highlights"": ""ánh sáng phản chiếu mềm mại trên tóc và vải denim, kiểm soát trên da"",
+      ""shadows"": ""mềm mại, chuyển tiếp tự nhiên""
+    },
+    ""prompt"": {
+      ""scene_summary"": ""Cảnh phim lãng mạn hài hước siêu chân thực, đậm chất điện ảnh trên vòng quay ngựa gỗ trong nhà vào ban đêm. Trần vòng quay ngựa gỗ trang trí công phu chiếm phần trên của khung hình với các chi tiết trang trí cổ điển và hàng bóng đèn phát sáng ấm áp. Ở tiền cảnh, đầu ngựa gỗ và cột vòng quay ngựa gỗ có thể nhìn thấy, với các chi tiết cổ điển phong phú (viền vàng, điểm nhấn yên ngựa đầy màu sắc). \n\nChỉ có hai người: người nam ngồi thấp hơn một chút trên ngựa gỗ, hai tay nắm cột dọc và nhìn lên người nữ với nụ cười dịu dàng. Người nữ ngồi trên con ngựa kế bên, hơi nghiêng về phía anh ấy, mỉm cười đáp lại một cách ấm áp. Khuôn mặt của họ là""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890707867_4q2zcp_G_DcduGWQAAl3Hr.jpg""]","{""name"":""Özge Döner"",""url"":""https://x.com/astronomerozge1""}",https://x.com/astronomerozge1/status/2013351484008620139,"Chân dung, Nhóm người, Nhiếp ảnh, Điện ảnh, 3D, Cổ điển, Nhân vật, Xe cộ, Văn bản, Logo, Meme"
+52,Infographic / Hình ảnh giáo dục - Trực quan hóa phát minh sản phẩm lưới 2x2 (Bằng sáng chế/Tiếp thị),"Một lời nhắc phức tạp, đa bảng được thiết kế để hình dung việc phát minh và tiếp thị một sản phẩm mới bằng cách kết hợp hai khái niệm (hoặc phát triển một khái niệm). Nó yêu cầu cấu trúc lưới 2x2, với mỗi góc phần tư đòi hỏi một phong cách hình ảnh riêng biệt: bản vẽ kỹ thuật đường nét (Exploded Patent View), sơ đồ nguyên lý (Functional Diagram), kết xuất chân thực (Photorealistic Render) và bố cục biên tập (Marketing Pitch). Lời nhắc hoạt động như một nhà thiết kế công nghiệp, tập trung vào sự gắn kết giữa các bảng và tính thẩm mỹ tối giản, điện tử tiêu dùng.","Biến đầu vào: {argument name=""input objects"" default=""[CHÈN 1 hoặc 2 ĐỐI TƯỢNG]""}
+Hướng dẫn:
+Hãy đóng vai trò là một Nhà thiết kế công nghiệp có tầm nhìn và Thư ký bằng sáng chế. Tạo một Lưới 2x2 để hình dung việc phát minh ra một sản phẩm mới dựa trên Đầu vào.
+Logic Đổi mới:
+Phân tích Chức năng: Xác định tiện ích chính của Đầu vào A và Đầu vào B.
+Sự kết hợp: Kết hợp chúng thành một thiết bị duy nhất, gắn kết, giải quyết một vấn đề cụ thể (ngách).
+Nếu 2 Đầu vào: Kết hợp chúng (ví dụ: Cốc + Dụng cụ bào = Một chiếc cốc tự làm mát có dụng cụ bào trang trí).
+Nếu 1 Đầu vào: Phát triển nó (ví dụ: Bàn chải đánh răng = Một cây đũa thông minh tự khử trùng, bơm kem đánh răng).
+Thương hiệu: Tạo một tên sản phẩm hấp dẫn, mang tính doanh nghiệp (ví dụ: ""The Breeze-Grate™"", ""Solar-Brella Pro"").
+Cấu trúc Hình ảnh (Lưới 2x2):
+QUAN TRỌNG: Hình ảnh phải được chia thành 4 góc phần tư riêng biệt với các phong cách hình ảnh khác nhau.
+Bảng 1 (Trên cùng bên trái): Chế độ xem bằng sáng chế tách rời
+Phong cách: Nghệ thuật đường nét kỹ thuật đen trắng. Các đường nét mỏng, rõ ràng, không đổ bóng.
+Nội dung: Một ""Chế độ xem tách rời"" đẳng cự của thiết bị, hiển thị động cơ, pin hoặc cơ chế bên trong được tách ra khỏi vỏ.
+Chi tiết: Thêm các Đường dẫn có số (10, 12, 14) chỉ vào các bộ phận cụ thể.
+Bảng 2 (Trên cùng bên phải): Sơ đồ chức năng
+Phong cách: Sơ đồ đen trắng với các mũi tên đậm.
+Nội dung: Một mặt cắt ngang hoặc bản vẽ ""Đang sử dụng"" cho thấy cách thiết bị hoạt động. Sử dụng Mũi tên hành động để hiển thị luồng không khí, sự quay hoặc chuyển động của chất lỏng.
+Chi tiết: Hiển thị ""Kết quả"" (ví dụ: phô mai rơi, nước phun).
+Bảng 3 (Dưới cùng bên trái): Hình ảnh sản phẩm
+Phong cách: Chụp ảnh studio cao cấp. Màu sắc, bóng bẩy, thẩm mỹ thiết kế ""Apple/Braun"".
+Nội dung: Sản phẩm vật lý cuối cùng đặt trên một bề mặt phản chiếu màu trắng. Nó phải trông bóng bẩy, sử dụng các vật liệu như Gốm trắng, Nhôm xước hoặc Nhựa mờ.
+Ngữ cảnh: Bao gồm một đạo cụ nhỏ để thể hiện tỷ lệ (ví dụ: một khối phô mai, một hạt cà phê, một bàn tay).
+Bảng 4 (Dưới cùng bên phải): Bài quảng cáo tiếp thị
+Phong cách: Bố cục tạp chí biên tập. Nền trắng, chữ đen.
+Kiểu chữ:
+Tiêu đề: Chữ Serif lớn, đậm hiển thị [Tên phát minh].
+Nội dung: Một khối văn bản ""Lorem Ipsum"" sạch sẽ hoặc văn bản dễ đọc mô tả ""Các tính năng mang tính cách mạng"".
+Dấu đầu dòng: Một danh sách nhỏ các thông số kỹ thuật (ví dụ: ""An toàn với máy rửa chén"", ""USB-C"").
+Cú pháp hình ảnh:
+Tính gắn kết: Thiết kế sản phẩm trong Bảng 3 phải hoàn toàn khớp với nghệ thuật đường nét trong Bảng 1.
+Ngôn ngữ thiết kế: Tối giản, Công thái học, thẩm mỹ Điện tử tiêu dùng. Ngay cả khi ý tưởng ngớ ngẩn, thiết kế phải trông đắt tiền.
+Đầu ra: Lưới 2x2, Đa phương tiện (Nghệ thuật đường nét so với Chủ nghĩa hiện thực ảnh), Độ phân giải 8k, Thẩm mỹ ""Chiến dịch Kickstarter"".","[""https://cms-assets.youmind.com/media/1768717570742_yazze1_G-rI4thagAAXCjf.jpg""]","{""name"":""Gadgetify"",""url"":""https://x.com/Gdgtify""}",https://x.com/Gdgtify/status/2012487062180549031,"Nhiếp ảnh, Minh họa, 3D, Tối giản, Sản phẩm, Xe cộ, Văn bản, UI/UX, Giáo dục"
+54,Infographic / Hình ảnh giáo dục - Các mô hình thu nhỏ 3D Isometric của nhân vật truyền hình phương Tây,"Một lời nhắc để tạo các mô hình thu nhỏ 3D đẳng cự siêu chân thực, cách điệu và chi tiết về các nhân vật chính từ một bộ phim truyền hình miền Tây nước Mỹ. Các mô hình được đặt trên đường phố trong bối cảnh nền trắng tinh khiết, thể hiện các động tác đặc trưng khác nhau dưới ánh sáng studio dịu nhẹ.","Các mô hình thu nhỏ 3D đẳng cấo, siêu chân thực, được cách điệu và cực kỳ chi tiết thể hiện các nhân vật chính của loạt phim truyền hình {argument name=""TV series genre"" default=""miền Tây nước Mỹ""}. Mỗi nhân vật thể hiện một động tác đặc trưng khác nhau, trong khi ánh sáng studio dịu nhẹ tạo ra hiệu ứng ánh sáng và bóng đổ tuyệt đẹp. Các mô hình 3D có độ chi tiết cao được đặt trên {argument name=""setting"" default=""những con phố thành phố""} trên nền trắng tinh khiết.","[""https://cms-assets.youmind.com/media/1768631173816_nsi334_G-ybd-ObcAERfOr.jpg""]","{""name"":""Favori"",""url"":""https://x.com/yuanguand""}",https://x.com/yuanguand/status/2012154187669545207,"Nhiếp ảnh, 3D, Nhân vật, Thành phố, Giáo dục"
+56,Infographic / Hình ảnh giáo dục - Diorama kiến trúc 3D Isometric tối giản,"Một mẫu prompt để tạo mô hình 3D isometric diorama sạch, tối giản về một phần tòa nhà. Prompt này cho phép tùy chỉnh loại tòa nhà, các yếu tố nội/ngoại thất và kiểu cắt ngang, nhằm mục đích tạo ra một mô hình kiến trúc thu nhỏ với ánh sáng studio dịu nhẹ và vật liệu chân thực.","Một mô hình 3D isometric diorama sạch sẽ, tối giản của một phần [{argument name=""building type"" default=""BUILDING TYPE""}], với [{argument name=""elements"" default=""INTERIOR / EXTERIOR ELEMENTS""}] hiển thị theo [{argument name=""style"" default=""CUTAWAY / OPEN STYLE""}], [STRUCTURAL FRAME] đơn giản, [INFORMATIONAL SIGNAGE] tinh tế, [MATERIAL FINISH] mịn, ánh sáng studio dịu nhẹ, vật liệu chân thực, các cạnh bo tròn, phong cách mô hình kiến trúc thu nhỏ, chi tiết cao, nền trung tính.","[""https://cms-assets.youmind.com/media/1768631167212_chnax0_G-xRiuLbQAATRuP.jpg"",""https://cms-assets.youmind.com/media/1768631167249_uq1fis_G-xRiuJbQAE9AKC.jpg"",""https://cms-assets.youmind.com/media/1768631167254_l9b9p2_G-xRiuKbQAA7P5f.jpg"",""https://cms-assets.youmind.com/media/1768631168636_h31pvg_G-xRiuKagAArqTY.jpg""]","{""name"":""Aleena Amir"",""url"":""https://x.com/aleenaamiir""}",https://x.com/aleenaamiir/status/2012072821439283400,"Nhiếp ảnh, 3D, Tối giản, Nội thất, UI/UX, Giáo dục"
+75,Truyện tranh / Bảng phân cảnh - Lưới bảng phân cảnh sản phẩm 3x3 cho danh mục thương hiệu,"Một lời nhắc phức tạp, đa khung được thiết kế để biến một hình ảnh tham chiếu duy nhất thành một lưới bảng phân cảnh 3x3 gắn kết cho một danh mục đầu tư thương hiệu cao cấp. Nó yêu cầu tuân thủ nghiêm ngặt nhận diện sản phẩm tham chiếu trên tất cả chín bảng, mỗi bảng mô tả sản phẩm từ một góc độ, bối cảnh hoặc cận cảnh khác nhau, tập trung vào thiết kế, chất liệu và nhịp điệu thị giác.","Tạo MỘT hình ảnh cuối cùng.
+
+Một lưới storyboard sạch 3×3 [tỷ lệ] với chín ô vuông có kích thước bằng nhau [tỷ lệ] trên tỷ lệ [4:5].
+
+Sử dụng hình ảnh tham khảo làm cơ sở sản phẩm tham khảo. Giữ nguyên sản phẩm, thiết kế bao bì, thương hiệu, vật liệu, màu sắc, tỷ lệ và nhận diện tổng thể trên tất cả chín ô vuông chính xác như hình tham khảo. Sản phẩm phải luôn dễ nhận biết rõ ràng trong mọi khung hình. Nhãn, logo và tỷ lệ phải giữ nguyên chính xác.
+
+Storyboard này là một bản trình bày mockup thiết kế cao cấp dành cho portfolio thương hiệu. Trọng tâm là hình thức, bố cục, vật liệu và nhịp điệu thị giác hơn là tính chân thực hoặc câu chuyện đời sống. Tổng thể phải mang lại cảm giác được tuyển chọn, mang tính biên tập và định hướng thiết kế.
+
+KHUNG HÌNH 1:
+Ảnh sản phẩm chụp chính diện trong một thiết lập studio sạch sẽ. Nền trung tính, bố cục cân bằng, trình bày sản phẩm một cách điềm tĩnh và tự tin.
+
+KHUNG HÌNH 2:
+Ảnh cận cảnh tập trung vào phần giữa của sản phẩm. Tập trung vào kết cấu bề mặt, vật liệu và chi tiết in ấn.
+
+KHUNG HÌNH 3:
+Hiển thị sản phẩm tham khảo được đặt trong một môi trường phù hợp tự nhiên với thương hiệu và danh mục sản phẩm. Thiết lập studio được lấy cảm hứng từ các yếu tố thiết kế và màu sắc của sản phẩm.
+
+KHUNG HÌNH 4:
+Sản phẩm được hiển thị đang sử dụng hoặc tương tác trên nền studio trung tính. Các yếu tố tay và tương tác được tối thiểu hóa và tiết chế, vẻ ngoài phù hợp với phong cách của bao bì.
+
+KHUNG HÌNH 5:
+Bố cục isometric hiển thị nhiều sản phẩm được sắp xếp theo một trật tự hình học chính xác từ góc isometric trên cùng. Tất cả các sản phẩm được đặt ở cùng một góc isometric trên cùng, cách đều nhau, sạch sẽ, có cấu trúc và đồ họa.
+
+KHUNG HÌNH 6:
+Sản phẩm lơ lửng hơi nghiêng trên nền trung tính phù hợp với bảng màu của hình ảnh tham khảo. Vị trí nổi được tạo góc và có chủ ý, sản phẩm lơ lửng tự nhiên trong không gian.
+
+KHUNG HÌNH 7:
+Là một ảnh cận cảnh cực độ tập trung vào một chi tiết cụ thể của nhãn, cạnh, kết cấu hoặc đặc tính vật liệu.
+
+KHUNG HÌNH 8:
+Sản phẩm trong một bối cảnh bất ngờ nhưng có tính thẩm mỹ mạnh mẽ, mang lại cảm giác táo bạo, mang tính biên tập và ấn tượng về mặt thị giác.
+Bối cảnh bất ngờ nhưng được tạo kiểu rất cao. Dựa trên studio và định hướng thiết kế. Bố cục táo bạo nâng tầm thương hiệu.
+
+KHUNG HÌNH 9:
+Bố cục rộng hiển thị sản phẩm đang sử dụng, được đặt trong một thiết lập thiết kế tinh tế. Các đạo cụ sạch sẽ, tạo kiểu được kiểm soát, gắn kết với phần còn lại của series.
+
+MÁY ẢNH & PHONG CÁCH:
+Hình ảnh studio chất lượng cực cao với giao diện máy ảnh thực. Các góc máy ảnh và khung hình khác nhau trên các khung hình. Độ sâu trường ảnh được kiểm soát, ánh sáng chính xác, vật liệu và phản xạ chính xác. Logic ánh sáng, bảng màu, tâm trạng và ngôn ngữ thị giác phải nhất quán trên tất cả chín ô vuông như một series gắn kết.
+
+ĐẦU RA:
+Một lưới 3×3 sạch sẽ không có đường viền, không có văn bản, không có chú thích và không có hình mờ.","[""https://cms-assets.youmind.com/media/1768890742033_jktw5p_G_FaISRWkAAHtDT.jpg"",""https://cms-assets.youmind.com/media/1768890742112_v27ays_G_FaISSXMAArcKp.jpg"",""https://cms-assets.youmind.com/media/1768890742437_dtia2h_G_FaISSXUAApmZI.jpg""]","{""name"":""Vi"",""url"":""https://x.com/tehno_maniak""}",https://x.com/tehno_maniak/status/2013489628456636867,"Nhiếp ảnh, Sản phẩm, Nhân vật, Logo"
+89,Truyện tranh / Bảng phân cảnh - Người khổng lồ Urban Fantasy Taylor Swift với Giàn giáo,"Một câu lệnh phức tạp, siêu thực để tạo ra một hình ảnh điện ảnh, siêu thực về một Taylor Swift khổng lồ đứng trên đường phố, được bao quanh bởi giàn giáo xây dựng và những công nhân xây dựng tí hon, nhấn mạnh quy mô và tính thẩm mỹ của thể loại giả tưởng đô thị.","""Một người phụ nữ khổng lồ đứng trên đường phố, trông như đang 'trong quá trình xây dựng' với giàn giáo bao quanh cơ thể cô ấy."",
+      ""thẩm mỹ"": ""Tổng hợp siêu thực, điện ảnh, kỳ ảo đô thị.""
+    },
+    ""chi tiết chủ thể"": {
+      ""giống người nổi tiếng"": ""{argument name=""tên người nổi tiếng"" default=""Taylor Swift""}."",
+      ""đặc điểm"": {
+        ""khuôn mặt"": ""Mắt xanh, son môi đỏ đặc trưng, cấu trúc khuôn mặt rõ nét."",
+        ""tóc"": ""Màu vàng óng, dài, gợn sóng buông xõa qua vai.""
+      },
+      ""trang phục"": {
+        ""váy"": ""Váy slip đen satin với cổ chữ V sâu và đường xẻ cao ở đùi phải."",
+        ""phụ kiện"": ""Cầm một cốc cà phê dùng một lần màu trắng tiêu chuẩn ở tay phải. Mang một túi xách da màu nâu sang trọng ở tay trái."",
+        ""giày dép"": ""Chân trần hoặc giày cao gót (bị che khuất bởi mảnh vụn/vết nứt trên đường).""
+      }
+    },
+    ""yếu tố siêu thực"": {
+      ""giàn giáo"": ""Cấu trúc giàn giáo kim loại phức tạp được xây dựng xung quanh cánh tay, thân và chân cô ấy, theo đường nét cơ thể."",
+      ""tiểu cảnh"": ""Những công nhân xây dựng nhỏ xíu đội mũ bảo hiểm màu vàng và áo phản quang đang leo giàn giáo trên cơ thể cô ấy."",
+      ""phá hủy"": ""Mặt đường nhựa dưới chân cô ấy đang nứt và vỡ vụn dưới sức nặng khổng lồ, tạo thành hình miệng hố.""
+    },
+    ""tư thế chính xác về giải phẫu"": {
+      ""tư thế"": ""Đứng thẳng với một chút contrapposto (trọng lượng dồn về một bên hông)."",
+      ""hướng"": ""Hướng về phía trước, cao chót vót so với người xem/thành phố."",
+      ""cánh tay phải"": ""Gập ở khuỷu tay, giơ lên để giữ cốc cà phê ngang ngực."",
+      ""cánh tay trái"": ""Duỗi xuống giữ túi xách."",
+      ""ánh mắt"": ""Nhìn thẳng, giao tiếp bằng mắt bình tĩnh với máy ảnh."",
+      ""tỷ lệ"": ""Chủ thể dường như cao khoảng 50 tầng, tương đương chiều cao của các tòa nhà chọc trời xung quanh.""
+    },
+    ""môi trường"": {
+      ""vị trí"": ""Đại lộ ở một đô thị lớn (giống Chicago hoặc NYC)."",
+      ""yếu tố"": ""Các tòa nhà chọc trời ở hai bên, giao thông đông đúc với những chiếc taxi và xe buýt màu vàng nhỏ xíu ở phía dưới."",
+      ""góc nhìn"": ""Góc nhìn từ trên cao so với thành phố, nhưng ngang tầm mắt so với chủ thể.""
+    },
+    ""giá trị kỹ thuật máy ảnh"": {
+      ""ống kính"": ""35mm (Góc rộng để thu trọn quy mô của chủ thể so với đường chân trời)."",
+      ""khẩu độ"": ""f/11 (Độ sâu trường ảnh lớn để giữ cho cả chủ thể khổng lồ và nền thành phố tương đối sắc nét)."",
+      ""tốc độ màn trập"": ""1/500s."",
+      ""iso"": ""ISO 100."",
+      ""độ phân giải"": ""8k, kết cấu độ trung thực cao.""
+    },
+    ""thiết lập ánh sáng"": {
+      ""nguồn"": ""Ánh sáng ban ngày tự nhiên."",
+      ""chất lượng"": ""Ánh sáng mặt trời dịu, khuếch tán (hơi nhiều mây)."",
+      ""hướng"": ""Từ trên cao/Phía trước."",
+      ""bóng"": ""Chủ thể đổ một cái bóng khổng lồ, dài xuống các con phố bên dưới.""","[""https://cms-assets.youmind.com/media/1768466924976_rfpiz3_G-jDv1kbQAM7fh2.jpg""]","{""name"":""Iqra Saifi"",""url"":""https://x.com/IqraSaifiii""}",https://x.com/IqraSaifiii/status/2011072648303018074,"Nhiếp ảnh, Điện ảnh, Xe cộ, Thành phố, Văn bản, UI/UX"
+109,Hình ảnh chính thương mại điện tử - Trình tạo hình ảnh chủ đạo cho sản phẩm chăm sóc da,"Một mẫu lời nhắc có thể tùy chỉnh để tạo ra hình ảnh chủ đạo sản phẩm chăm sóc da cao cấp siêu thực. Mẫu này sử dụng các phần giữ chỗ cho sản phẩm, màu nền và các thành phần chính, tập trung vào ánh sáng studio sạch sẽ, phản chiếu sắc nét và các yếu tố nổi (thực vật, xoáy gel, giọt nước) để tạo ra một vẻ đẹp thương mại cao cấp.","đặt chính giữa {argument name=""product type"" default=""FACEWASH_PACKAGING""} trên nền chuyển màu đậm {argument name=""background color 1"" default=""BG_COLOR_1""}→{argument name=""background color 2"" default=""BG_COLOR_2""}, ánh sáng studio hiện đại, phản chiếu sắc nét + bóng đổ mềm mại. Chữ trên nhãn phải dễ đọc: chỉ ""{argument name=""brand name"" default=""BRAND""} {argument name=""product name"" default=""PRODUCT_NAME""}"". Bao quanh bằng KEY_INGREDIENT_1, KEY_INGREDIENT_2, BOTANICAL trôi nổi theo bố cục hình tròn cân đối, cùng với các dải ruy băng gel/bọt bóng loáng (các vòng lặp mượt mà), các giọt nước siêu nhỏ + sương mù nhẹ. Lấy nét cực sắc, DOF nông, 85mm, HDR, ISO100, không gian âm sạch, không lộn xộn, không có hình mờ. Xuất {ASPECT} (1:1/4:5/9:16).","[""https://cms-assets.youmind.com/media/1768890669960_389lzs_G_A1y5CXIAANTX2.jpg"",""https://cms-assets.youmind.com/media/1768890669812_67410t_G_A1zAVX0AAJa21.jpg"",""https://cms-assets.youmind.com/media/1768890670260_lu04jb_G_A1y1wWgAAyNDH.jpg"",""https://cms-assets.youmind.com/media/1768890671110_l4u0yi_G_A1zA8XQAAPvm1.jpg""]","{""name"":""TheAIHeadquarters"",""url"":""https://x.com/DavisonDabiri""}",https://x.com/DavisonDabiri/status/2013168193196449941,"Chân dung, Nhiếp ảnh, Sản phẩm, Văn bản, Logo"
+111,Hình ảnh chính thương mại điện tử - Gợi ý tạo ảnh ghép trực quan hóa sản phẩm chuông cửa thông minh,"Một lời nhắc chi tiết, có cấu trúc dành cho Nano Banana Pro được thiết kế để tạo ra một ảnh ghép trực quan hóa quảng cáo đa khung cho một chuông cửa thông minh. Nó chỉ định các tính năng của sản phẩm, xác định chín khung hình riêng biệt (Hero Shot, Close Up, Brand Environment, In Use, Isometric Grid, Levitating, Detail Extreme, Editorial Unexpected, Wide Use Scenario) và đặt các thông số kiểu máy ảnh như bảng màu và tâm trạng.","{
+  ""ProductReference"": ""{argument name=""Product Features"" default=""Chuông cửa thông minh với nhận diện khuôn mặt, âm thanh hai chiều, nhìn đêm, phát hiện chuyển động, chống chịu thời tiết, thiết kế đẹp mắt, điều khiển qua ứng dụng""}"",
+  ""Frame1_HeroShot"": {
+    ""Product"": ""Chuông cửa gắn trên lối vào, ống kính đặt chính giữa"",
+    ""Background"": ""Lối vào hiện đại màu xám liền mạch""
+  },
+  ""Frame2_CloseUp"": {
+    ""Focus"": ""Độ rõ nét của ống kính camera, lưới micro, cơ chế nút bấm, gioăng chống thấm thời tiết, đèn báo LED, giá đỡ""
+  },
+  ""Frame3_BrandEnvironment"": {
+    ""Setting"": ""Thẩm mỹ lối vào nhà thông minh, an ninh hiện đại"",
+    ""Props"": {
+      ""Background"": ""Kết cấu cửa trước"",
+      ""Surface"": ""Khu vực hiên nhà""
+    }
+  },
+  ""Frame4_InUse"": {
+    ""Interaction"": ""Chủ nhà nhận thông báo trên điện thoại, cử chỉ trò chuyện hai chiều"",
+    ""Styling"": ""Tương tác an ninh nhà thông minh""
+  },
+  ""Frame5_IsometricGrid"": {
+    ""Count"": ""Chuông cửa với màn hình giao diện ứng dụng"",
+    ""Arrangement"": ""Hệ thống lối vào thông minh""
+  },
+  ""Frame6_Levitating"": {
+    ""Concept"": ""Chuông cửa lơ lửng với hình ảnh trực quan hóa vùng an ninh""
+  },
+  ""Frame7_DetailExtreme"": {
+    ""Focus"": ""Cảm biến nhận diện khuôn mặt, chất lượng micro, đầu ra loa, pin dự phòng, ăng-ten WiFi, phạm vi cảm biến chuyển động""
+  },
+  ""Frame8_EditorialUnexpected"": {
+    ""Concept"": ""Chuông cửa như người bảo vệ ngôi nhà, hình ảnh trực quan hóa mạng lưới an ninh"",
+    ""Materials"": ""Hệ sinh thái an ninh thông minh""
+  },
+  ""Frame9_WideUseScenario"": {
+    ""Location"": ""Lối vào nhà thông minh hoàn chỉnh với an ninh"",
+    ""Props"": [""Khóa thông minh"", ""Đèn lối vào"", ""Thảm chùi chân"", ""Chậu cây"", ""Phụ kiện cửa"", ""Camera an ninh""]
+  },
+  ""CameraStyle"": {
+    ""ColorPalette"": ""Chuông cửa màu đen, ống kính camera màu xanh lam, đèn LED, màu cửa"",
+    ""Mood"": ""An ninh thông minh, lối vào nhà, tiện nghi hiện đại""
+  }
+}","[""https://cms-assets.youmind.com/media/1768890714990_8c7kb2_G_ATVFcXAAAsNMj.jpg""]","{""name"":""松果先森"",""url"":""https://x.com/songguoxiansen""}",https://x.com/songguoxiansen/status/2013130384897421728,"Chân dung, Nhiếp ảnh, Sản phẩm, Nhân vật, Logo"
+128,Tài sản trò chơi - Kiến trúc mô hình 3D Isometric của một vật dụng gia đình,"Một lời nhắc để tạo ra một diorama 3D isometric sạch sẽ, tối giản, trong đó một vật dụng gia đình cụ thể được biến thành một cấu trúc kiến trúc nhỏ. Nó nhấn mạnh vật liệu chân thực, ánh sáng studio mềm mại và phong cách mô hình kiến trúc thu nhỏ.","Một mô hình 3D isometric tối giản, sạch sẽ, biến một {argument name=""household object"" default=""ĐỒ VẬT GIA DỤNG""} thành một cấu trúc kiến trúc nhỏ. Các yếu tố chức năng được trừu tượng hóa thành cửa ra vào, cửa sổ và khối tích, vật liệu chân thực, ánh sáng studio dịu nhẹ, các cạnh bo tròn, phong cách mô hình kiến trúc thu nhỏ, nền trung tính.","[""https://cms-assets.youmind.com/media/1768804300421_dnjx48_G-6zqv-XgAAiRfz.jpg"",""https://cms-assets.youmind.com/media/1768804300228_vgyh8m_G-6zn0XaUAAJDSL.jpg"",""https://cms-assets.youmind.com/media/1768804300310_bxodc0_G-6zoUpWwAA3YBF.jpg"",""https://cms-assets.youmind.com/media/1768804301814_rfw4oq_G-6zsnAXwAAyVnh.jpg""]","{""name"":""Aleena Amir"",""url"":""https://x.com/aleenaamiir""}",https://x.com/aleenaamiir/status/2012743833902370831,"Nhiếp ảnh, 3D, Tối giản, Cổ điển, Nội thất, Trừu tượng, Trò chơi"
+129,Tài sản trò chơi - Tạo Hình minh họa Phòng Isometric Dựa trên Khái niệm Nhân vật,"Một lời nhắc được sử dụng với Nano Banana Pro để tạo ra một hình minh họa đẳng cự về một căn phòng phản ánh tính cách của một nhân vật cụ thể, loại trừ rõ ràng chính nhân vật đó khỏi hình ảnh.","Hãy mô tả căn phòng của nhân vật này trong một hình minh họa đẳng cự (isometric) tưởng tượng.
+Không yêu cầu mô tả về nhân vật.","[""https://cms-assets.youmind.com/media/1768804335672_ihlc7t_G-6jeQsXAAAjbhJ.jpg"",""https://cms-assets.youmind.com/media/1768804335434_1znwwv_G-6jbd3XcAA1QBT.jpg""]","{""name"":""十三不塔"",""url"":""https://x.com/shiisanpuutaa13""}",https://x.com/shiisanpuutaa13/status/2012729009126416430,"Nhiếp ảnh, Minh họa, Nhân vật, Trò chơi"

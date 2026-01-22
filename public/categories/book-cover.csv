@@ -1,0 +1,83 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+30,Bài đăng trên mạng xã hội - Hình ảnh quảng cáo sách theo phong cách tàu hỏa,"Một lời nhắc chi tiết bằng tiếng Nhật để tạo quảng cáo theo phong cách sách kinh doanh tỷ lệ 16:9, có hình ảnh sách cụ thể với các điểm sao chép bằng tiếng Nhật.","Vui lòng tạo một hình ảnh quảng cáo.
+
+==== Thông số quảng cáo ===
+- Tỷ lệ khung hình: 16:9 (ngang)
+- Sản phẩm quảng cáo: cuốn sách trong hình ảnh đính kèm đầu tiên
+- Điểm nhấn chính: đặt cuốn sách từ hình ảnh đính kèm đầu tiên theo cách ba chiều
+- Ngôn ngữ: tiếng Nhật
+- Phong cách: quảng cáo sách kinh doanh
+
+# Văn bản cần đưa vào:
+- Văn bản trước tiêu đề: 【Tái bản đã được quyết định chỉ một tuần sau khi phát hành】
+
+Sách “{argument name=""book_title_en"" default=""Designing from Zero with AI""}” hiện đang bán chạy.
+
+Xếp hạng Bán chạy nhất trên Amazon
+Xếp hạng số 1 về doanh số thiết kế thương mại (tính đến ngày 15/10)
+https://t.co/QxbYpfFVj6","[""https://cms-assets.youmind.com/media/1763885539326_yao7in_G6WBYReawAAcp2x.jpg""]","{""name"":""KAWAI"",""url"":""https://x.com/kawai_design""}",https://x.com/kawai_design/status/1992142466255114727,"Sản phẩm, UI/UX"
+97,Tiếp thị sản phẩm - Nụ hôn trong hiệu sách siêu thực như phim điện ảnh với hiệu ứng Motion Blur,"Một lời nhắc có cấu trúc cao được thiết kế để tạo ra một bức ảnh tĩnh siêu chân thực, tự nhiên như chụp từ một bộ phim điện ảnh về một cặp đôi đang hôn nhau nồng nàn trong lối đi ấm cúng của một hiệu sách. Nó nhấn mạnh những khuyết điểm tự nhiên, ánh sáng vàng hổ phách ấm áp, độ sâu trường ảnh nông và một chút mờ chuyển động để nắm bắt sự ngẫu hứng của khoảnh khắc, đồng thời tuân thủ nghiêm ngặt các giới hạn PG-13.","{
+  ""generation_request"": {
+    ""meta_data"": {
+      ""tool"": ""NanoBanana Pro"",
+      ""task_type"": ""photoreal_intimate_romance"",
+      ""version"": ""v1.0_COZY_BOOKSTORE_AISLE_KISS_MOTIONBLUR_EN"",
+      ""priority"": ""highest"",
+      ""language"": ""vi""
+    },
+    ""references"": {
+      ""reference_image_couple"": {
+        ""source"": ""UPLOAD_REFERENCE_IMAGE (TÙY CHỌN)"",
+        ""purpose"": ""POSE_MOOD_STYLE_ANCHOR"",
+        ""strict_lock"": false,
+        ""preserve_mood"": true
+      }
+    },
+    ""global_constraints"": {
+      ""rating"": ""PG-13"",
+      ""no_explicit_sexual_content"": true,
+      ""no_text"": true,
+      ""no_logos"": true,
+      ""no_watermark"": true
+    },
+    ""output_settings"": {
+      ""aspect_ratio"": ""3:4"",
+      ""orientation"": ""portrait"",
+      ""resolution_target"": ""ultra_high_res"",
+      ""render_style"": ""ultra_photoreal_cinematic_film_still"",
+      ""sharpness"": ""soft_focus_cinematic"",
+      ""film_grain"": ""subtle_35mm"",
+      ""color_grade"": ""warm_amber_lowlight"",
+      ""dynamic_range"": ""natural_not_hdr"",
+      ""skin_rendering"": ""real_texture_no_retouch""
+    },
+    ""global_rules"": {
+      ""camera_language"": ""ống kính 50mm, cận cảnh trung bình, cảm giác cầm tay, độ sâu trường ảnh nông, sách phía trước bị mờ, hiệu ứng nhòe chuyển động nhẹ như một khoảnh khắc tự nhiên"",
+      ""lighting_language"": ""ánh sáng tungsten ấm áp + phản xạ mềm, không khí ấm cúng của hiệu sách, giảm sáng nhẹ nhàng, không có đèn flash gắt"",
+      ""authenticity_markers"": ""khiếm khuyết tự nhiên, hạt nhiễu nhẹ, hiệu ứng bokeh chân thực, không có ánh sáng AI, không có HDR""
+    },
+    ""creative_prompt"": {
+      ""scene_summary"": ""Một khoảnh khắc điện ảnh chân thực, siêu thực tế về một cặp đôi đang hôn nhau trong lối đi hẹp của một hiệu sách/thư viện. Sách lấp đầy các kệ phía sau họ; những chồng sách ở phía trước tạo chiều sâu. Cảnh quay mang lại cảm giác riêng tư, tự nhiên và ấm áp, với tính thẩm mỹ nhòe chuyển động mềm mại như được quay bằng tay."",
+      ""subjects"": {
+        ""count"": 2,
+        ""description"": ""một cặp đôi thật, tỷ lệ cơ thể tự nhiên, kết cấu da chân thực"",
+        ""expression"": ""thân mật và vui vẻ, đắm chìm trong khoảnh khắc"",
+        ""skin_and_face"": ""kết cấu da thật, trang điểm tối thiểu, không chỉnh sửa""
+      },
+      ""pose_and_micro_action"": ""Người đàn ông kéo người phụ nữ lại gần bằng eo; người phụ nữ vòng tay quanh cổ anh. Khuôn mặt của họ bị che khuất một phần bởi nụ hôn, được ghi lại giữa chuyển động để tạo hiệu ứng nhòe tự nhiên."",
+      ""wardrobe_and_style"": {
+        ""female"": ""váy hoặc áo ôm đơn giản với {argument name=\""female wardrobe color\"" default=\""tông màu trung tính\""}, tóc mềm tự nhiên"",
+        ""male"": ""áo sơ mi cài cúc hoặc áo len dệt kim thông thường, tông màu trung tính"",
+        ""no_logos"": ""không có thương hiệu dễ thấy""
+      },
+      ""environment_details"": {
+        ""location"": ""lối đi của hiệu sách/thư viện cũ ấm cúng"",
+        ""background"": ""những kệ sách cao chất đầy sách, tông màu gỗ ấm áp"",
+        ""foreground"": ""sách và gáy sách bị mờ, gần ống kính để tạo chiều sâu"",
+        ""props"": ""sách xếp chồng trên một xe đẩy nhỏ hoặc mép kệ""
+      },
+      ""lighting"": ""ánh sáng thực tế màu hổ phách ấm áp, bóng mềm, điểm nhấn nhẹ nhàng trên tóc và xương gò má"",
+      ""composition"": """"
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890673086_xe89r2_G_DTY-kW0AAX35W.jpg""]","{""name"":""Özge Döner"",""url"":""https://x.com/astronomerozge1""}",https://x.com/astronomerozge1/status/2013341511480496169,"Chân dung, Nhóm người, Nhiếp ảnh, Điện ảnh, 3D, Sản phẩm, Nhân vật, Xe cộ, Thành phố, Văn bản, Logo, UI/UX"

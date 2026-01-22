@@ -1,0 +1,37 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+5,Tài liệu Bằng sáng chế Cổ điển cho một Phát minh,"Một lời nhắc được thiết kế để tạo ra hình ảnh tài liệu bằng sáng chế cổ điển của Hoa Kỳ từ cuối những năm 1800. Nó chỉ định các chi tiết như bản vẽ kỹ thuật chính xác, chú thích viết tay, kết cấu giấy cũ, vết ố vàng, con dấu dập nổi và dấu sáp, làm cho nó lý tưởng cho tính thẩm mỹ lịch sử hoặc lưu trữ.","Một tài liệu bằng sáng chế cổ điển cho {argument name=""invention"" default=""INVENTION""}, được tạo kiểu theo hồ sơ của Văn phòng Bằng sáng chế Hoa Kỳ cuối những năm 1800. Trang này có các bản vẽ kỹ thuật chính xác với các chú thích được đánh số (Hình 1, Hình 2, Hình 3) hiển thị các góc nhìn phía trước, bên cạnh và các chi tiết tháo rời. Các chú thích viết tay bằng mực bút máy mô tả cơ chế. Giấy có màu ngà đã cũ với các vết ố vàng và nếp gấp mềm. Một con dấu dập nổi chính thức và dấu sáp đỏ xuất hiện ở góc. Tên và ngày của nhà phát minh được ký tay xuất hiện ở phía dưới. Toàn bộ hình ảnh mang lại cảm giác như một tài liệu lưu trữ được phục hồi — đầy tính xác thực, lịch sử và hơi bí ẩn.","[""https://cms-assets.youmind.com/media/1766940094520_1mg5pd_G8_m2ZVWEAAMG7y.jpg"",""https://cms-assets.youmind.com/media/1766940095035_8t8iil_G8_mW4FWwAEwERE.jpg"",""https://cms-assets.youmind.com/media/1766940095188_kt8ksq_G8_m_7hWoAAw19u.jpg"",""https://cms-assets.youmind.com/media/1766940096864_fhv4oo_G8_nePrXUAAHvgn.jpg""]","{""name"":""Alexandra Aisling"",""url"":""https://x.com/AllaAisling""}",https://x.com/AllaAisling/status/2004212035333365763,"Minh họa, Cổ điển"
+47,Infographic / Hình ảnh giáo dục - Lệnh chụp ảnh kỹ thuật sơ đồ thực phẩm phân tách,"Một lời nhắc mang tính khái niệm cao được thiết kế để hình dung một món ăn nhiều lớp như một mô hình kiến trúc hoặc bản thiết kế kỹ thuật. Nó yêu cầu món ăn phải được cắt theo mặt cắt ngang, với các lớp được dán nhãn bằng các thanh acrylic, và bao gồm các yếu tố như công nhân xây dựng thu nhỏ và thông số kỹ thuật vật liệu, được thể hiện theo phong cách bản vẽ kỹ thuật.","<instructions>
+Đầu vào A: Bất kỳ món ăn nào có nhiều lớp/kết cấu (ví dụ: {argument name=""layered dish"" default=""lasagna, baklava, mille-feuille, biryani""})
+Đầu vào B: Mô hình giải phẫu / bản thiết kế kiến trúc
+Mục tiêu: Một lát cắt đã ăn một nửa được trưng bày như một mô hình kiến trúc với mỗi lớp được dán nhãn, thể hiện kỹ thuật kết cấu và khoa học vật liệu trong nấu ăn.
+Quy tắc:
+Món ăn được cắt lát hoàn hảo theo mặt cắt ngang, đứng thẳng
+Các thanh acrylic có cờ dán nhãn từng lớp
+Chỉ có các chú thích và số đo liên quan đến thực phẩm
+Nền liên quan đến thực phẩm
+Công nhân xây dựng thu nhỏ trên các lớp
+Lịch sử của bữa ăn được hình dung trên một tấm áp phích trên tường
+Ghi chú mẹo nấu ăn
+Thông số kỹ thuật vật liệu (mật độ, độ ẩm)
+Lớp nền không có nhãn
+Bao gồm các dụng cụ nấu ăn nhỏ
+Thẩm mỹ bản vẽ kỹ thuật với màu trắng và xanh
+Đầu ra: MỘT hình ảnh, nhiếp ảnh kỹ thuật, ánh sáng công nghiệp sạch, tỷ lệ 4:5
+</instructions>","[""https://cms-assets.youmind.com/media/1768804211731_xigzux_G-wbJpmbQAY6sK4.jpg""]","{""name"":""Gadgetify"",""url"":""https://x.com/Gdgtify""}",https://x.com/Gdgtify/status/2012918907305427332,"Nhiếp ảnh, Minh họa, Nội thất, Đồ ăn, Poster, UI/UX, Giáo dục"
+130,Tài sản trò chơi - Lời nhắc Toàn cảnh Equirectangular 360 độ,"Một lời nhắc rất kỹ thuật được thiết kế để tạo ra hình ảnh toàn cảnh hình chữ nhật 360 độ liền mạch, được tối ưu hóa cho ánh sáng và bố cục nhất quán trên toàn bộ khung nhìn hình cầu. Nó chỉ định một cảnh lịch sử và bao gồm các quy tắc để ngăn chặn các tạo tác hình ảnh như đường nối hoặc bóng định hướng, làm cho nó lý tưởng cho môi trường thực tế ảo.","[SCENE] = {argument name=""scene description"" default=""Thành Troy, Anatolia, khoảng thế kỷ 12 TCN. Những khoảnh khắc sau khi ngựa thành Troy được kéo vào bên trong tường thành.""}
+
+Tạo ảnh toàn cảnh 360 độ hình chữ nhật đều (equirectangular) với tỷ lệ khung hình 21:9.
+Kết xuất cảnh dưới dạng ảnh toàn cảnh hình cầu đầy đủ với phép chiếu hình chữ nhật đều chính xác.
+Thiết lập toàn bộ môi trường nghiêm ngặt dựa trên [SCENE].
+Đặt camera ở chính giữa cảnh với góc nhìn cố định.
+Thiết kế môi trường như một thế giới liên tục, hình tròn, không có cạnh trái hoặc phải.
+Đảm bảo các cạnh ngang đầu tiên và cuối cùng khớp hoàn hảo.
+Phân bổ kiến trúc, con người và vật thể đều khắp khung nhìn 360° đầy đủ.
+Sử dụng ánh sáng, vật liệu và hành vi vật lý thực tế.
+Giữ nét sắc nét trên toàn bộ ảnh toàn cảnh.
+Sử dụng ánh sáng ban ngày tự nhiên đồng đều, không có hướng sáng chủ đạo.
+Đảm bảo cường độ và màu sắc ánh sáng nhất quán trên toàn bộ ảnh toàn cảnh 360°.
+Xem môi trường được chiếu sáng bởi một vòm trời khuếch tán đều thay vì một nguồn sáng mặt trời duy nhất.
+Áp dụng bóng đổ mềm toàn cầu không ưu tiên bất kỳ hướng ngang nào.
+Tránh các gradient ánh sáng mặt trời định hướng có thể gây ra sự không khớp ánh sáng đường nối.
+Tránh các yếu tố hiện đại, lớp phủ UI, đường viền, khung, chế độ xem cắt xén, phong cách giả tưởng hoặc các đường nối toàn cảnh bị hỏng.","[""https://cms-assets.youmind.com/media/1768804204059_0knjxw_G-6FROjXwAAhlGv.jpg"",""https://cms-assets.youmind.com/media/1768804204223_htd648_G-6FhchXQAAg2v9.jpg"",""https://cms-assets.youmind.com/media/1768804204700_mp84c0_G-6FROdXEAA5Ebi.jpg"",""https://cms-assets.youmind.com/media/1768804205830_ybuinq_G-3jkdbWIAA-73-.jpg"",""https://cms-assets.youmind.com/media/1768804205613_2j0lcg_G-3iiIrWsAEbmso.jpg""]","{""name"":""Aimi Kōda"",""url"":""https://x.com/aimikoda""}",https://x.com/aimikoda/status/2012694679628677523,"Nhiếp ảnh, Nội thất, Xe cộ, Văn bản, Trò chơi, UI/UX"

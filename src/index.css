@@ -162,7 +162,7 @@ header {
   transition: opacity 0.2s;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 12px;
   pointer-events: none;
   /* Make clickable through if needed, but we handle button clicks */
@@ -173,23 +173,48 @@ header {
   pointer-events: auto;
 }
 
-.save-btn {
-  align-self: flex-end;
-  background-color: var(--pk-red);
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 12px 20px;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 14px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.1s;
+.pin-overlay-bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
 }
 
-.save-btn:hover {
-  filter: brightness(1.05);
-  transform: scale(1.02);
+.pin-dims-badge {
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 11px;
+  font-weight: 700;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pin-enlarge-btn {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s;
+  margin-left: auto;
+}
+
+.pin-enlarge-btn:hover {
+  transform: scale(1.1);
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pin-dims-badge:empty {
+  display: none;
 }
 
 .pin-info {
@@ -323,39 +348,25 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.75);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2000;
-  padding: 32px;
-  overflow: hidden;
+  backdrop-filter: blur(5px);
+  padding: 20px;
 }
 
 .modal-content {
   background: white;
   width: 100%;
-  max-width: 900px;
+  max-width: 1016px;
   max-height: 90vh;
   border-radius: 32px;
-  overflow: hidden;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   display: flex;
-  flex-direction: row;
   position: relative;
-  animation: zoomIn 0.2s ease;
-}
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .modal-close-btn {
@@ -365,24 +376,24 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
   border: none;
-  background: rgba(255, 255, 255, 0.8);
   font-size: 24px;
   cursor: pointer;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10;
   transition: background 0.2s;
 }
 
 .modal-close-btn:hover {
-  background: #f0f0f0;
+  background: #fff;
 }
 
 .modal-image-col {
-  flex: 1;
-  background-color: #f9f9f9;
+  flex: 1.2;
+  background: #f0f0f0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -390,66 +401,175 @@ header {
 }
 
 .modal-image {
-  max-width: 100%;
-  max-height: 90vh;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  display: block;
 }
 
 .modal-info-col {
   flex: 1;
-  padding: 32px;
+  padding: 40px;
   overflow-y: auto;
-  min-width: 350px;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-header {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .modal-title {
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 12px;
   line-height: 1.2;
+  color: #111;
 }
 
 .modal-description {
   font-size: 16px;
+  line-height: 1.5;
   color: #333;
   margin-bottom: 24px;
-  line-height: 1.5;
 }
 
-.prompt-box {
-  background: #f5f5f5;
-  padding: 16px;
-  border-radius: 12px;
+/* Modal Actions & Prompt Viewer */
+.modal-actions-wrapper {
+  display: flex;
+  gap: 12px;
   margin-bottom: 24px;
-  font-family: monospace;
-  font-size: 14px;
-  color: #111;
-  white-space: pre-wrap;
-  border: 1px solid #ddd;
+  flex-wrap: wrap;
 }
 
-.author-section {
+.modal-action-btn {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-top: auto;
-  padding-top: 24px;
-  border-top: 1px solid #eee;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 1px solid #efefef;
+  background: #f8f8f8;
+  color: #111;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 }
 
-/* Responsive modal */
-@media (max-width: 768px) {
-  .modal-content {
-    flex-direction: column;
-    overflow-y: auto;
+.modal-action-btn:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.modal-action-btn.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.modal-action-btn.copied {
+  background: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+  animation: bounce 0.4s ease;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
   }
 
-  .modal-image-col {
-    min-height: 300px;
+  50% {
+    transform: translateY(-4px);
   }
+}
+
+/* Prompt Viewer Block */
+.prompt-viewer {
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.prompt-viewer-header {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prompt-viewer-header span {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.prompt-viewer-header button {
+  background: transparent;
+  border: none;
+  color: #eee;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.prompt-viewer-header button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.prompt-content-area {
+  padding: 20px;
+  color: #d4d4d4;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Custom Scrollbar for Prompt Area */
+.prompt-content-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+.prompt-content-area::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.prompt-content-area::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.prompt-content-area::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
 }

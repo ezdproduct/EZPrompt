@@ -1,0 +1,285 @@
+/* CategoryFilter.css - Styles for the enhanced category filter component */
+
+/* =========================
+   FLAT MODE STYLES
+   ========================= */
+.category-filter-flat {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px;
+    background: #fff;
+    border-bottom: 1px solid #efefef;
+    overflow-x: auto;
+}
+
+.category-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.category-chip:hover {
+    background: #f5f5f5;
+    border-color: #d0d0d0;
+}
+
+.category-chip.active {
+    background: #e60023;
+    color: #fff;
+    border-color: #e60023;
+}
+
+.category-chip .cat-icon {
+    font-size: 16px;
+}
+
+/* =========================
+   GROUPED MODE STYLES
+   ========================= */
+.category-filter-grouped {
+    padding: 16px;
+    background: #fff;
+    border-right: 1px solid #efefef;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    min-width: 260px;
+}
+
+.category-section {
+    margin-bottom: 16px;
+}
+
+.category-all {
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+    padding: 10px 16px;
+    margin-bottom: 8px;
+}
+
+.category-group-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #767676;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.category-group-header:hover {
+    background: #f5f5f5;
+}
+
+.group-title {
+    flex: 1;
+    text-align: left;
+}
+
+.group-toggle {
+    font-size: 10px;
+    color: #999;
+}
+
+.category-group-items {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 4px 0;
+    padding-left: 8px;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.category-item:hover {
+    background: #f5f5f5;
+}
+
+.category-item.active {
+    background: #e60023;
+    color: #fff;
+}
+
+.category-item .cat-icon {
+    font-size: 18px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.category-item .cat-name {
+    flex: 1;
+}
+
+.category-item .cat-count {
+    font-size: 12px;
+    color: #999;
+    font-weight: 500;
+}
+
+.category-item.active .cat-count {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* =========================
+   TAGS MODE STYLES
+   ========================= */
+.category-filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 12px;
+}
+
+.tag-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 18px;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tag-chip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: #e0e0e0;
+}
+
+.tag-chip.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border-color: #667eea;
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.4);
+}
+
+.tag-all {
+    background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+
+.tag-all:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   SCROLLBAR CUSTOMIZATION
+   ========================= */
+.category-filter-grouped::-webkit-scrollbar {
+    width: 6px;
+}
+
+.category-filter-grouped::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.category-filter-grouped::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 10px;
+}
+
+.category-filter-grouped::-webkit-scrollbar-thumb:hover {
+    background: #b0b0b0;
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+@media (max-width: 768px) {
+    .category-filter-grouped {
+        min-width: 100%;
+        max-height: 300px;
+        border-right: none;
+        border-bottom: 1px solid #efefef;
+    }
+
+    .category-filter-flat {
+        padding: 12px;
+    }
+
+    .category-chip {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .tag-chip {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+}
+
+/* =========================
+   ANIMATIONS
+   ========================= */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.category-group-items {
+    animation: fadeIn 0.3s ease;
+}
+
+/* Badge for new categories */
+.category-item .new-badge,
+.tag-chip .new-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    margin-left: 6px;
+    background: #4CAF50;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform: uppercase;
+}

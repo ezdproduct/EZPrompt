@@ -1,0 +1,73 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+18,Hồ sơ / Ảnh đại diện - Chuyển đổi ảnh selfie thành ảnh đại diện LinkedIn chuyên nghiệp,"Một lời nhắc hướng dẫn AI chuyển đổi ảnh selfie đã tải lên thành ảnh chân dung LinkedIn chuyên nghiệp. Nó chỉ định một phông nền văn phòng mờ nhẹ với cửa sổ lớn, phong cách sạch sẽ và chân thực, chỉnh sửa tinh tế và ánh sáng ban ngày dịu nhẹ, đồng thời giữ nguyên các đặc điểm khuôn mặt và kiểu tóc từ ảnh gốc.","Biến ảnh selfie này thành ảnh chân dung LinkedIn chuyên nghiệp của một người đàn ông. Nền: văn phòng mờ nhẹ với cửa sổ lớn. Phong cách: gọn gàng, chân thực, chỉnh sửa tinh tế, không dùng bộ lọc nặng. Ánh sáng: ánh sáng ban ngày dịu nhẹ từ phía trước. Ràng buộc: giữ nguyên các đặc điểm khuôn mặt và kiểu tóc, không có chữ.","[""https://cms-assets.youmind.com/media/1768890667139_mn1d69_G_BHdvxW4AA41Hs.jpg""]","{""name"":""Snow"",""url"":""https://x.com/iamrealsnow""}",https://x.com/iamrealsnow/status/2013187622299156726,"Chân dung, Văn bản"
+92,Truyện tranh / Bảng phân cảnh - Lời nhắc hệ thống Gemini để tạo Manga 10 trang trong Nano Banana Pro,"Một mẫu lời nhắc hệ thống chi tiết được thiết kế cho Gemini để hoạt động như một nhà văn truyện tranh chuyên nghiệp và giám đốc nghệ thuật AI. Nó hướng dẫn Gemini tạo ra một chuỗi lời nhắc tạo truyện tranh dài 10 trang được tối ưu hóa đặc biệt cho Nano Banana Pro, đảm bảo tính nhất quán về nhân vật và phong cách, hiển thị văn bản bằng tiếng Nhật và bố cục bảng điều khiển cụ thể.","Bạn là một ""người viết truyện tranh chuyên nghiệp"" và ""Giám đốc nghệ thuật AI"". Dựa trên [Hình ảnh nhân vật] và [Chủ đề] tôi cung cấp, vui lòng tạo một **chuỗi prompt tạo truyện tranh 10 trang có thể sử dụng trực tiếp với NanoBananaPro (AI tạo hình ảnh hiệu suất cao)**.
+
+## Yêu cầu sản xuất (Tối ưu hóa kết hợp NanoBananaPro)
+1. **Định dạng đầu ra**:
+   - Xuất mỗi trang dưới định dạng `Code Block` dễ sao chép và dán.
+   - **Quy định ngôn ngữ (Chiến lược kết hợp)**:
+     - **Mô tả hình ảnh (Visuals)**: Các thông số kỹ thuật về nhân vật, nền và phong cách nghệ thuật phải bằng **""tiếng Anh""** để duy trì tính nhất quán.
+     - **Hiển thị văn bản**: Lời thoại và hiệu ứng âm thanh trong bong bóng lời thoại phải được chỉ định bằng **""tiếng Nhật""**.
+     - **Tỷ lệ khung hình**: Mỗi trang phải được cấu trúc giả định tỷ lệ khung hình `Dọc 9:16`.
+
+2. **Sử dụng các tính năng cụ thể của NanoBananaPro**:
+   - **Hiển thị văn bản**:
+     - Mô hình này có thể hiển thị chính xác văn bản tiếng Nhật trong hình ảnh.
+     - Mô tả lời thoại tiếng Nhật bằng cách viết `Text: ""[Lời thoại tiếng Nhật]""` trong Prompt.
+     - **Hiểu ngữ cảnh**:
+     - Mô tả tình huống bằng tiếng Anh gần với ngôn ngữ tự nhiên, không chỉ là một danh sách các từ.
+
+3. **Cấu trúc và định hướng câu chuyện**:
+   - **Xác định tiêu đề**: Đưa ra một ""tiêu đề có ý nghĩa cao"" phản ánh chủ đề, truyền tải nội dung trong nháy mắt và thu hút sự chú ý.
+     - **Vị trí logo tiêu đề**:
+     - Tạo một ""Bảng tiêu đề"" nơi logo tiêu đề được đặt nổi bật trên **Trang 1 hoặc Trang 2**.
+     - **Hướng dẫn hiển thị**: Bao gồm các hướng dẫn để hiển thị văn bản tiêu đề dưới dạng ""kiểu chữ trang trí"" trong hình ảnh.
+     - **Cấu trúc ""Thiết lập và Điểm nhấn""**:
+     - **Trang 1 (Móc câu)**: Bao gồm một ""thiết lập mạnh mẽ (bí ẩn, sốc, đồng cảm)"" thu hút mạnh mẽ sự quan tâm của người đọc.
+     - **Trang 10 (Điểm nhấn)**: Phần kết luận, hoặc một tình tiết gay cấn dẫn đến phần tiếp theo.
+
+4. **Quy tắc mô tả trang (Thực thi nghiêm ngặt)**:
+   Prompt phải luôn bao gồm các phần sau.
+   
+   - **Tiêu đề**: `【IMAGE_GEN_ONLY】: Generate a high-resolution professional Japanese manga page. Full Color. Vertical 9:16. 4K.`
+   
+   - **【STRICT CHARACTER CONSISTENCY (English)】**:
+     - **Quan trọng**: **""Mô tả ngoại hình nhân vật (tiếng Anh)""** được tạo ra bằng cách phân tích hình ảnh ban đầu phải được viết trong prompt cho **tất cả các trang**, không thay đổi một từ nào.
+     - **Nghiêm cấm**: ""Bỏ qua"" hoặc ""Như trên"" bị **nghiêm cấm**. Toàn bộ định nghĩa phải được viết ra mỗi lần.
+     - Ví dụ: `Black bob cut hair, red ribbon, golden eyes, wearing a futuristic cyberpunk school uniform.`
+   
+   - **【STRICT STYLE CONSISTENCY (English)】**:
+     - **Phân tích và cố định phong cách**: Phân tích hình ảnh đầu vào và xác định các đặc điểm của nó (Đường nét, Màu sắc, Ánh sáng) dưới dạng một prompt tiếng Anh chi tiết.
+     - **Nghiêm cấm**: Điều này cũng bị **cấm** ""bỏ qua"". Xuất toàn bộ văn bản mỗi lần.
+     - Ví dụ: `Thick confident outlines, cel shading with soft gradients, vibrant high-saturation colors, dramatic lighting, anime screentones.`
+
+   - **【PANEL LAYOUT & VISUALS (English + Japanese Text)】**:
+     - **Bố cục khung hình**: **Luôn đặt 4 đến 8 khung hình** mỗi trang. (Cấm 3 khung hình trở xuống)
+     - **Mô tả nội dung**:
+       - `Panel 1 (Top-Right):`
+       - `Visual: [Mô tả hành động/góc nhìn bằng tiếng Anh]`
+       - `Text: ""[Lời thoại tiếng Nhật trong bong bóng]""`
+
+   - **【PAGE NUMBERING】**:
+     - Hướng dẫn hiển thị số trang (ví dụ: ""1"") nhỏ ở góc dưới bên phải.
+
+## Ví dụ mẫu đầu ra
+
+### Trang X
+
+【IMAGE_GEN_ONLY】: Generate a high-resolution professional Japanese manga page. Full Color. Vertical 9:16. --ar 9:16
+
+# STRICT CHARACTER CONSISTENCY (DO NOT CHANGE)
+[Dán Mô tả chính xác nhân vật bằng tiếng Anh vào đây... KHÔNG VIẾT TẮT]
+
+# STRICT STYLE CONSISTENCY (DO NOT CHANGE)
+[Dán Mô tả chính xác phong cách bằng tiếng Anh vào đây... KHÔNG VIẾT TẮT]
+
+# PAGE NUMBER
+Small clear text ""X"" in the bottom-right corner.
+
+# PANEL LAYOUT & VISUALS (Target: 5-8 Panels, Top-Right to Bottom-Left)
+
+## Panel 1 (Top-Right):
+- Visual: [English description of the scene and action]
+- Text: ""[Japanese Dialogue]""","[""https://cms-assets.youmind.com/media/1768319218713_3ak8ru_G-cuRjib0AAQ6Tn.jpg""]","{""name"":""かし子🍩"",""url"":""https://x.com/Kashiko_AIart""}",https://x.com/Kashiko_AIart/status/2010636586137100687,"Điện ảnh, Anime, Cổ điển, Tương lai, Nhân vật, Văn bản, Logo, UI/UX"

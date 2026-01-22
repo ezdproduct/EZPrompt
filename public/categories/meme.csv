@@ -1,0 +1,275 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+7,Sơ đồ 'Đầm lầy' Phát triển AI Agent,"Một lời nhắc dựa trên JSON chi tiết dành cho Nano Banana Pro để tạo ra sơ đồ 'Swamp' (một định dạng meme phổ biến trên internet) minh họa tính chất tuần hoàn của việc bị mắc kẹt trong quá trình phát triển AI Agent. Lời nhắc xác định cấu trúc, phong cách (đơn giản, minh họa dễ thương), bố cục (đường dẫn giới thiệu thẳng dẫn vào một vòng lặp theo chiều kim đồng hồ) và các nút cụ thể với nhân vật, hình ảnh và thuật ngữ đối thoại/suy nghĩ của sơ đồ.","diagram:
+  title: ""{argument name=""diagram title"" default=""Vòng Lặp Đầm Lầy Phát Triển AI Agent Sinh Thành""}""
+  style:
+    character: ""simple_editorial_cute""
+    tone: ""light_like_original""
+    line: ""soft_round""
+    shading: ""flat_minimal""
+    palette: ""muted_editorial""
+    background: ""light_beige_or_white""
+
+  rule:
+    first_character_only: ""Chỉ người đầu tiên là khác""
+    others_same_character: ""Tất cả những người khác đều là một""
+    anxiety_requires_tech_terms: true
+    dialogue_tone: ""Giữ nguyên cách diễn đạt ngắn gọn, nhẹ nhàng của sơ đồ gốc""
+
+layout:
+  intro_track: ""Phần trên là một đường thẳng (từ trái sang phải), sau đó rẽ xuống để nối vào vòng lặp""
+  loop_track: ""Sắp xếp thành một vòng lặp (hình tròn), với các mũi tên cong theo chiều kim đồng hồ dọc theo chu vi""
+
+nodes:
+  # ===== Upper Section: Straight Introduction =====
+  - id: A
+    zone: ""intro""
+    position: ""upper_left""
+    actor: ""Người khác (Kỹ sư cấp cao)""
+    visual: ""Chỉ vào máy tính xách tay""
+    item: ""Màn hình Demo AI Agent""
+    says: ""Nó sẽ làm bạn hạnh phúc.""
+    arrow_to: { id: B, shape: ""straight"", direction: ""right"" }
+
+  - id: B
+    zone: ""intro""
+    position: ""upper_center""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Vẫy tay nhẹ""
+    says: ""Ngay cả một agent đơn giản...""
+    arrow_to: { id: C, shape: ""straight"", direction: ""right"" }
+
+  - id: C
+    zone: ""intro""
+    position: ""upper_right""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Thực thi mã mẫu""
+    item: ""Mẫu LangChain / CrewAI""
+    arrow_to: { id: D, shape: ""straight"", direction: ""down"" }
+
+  # ===== D: Awakening Point =====
+  - id: D
+    zone: ""connector""
+    position: ""right_outer_before_loop""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual:
+      face: ""Mắt mở to (dễ thương)""
+      effect: ""Vệt sáng nhỏ của sự cảm hứng""
+      posture: ""Nghiêng người về phía trước""
+    state: ""Thức tỉnh""
+    says: ""Agent, cái này thật điên rồ...""
+    micro_text: ""(Thức tỉnh ở đây)""
+    arrow_to:
+      id: E
+      shape: ""gentle_curve""
+      direction: ""down_into_ring""
+
+  # ===== Loop Start (Must rotate from here) =====
+  - id: E
+    zone: ""loop""
+    position: ""loop_right_upper""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Ôm đầu (dễ thương)""
+    state: ""Bắt đầu lo lắng/khó chịu""
+    says: ""Khó chịu""
+    thought_terms:
+      - ""Thiết kế Prompt""
+      - ""Lựa chọn công cụ""
+      - ""Thiết kế bộ nhớ""
+    thought_text: ""Nó không hoạt động như mong đợi...""
+    arrow_to: { id: F, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: F
+    zone: ""loop""
+    position: ""loop_right_lower""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Bị bao quanh bởi mã và nhật ký""
+    state: ""Sự khó chịu lắng xuống""
+    says: ""Trong trạng thái khó chịu""
+    callout: ""Vòng lặp! Chạy loạn! Ảo giác!""
+    thought_terms:
+      - ""RAG""
+      - ""Gọi hàm""
+      - ""Sử dụng công cụ""
+    arrow_to: { id: G, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: G
+    zone: ""loop""
+    position: ""loop_bottom""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Bị bao phủ bởi ghi chú và sơ đồ""
+    says: ""Cơ thể dần dần phát triển khả năng chịu đựng, và việc sử dụng tăng lên.""
+    items:
+      - ""Sơ đồ kiến trúc Agent""
+      - ""Ghi nhớ phân công vai trò""
+      - ""Luồng chuyển đổi trạng thái""
+    arrow_to: { id: H, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: H
+    zone: ""loop""
+    position: ""loop_left_lower""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Hoạt động tốt, nắm tay nhỏ""
+    state: ""Thỏa mãn tạm thời""
+    says: ""Mong muốn tạm thời được thỏa mãn""
+    arrow_to: { id: I, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: I
+    zone: ""loop""
+    position: ""loop_left_upper""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Suy nghĩ lại""
+    state: ""Ám ảnh/Chiếm hữu suy nghĩ""
+    says: ""Suy nghĩ về agent""","[""https://cms-assets.youmind.com/media/1766667407596_i77nzi_G8ybmHWagAUO-CF.jpg""]","{""name"":""Studio Veco|日本一ダサい画像を生成する人"",""url"":""https://x.com/studio_veco""}",https://x.com/studio_veco/status/2003147059298443496,"Chân dung, Minh họa, Tối giản, Nội thất, Nhân vật, Văn bản, UI/UX, Meme"
+43,Bài đăng trên mạng xã hội - Cảnh phim lãng mạn trên vòng quay ngựa gỗ với Identity Lock,"Một lời nhắc JSON phức tạp, có nhiều ràng buộc cho Nano Banana Pro được thiết kế để tạo ra một cảnh quay điện ảnh siêu chân thực về một cặp đôi trên vòng quay ngựa gỗ trong nhà vào ban đêm. Nó yêu cầu khóa nhận dạng nghiêm ngặt dựa trên hai hình ảnh tham chiếu đã tải lên, cài đặt máy ảnh cụ thể (35mm, f/2.0), ánh sáng tungsten ấm áp và các ràng buộc chi tiết về tư thế và môi trường để đạt được tính thẩm mỹ của thể loại romcom.","{
+  ""generation_request"": {
+    ""meta_data"": {
+      ""tool"": ""NanoBanana Pro"",
+      ""task_type"": ""photoreal_cinematic_carousel_couple_close_scene"",
+      ""version"": ""v1.0_CAROUSEL_RIDE_ROMCOM_WARM_LIGHTS_POSE_LOCK"",
+      ""priority"": ""highest""
+    },
+    ""references"": {
+      ""female_reference_image"": {
+        ""slot"": 1,
+        ""purpose"": ""FEMALE_IDENTITY_LOCK"",
+        ""strict_identity_lock"": true,
+        ""no_beautify"": true
+      },
+      ""male_reference_image"": {
+        ""slot"": 2,
+        ""purpose"": ""MALE_IDENTITY_LOCK"",
+        ""strict_identity_lock"": true,
+        ""no_beautify"": true
+      },
+      ""composition_reference_image"": {
+        ""source"": ""UPLOAD_REFERENCE_IMAGE (OPTIONAL)"",
+        ""purpose"": ""EXACT_COMPOSITION_LIGHTING_WARDROBE_ENV_LOCK"",
+        ""strict_lock"": true,
+        ""no_layout_drift"": true,
+        ""preserve_framing"": true
+      }
+    },
+    ""output_settings"": {
+      ""aspect_ratio"": ""4:5"",
+      ""orientation"": ""portrait"",
+      ""resolution"": ""ultra_high_res"",
+      ""render_style"": ""ultra_photoreal_cinematic_lifestyle"",
+      ""sharpness"": ""crisp_faces_natural_texture"",
+      ""film_grain"": ""subtle_analog"",
+      ""color_grade"": ""warm_carnival_golden""
+    },
+    ""hard_constraints"": [
+      ""Chỉ có đúng 2 người (một nữ, một nam)."",
+      ""Khuôn mặt phải khớp với ảnh tham chiếu đã tải lên với độ tương đồng tối đa (không biến dạng, không lệch nhận dạng)."",
+      ""Chỉ ảnh chân thực: kết cấu da tự nhiên, không dùng bộ lọc làm đẹp, không làm mịn da nhân tạo."",
+      ""Bối cảnh vòng quay ngựa gỗ: trần nhà trang trí công phu có thể nhìn thấy + bóng đèn ấm áp + cột vòng quay ngựa gỗ + ngựa gỗ được sơn."",
+      ""Khớp logic tư thế tham chiếu: cặp đôi trên ngựa gỗ, nhìn nhau và mỉm cười."",
+      ""Không có chữ có thể đọc được, không logo, không hình mờ."",
+      ""Giải phẫu chính xác: tay nắm cột tự nhiên, tư thế ngồi trên ngựa gỗ thực tế.""
+    ],
+    ""camera"": {
+      ""style"": ""ảnh phong cách điện ảnh"",
+      ""lens"": ""35mm"",
+      ""aperture"": ""f/2.0"",
+      ""focus"": ""sắc nét trên cả hai khuôn mặt, làm mờ nhẹ nhàng hậu cảnh"",
+      ""shutter_speed"": ""1/125"",
+      ""iso"": 800,
+      ""white_balance"": ""warm_tungsten_carnival""
+    },
+    ""lighting"": {
+      ""type"": ""bóng đèn vòng quay ngựa gỗ + ánh sáng xung quanh ấm áp"",
+      ""contrast"": ""trung bình"",
+      ""highlights"": ""ánh sáng phản chiếu mềm mại trên tóc và vải denim, kiểm soát trên da"",
+      ""shadows"": ""mềm mại, chuyển tiếp tự nhiên""
+    },
+    ""prompt"": {
+      ""scene_summary"": ""Cảnh phim lãng mạn hài hước siêu chân thực, đậm chất điện ảnh trên vòng quay ngựa gỗ trong nhà vào ban đêm. Trần vòng quay ngựa gỗ trang trí công phu chiếm phần trên của khung hình với các chi tiết trang trí cổ điển và hàng bóng đèn phát sáng ấm áp. Ở tiền cảnh, đầu ngựa gỗ và cột vòng quay ngựa gỗ có thể nhìn thấy, với các chi tiết cổ điển phong phú (viền vàng, điểm nhấn yên ngựa đầy màu sắc). \n\nChỉ có hai người: người nam ngồi thấp hơn một chút trên ngựa gỗ, hai tay nắm cột dọc và nhìn lên người nữ với nụ cười dịu dàng. Người nữ ngồi trên con ngựa kế bên, hơi nghiêng về phía anh ấy, mỉm cười đáp lại một cách ấm áp. Khuôn mặt của họ là""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890707867_4q2zcp_G_DcduGWQAAl3Hr.jpg""]","{""name"":""Özge Döner"",""url"":""https://x.com/astronomerozge1""}",https://x.com/astronomerozge1/status/2013351484008620139,"Chân dung, Nhóm người, Nhiếp ảnh, Điện ảnh, 3D, Cổ điển, Nhân vật, Xe cộ, Văn bản, Logo, Meme"
+85,Truyện tranh / Bảng phân cảnh - Mô hình LEGO Diorama thu nhỏ bối cảnh phim kinh dị 'The Nun',"Một lời nhắc JSON sáng tạo để tạo cảnh mô hình LEGO thu nhỏ mô tả phim trường của bộ phim kinh dị 'The Nun'. Nó bao gồm các mô tả chi tiết về nội thất đá Gothic, nhân vật nữ tu LEGO và nhiều thành viên đoàn làm phim LEGO minifigure (người quay phim, người cầm micro boom, đạo diễn) tương tác với thiết bị làm phim, tất cả được thể hiện bằng ánh sáng điện ảnh kịch tính, độ tương phản cao.","{
+  ""scene_overview"": {
+    ""setting"": ""Nội thất đá kiểu Gothic giống bối cảnh nhà thờ hoặc thánh đường"",
+    ""environment_style"": ""Mô hình LEGO thu nhỏ"",
+    ""location_type"": ""Trường quay / sản xuất phim hậu trường"",
+    ""time_of_day"": ""Trong nhà, ánh sáng được kiểm soát (tâm trạng đêm điện ảnh)"",
+    ""atmosphere"": ""Điện ảnh, kỳ quái, sân khấu, được kiểm soát"",
+    ""mood"": ""Hài hước đen tối, ma quái, vui tươi, sáng tạo"",
+    ""genre_influence"": [""Kinh dị"", ""Làm phim hậu trường"", ""Kỳ ảo""]
+  },
+
+  ""primary_subject"": {
+    ""type"": ""Nhân vật LEGO minifigure"",
+    ""role"": ""Nữ tu / nhân vật kinh dị"",
+    ""appearance"": {
+      ""outfit"": ""Áo nữ tu đen với cổ áo trắng"",
+      ""face"": ""Mặt trắng bệch, mắt trũng đen, biểu cảm kỳ quái"",
+      ""accessories"": ""Dây chuyền thánh giá"",
+      ""pose"": ""Đứng yên, đối diện về phía trước""
+    },
+    ""positioning"": {
+      ""location"": ""Nằm ở trung tâm trong một vòm đá lớn"",
+      ""background"": ""Hốc hoặc buồng được chiếu sáng màu xanh lam rực rỡ""
+    }
+  },
+
+  ""supporting_characters"": {
+    ""crew_members"": [
+      {
+        ""role"": ""Người quay phim"",
+        ""object_interaction"": ""Vận hành một máy quay phim LEGO lớn"",
+        ""position"": ""Phía trước bên trái, ngồi trên xe đẩy máy quay""
+      },
+      {
+        ""role"": ""Người điều khiển micro boom"",
+        ""object_interaction"": ""Giữ micro boom hướng về phía chủ thể"",
+        ""position"": ""Phía trên bên trái tiền cảnh""
+      },
+      {
+        ""role"": ""Kỹ thuật viên ánh sáng"",
+        ""object_interaction"": ""Giữ một tấm phản sáng hình chữ nhật"",
+        ""position"": ""Bên phải, đặt trên giá đỡ""
+      },
+      {
+        ""role"": ""Người điều khiển bảng vỗ"",
+        ""object_interaction"": ""Giữ một bảng vỗ"",
+        ""position"": ""Phía trước trung tâm bên phải""
+      },
+      {
+        ""role"": ""Đạo diễn / Giám sát kịch bản"",
+        ""object_interaction"": ""Giữ bảng kẹp và giấy tờ"",
+        ""position"": ""Phía dưới bên phải tiền cảnh""
+      }
+    ],
+    ""style"": ""Tất cả các nhân vật đều là LEGO minifigure với tông màu da vàng và nhiều kiểu tóc khác nhau""
+  },
+
+  ""props_and_equipment"": {
+    ""film_equipment"": [
+      ""Máy quay phim LEGO"",
+      ""Xe đẩy máy quay trên đường ray"",
+      ""Micro boom có kính chắn gió lông"",
+      ""Tấm phản sáng"",
+      ""Bảng vỗ"",
+      ""Màn hình hiển thị nhân vật nữ tu"",
+      ""Dây cáp cuộn trên sàn""
+    ],
+    ""architectural_elements"": [
+      ""Tường gạch đá"",
+      ""Cửa vòm lớn"",
+      ""Hốc tường lõm"",
+      ""Sàn đá lát gạch""
+    ]
+  },
+  ""lighting"": {
+    ""primary_light"": ""Ánh sáng xanh lục lam mạnh từ phía sau nữ tu"",
+    ""secondary_lighting"": ""Ánh sáng studio trung tính ấm áp trên đoàn làm phim và tiền cảnh"",
+    ""contrast"": ""Độ tương phản cao giữa nền xanh lạnh và tông màu tiền cảnh ấm áp"",
+    ""style"": ""Ánh sáng điện ảnh, kịch tính, lấy cảm hứng kinh dị""
+  },
+
+  ""color_palette"": {
+    ""dominant_colors"": [""Xám đậm"", ""Đen"", ""Xanh lục lam""],
+    ""accent_colors"": [""Vàng ấm (""
+  }
+}","[""https://cms-assets.youmind.com/media/1768631179842_bt4bpk_G-wvqjobQAIEqnQ.jpg""]","{""name"":""Chandan Singh"",""url"":""https://x.com/cbsingh_oo3""}",https://x.com/cbsingh_oo3/status/2012035545812385829,"Chân dung, Điện ảnh, Nội thất, Nhân vật, Xe cộ, Thời trang, Văn bản, UI/UX, Meme"

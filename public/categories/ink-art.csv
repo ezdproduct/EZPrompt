@@ -1,0 +1,66 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+5,Tài liệu Bằng sáng chế Cổ điển cho một Phát minh,"Một lời nhắc được thiết kế để tạo ra hình ảnh tài liệu bằng sáng chế cổ điển của Hoa Kỳ từ cuối những năm 1800. Nó chỉ định các chi tiết như bản vẽ kỹ thuật chính xác, chú thích viết tay, kết cấu giấy cũ, vết ố vàng, con dấu dập nổi và dấu sáp, làm cho nó lý tưởng cho tính thẩm mỹ lịch sử hoặc lưu trữ.","Một tài liệu bằng sáng chế cổ điển cho {argument name=""invention"" default=""INVENTION""}, được tạo kiểu theo hồ sơ của Văn phòng Bằng sáng chế Hoa Kỳ cuối những năm 1800. Trang này có các bản vẽ kỹ thuật chính xác với các chú thích được đánh số (Hình 1, Hình 2, Hình 3) hiển thị các góc nhìn phía trước, bên cạnh và các chi tiết tháo rời. Các chú thích viết tay bằng mực bút máy mô tả cơ chế. Giấy có màu ngà đã cũ với các vết ố vàng và nếp gấp mềm. Một con dấu dập nổi chính thức và dấu sáp đỏ xuất hiện ở góc. Tên và ngày của nhà phát minh được ký tay xuất hiện ở phía dưới. Toàn bộ hình ảnh mang lại cảm giác như một tài liệu lưu trữ được phục hồi — đầy tính xác thực, lịch sử và hơi bí ẩn.","[""https://cms-assets.youmind.com/media/1766940094520_1mg5pd_G8_m2ZVWEAAMG7y.jpg"",""https://cms-assets.youmind.com/media/1766940095035_8t8iil_G8_mW4FWwAEwERE.jpg"",""https://cms-assets.youmind.com/media/1766940095188_kt8ksq_G8_m_7hWoAAw19u.jpg"",""https://cms-assets.youmind.com/media/1766940096864_fhv4oo_G8_nePrXUAAHvgn.jpg""]","{""name"":""Alexandra Aisling"",""url"":""https://x.com/AllaAisling""}",https://x.com/AllaAisling/status/2004212035333365763,"Minh họa, Cổ điển"
+10,Tái hiện một cảnh hiện đại theo phong cách tranh Ukiyo-e thời Edo,"Một lời nhắc hình ảnh có cấu trúc cao để mô tả một cảnh hiện đại được tái hiện dưới dạng bản in khắc gỗ Ukiyo-e thời Edo của Nhật Bản, với hướng dẫn chi tiết về công nghệ lỗi thời, bố cục, họa tiết và màu sắc.","Một bản in khắc gỗ Ukiyo-e thời Edo của Nhật Bản. Cảm giác tổng thể là sự hợp tác siêu thực giữa các bậc thầy như Hokusai và Hiroshige, tái hiện công nghệ hiện đại qua lăng kính cổ xưa.
+
+**Bối cảnh:** {argument name=""modern scene"" default=""một ngã tư Shibuya đông đúc""}
+
+**Logic chuyển đổi thời Edo:**
+Các nhân vật mặc kimono thời Edo nhưng thực hiện các hành động hiện đại. Tất cả công nghệ được biến đổi thành các vật tương đương siêu thực thời Edo:
+* Điện thoại thông minh là những cuộn giấy minh họa phát sáng được đọc một cách chăm chú.
+* Ga tàu điện ngầm và tàu hỏa là những cỗ xe rết gỗ khổng lồ, có khớp nối, di chuyển qua đám đông.
+* Các tòa nhà chọc trời được tái hiện thành những ngôi chùa gỗ cao chót vót, vươn tới những đám mây ấn tượng.
+* Robot và mecha xuất hiện dưới dạng những người đá khắc gỗ khổng lồ, bọc thép.
+
+Bố cục sử dụng phối cảnh phẳng với các đường nét mực khắc thủ công lớn, đậm. Nền có các họa tiết sóng Ukiyo-e được cách điệu mạnh mẽ và những đám mây xoáy ấn tượng, với núi Phú Sĩ ở xa hiện rõ trên đường chân trời.
+
+Hình ảnh phải trông giống như một bản in vật lý, không phải một bức tranh kỹ thuật số.
+* Kết cấu: kết cấu vân gỗ rõ nét và sợi giấy thô xuyên suốt tác phẩm.
+* Lỗi in ấn: hiện rõ sự lem màu. Mô phỏng các bản in thủ công với sự lệch màu nhẹ để tăng tính chân thực.
+* Bảng màu: giới hạn nghiêm ngặt trong các sắc tố khoáng truyền thống, với việc sử dụng chủ đạo màu xanh Phổ, đỏ son và vàng đất xám.
+* Ánh sáng: ánh sáng dịu, phẳng, không bóng đổ và không có gradient kỹ thuật số.
+
+Tỷ lệ khung hình là 3:4 cho poster dọc. Bao gồm chữ thư pháp Nhật Bản dọc mô tả cảnh và một con dấu đỏ truyền thống của nghệ sĩ ở một góc.","[""https://cms-assets.youmind.com/media/1764915832381_renotr_G7FuPlzbYAAsuo2.jpg""]","{""name"":""VoxcatAI"",""url"":""https://x.com/VoxcatAI""}",https://x.com/VoxcatAI/status/1995497350543110411,"Minh họa, Ukiyo-e, Nhân vật, Xe cộ, Văn bản, Poster"
+18,Hồ sơ / Ảnh đại diện - Chuyển đổi ảnh selfie thành ảnh đại diện LinkedIn chuyên nghiệp,"Một lời nhắc hướng dẫn AI chuyển đổi ảnh selfie đã tải lên thành ảnh chân dung LinkedIn chuyên nghiệp. Nó chỉ định một phông nền văn phòng mờ nhẹ với cửa sổ lớn, phong cách sạch sẽ và chân thực, chỉnh sửa tinh tế và ánh sáng ban ngày dịu nhẹ, đồng thời giữ nguyên các đặc điểm khuôn mặt và kiểu tóc từ ảnh gốc.","Biến ảnh selfie này thành ảnh chân dung LinkedIn chuyên nghiệp của một người đàn ông. Nền: văn phòng mờ nhẹ với cửa sổ lớn. Phong cách: gọn gàng, chân thực, chỉnh sửa tinh tế, không dùng bộ lọc nặng. Ánh sáng: ánh sáng ban ngày dịu nhẹ từ phía trước. Ràng buộc: giữ nguyên các đặc điểm khuôn mặt và kiểu tóc, không có chữ.","[""https://cms-assets.youmind.com/media/1768890667139_mn1d69_G_BHdvxW4AA41Hs.jpg""]","{""name"":""Snow"",""url"":""https://x.com/iamrealsnow""}",https://x.com/iamrealsnow/status/2013187622299156726,"Chân dung, Văn bản"
+80,Truyện tranh / Bảng phân cảnh - Kết xuất Phong cách Tiểu thuyết Đồ họa (Thẩm mỹ Sin City),"Lời nhắc này được thiết kế để tạo ảnh từ ảnh, lấy một hình ảnh đã tải lên và hiển thị các đối tượng theo phong cách truyện tranh đồ họa tương phản cao, rõ nét, chịu ảnh hưởng nặng nề từ Sin City của Frank Miller. Nó yêu cầu bóng sâu, gạch chéo đậm, đường viền mực dày và nền trống rỗng hoàn toàn chỉ với những điểm nhấn màu trắng rõ nét.","Các chủ thể từ hình ảnh được tải lên được thể hiện theo phong cách tiểu thuyết đồ họa tương phản cao, mạnh mẽ, lấy cảm hứng sâu sắc từ phong cách Sin City của Frank Miller. Những bóng đổ sâu, không khoan nhượng định hình cấu trúc cơ bắp và biểu cảm khắc nghiệt, sử dụng kỹ thuật gạch chéo đậm và đường viền mực dày thay vì đổ bóng truyền thống. Ánh sáng chiaroscuro đầy kịch tính nhấn mạnh sự căng thẳng giữa hai nhân vật, với chỉ những điểm sáng trắng nổi bật xuyên qua bố cục chủ yếu là màu đen, trên nền trống rỗng hoàn toàn, trông giống như một khung truyện tranh mạnh mẽ, độc đáo.","[""https://cms-assets.youmind.com/media/1768890739480_1d3phh_G-9u8TdXkAENVpG.jpg""]","{""name"":""Dominus the Prompter"",""url"":""https://x.com/iamdomprompt""}",https://x.com/iamdomprompt/status/2012949546389643603,"Nhân vật, Thành phố"
+112,Hình ảnh chính thương mại điện tử - Lời nhắc tạo tác phẩm điêu khắc siêu xe bằng kính nhiều lớp trong suốt,"Một JSON prompt mang tính kỹ thuật cao để tạo ra hình ảnh siêu xe chân thực, được dò tia. Chiếc xe được thể hiện dưới dạng một tác phẩm điêu khắc cắt lát theo cấu trúc tô pô, làm từ kính acrylic quang học nhiều lớp, với các chi tiết cơ khí bên trong có thể nhìn thấy. Prompt nhấn mạnh ánh sáng (ánh sáng viền, ánh sáng phát ra từ bên trong, hiệu ứng caustics) trên nền không gian đen kịt, tạo ra một vẻ đẹp của hình ảnh được tách rời.","{
+  ""prompt_configuration"": {
+    ""parameters"": {
+      ""car_model"": ""{argument name=\""car model\"" default=\""SUPERCAR MODEL\""}"",
+      ""material_color"": ""{argument name=\""material color\"" default=\""warm amber and deep orange\""}""
+    },
+    ""aspect_ratio"": ""16:9"",
+    ""viewpoint"": ""góc 3/4 phía trước, hiển thị toàn bộ xe""
+  },
+  ""prompt_payload"": {
+    ""subject_definition"": {
+      ""core_subject"": ""{car_model}"",
+      ""representation_style"": ""tác phẩm điêu khắc lát cắt dạng tô-pô, được tạo thành từ các tấm vật liệu trong mờ xếp chồng song song""
+    },
+    ""material_physics"": {
+      ""medium"": ""kính acrylic quang học nhiều lớp"",
+      ""texture"": ""cạnh cắt laser, độ trong suốt thể tích, tán xạ dưới bề mặt"",
+      ""color_palette"": ""chuyển màu trong mờ {material_color}, khúc xạ nội tại phát sáng""
+    },
+    ""technical_details"": {
+      ""structure"": ""cấu trúc lá có gân, mặt cắt ngang, các chi tiết cơ khí bên trong có thể nhìn thấy qua các lớp (khối động cơ, hệ thống treo, hộp số)"",
+      ""fidelity"": ""siêu chi tiết, độ chính xác như CAD, thẩm mỹ kiểu hình chiếu tách rời nhưng đã lắp ráp""
+    },
+    ""lighting_and_atmosphere"": {
+      ""environment"": ""nền không gian tối đen như mực, studio tối vô tận"",
+      ""lighting_setup"": ""ánh sáng viền để bắt cạnh kính, ánh sáng thể tích bên trong phát sáng, hiệu ứng caustics, độ tương phản cao kiểu điện ảnh""
+    },
+    ""rendering_engine"": {
+      ""style"": ""Octane Render, dò tia, độ phân giải 8k, thuộc tính vật liệu chân thực, độ sâu trường ảnh chụp macro""
+    }
+  },
+  ""negative_prompt"": [
+    ""thân xe kim loại đặc"",
+    ""sơn mờ đục"",
+    ""hoạt hình"",
+    ""minh họa"",
+    ""bánh xe bị biến dạng"",
+    ""khung hình bị cắt xén"",
+    ""ánh sáng ban ngày"",
+    ""phản chiếu của nhiếp ảnh gia""
+  ]
+}","[""https://cms-assets.youmind.com/media/1768804263037_da8uj6_G--zMlXXYAEyetJ.jpg"",""https://cms-assets.youmind.com/media/1768804263002_8omzrs_G--zMqUWEAADVF1.jpg"",""https://cms-assets.youmind.com/media/1768804263805_3sf4w4_G--zMlfXMAAav79.jpg"",""https://cms-assets.youmind.com/media/1768804264278_z57ws5_G--zMiCW8AAx8Ze.jpg""]","{""name"":""Lloyd Creates"",""url"":""https://x.com/lloydcreates""}",https://x.com/lloydcreates/status/2013024593246568485,"Nhiếp ảnh, Điện ảnh, Minh họa, 3D, Anime, Nhân vật, Xe cộ, Văn bản"

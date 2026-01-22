@@ -1,0 +1,187 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+9,Cảnh căn phòng otaku chụp ảnh selfie qua gương chi tiết,"Một prompt Nano Banana rất chi tiết mô tả ảnh selfie trước gương của một cô gái trong góc máy tính otaku tông màu xanh lam, với đầy đủ thông số kỹ thuật về nhân vật, môi trường, ánh sáng, máy ảnh và các prompt phủ định.","### Bối cảnh
+Ảnh selfie qua gương trong góc máy tính phong cách otaku, tông màu xanh.
+
+### Chủ thể
+* Biểu cảm giới tính: nữ
+* Tuổi: khoảng 25
+* Dân tộc: Đông Á
+* Dáng người: mảnh mai, eo thon; tỷ lệ cơ thể tự nhiên
+* Tông da: tông trung tính sáng
+* Kiểu tóc:
+    * Độ dài: tóc dài ngang eo
+    * Kiểu: thẳng với phần đuôi hơi xoăn nhẹ
+    * Màu: nâu trung bình
+* Tư thế:
+    * Dáng đứng: đứng hơi contrapposto
+    * Tay phải: cầm điện thoại thông minh trước mặt (giấu danh tính)
+    * Tay trái: buông tự nhiên dọc thân
+    * Thân trên: thân hơi ngả về sau; eo và bụng lộ ra
+* Trang phục:
+    * Áo trên: áo khoác len dệt kim dáng lửng màu xanh nhạt, cài hai cúc trên cùng; áo ngực kiểu Pháp màu xanh mờ ảo
+    * Quần dưới: quần short denim siêu ngắn, với một chiếc nơ ruy băng satin màu xanh ở mỗi bên hông
+    * Vớ: vớ cao quá gối sọc ngang xanh trắng
+    * Phụ kiện: ốp điện thoại hình linh vật dễ thương màu xanh
+
+### Môi trường
+* Mô tả: góc máy tính trong phòng ngủ nhìn qua gương treo tường
+* Đồ đạc:
+    * Bàn làm việc màu trắng
+    * Một màn hình hiển thị hình nền màu xanh dịu (không có chữ có thể đọc được)
+    * Bàn phím cơ với keycap màu trắng trên tấm lót bàn màu xanh
+    * Chuột trên tấm lót chuột nhỏ màu xanh
+    * Thùng máy tính ở bên phải với đèn case màu xanh
+    * Ba mô hình anime trên hoặc gần thùng máy tính
+    * Một tấm áp phích hình chùa trên tường
+    * Đèn bàn hình mèo có điểm nhấn màu xanh
+    * Một ly nước thủy tinh trong suốt
+    * Một cây xanh lá cao bên cửa sổ (ở phía bên trái khung hình)
+* Thay thế màu sắc: thay thế tất cả các yếu tố ban đầu màu hồng (quần áo và đồ trang trí phòng) bằng tông màu xanh (từ xanh da trời nhạt đến xanh da trời/xanh dừa cạn).
+
+### Ánh sáng
+* Nguồn sáng: ánh sáng ban ngày từ cửa sổ lớn bên trái máy ảnh, xuyên qua rèm mỏng
+* Chất lượng ánh sáng: ánh sáng mềm, khuếch tán
+* Cân bằng trắng (K): 5200
+
+### Máy ảnh
+* Chế độ: camera sau của điện thoại thông minh chụp qua gương (không có chế độ chân dung/bokeh)
+* Tiêu cự tương đương (mm): 26
+* Khoảng cách (m):
+    * Chủ thể đến gương: 0.6
+    * Máy ảnh đến gương: 0.5
+* Phơi sáng:
+    * Khẩu độ (f): 1.8
+    * ISO: 100
+    * Tốc độ màn trập (s): 0.01
+    * Bù trừ phơi sáng (EV): -0.3
+* Lấy nét: lấy nét vào phần thân trên và quần short trong ảnh phản chiếu qua gương
+* Độ sâu trường ảnh: độ sâu trường ảnh sâu tự nhiên của điện thoại thông minh; hậu cảnh hiển thị rõ ràng không bị làm mờ nhân tạo
+* Bố cục:
+    * Tỷ lệ khung hình: 1:1
+    * Cắt: từ đỉnh đầu đến giữa đùi; bao gồm bàn làm việc, màn hình, thùng máy tính và cây xanh trong khung hình
+    * Góc: góc hơi cao từ góc nhìn của gương
+    * Ghi chú bố cục: giữ chủ thể ở giữa; để tránh biến dạng cạnh góc rộng, hãy để cô ấy đứng xa hơn một chút và cắt thành hình vuông sau.
+
+### Lời nhắc tiêu cực
+* Bất kỳ sự xuất hiện nào của màu hồng/đỏ tươi ở bất cứ đâu
+* Bộ lọc làm đẹp/da quá mịn; vẻ ngoài da không có lỗ chân lông
+* Giải phẫu phóng đại hoặc biến dạng
+* NSFW, vải xuyên thấu, sự cố trang phục
+* Logo, tên thương hiệu hoặc văn bản giao diện người dùng có thể đọc được
+* Hiệu ứng làm mờ chế độ chân dung giả, cảm giác CGI/minh họa","[""https://cms-assets.youmind.com/media/1763889946850_689z0h_G23i3sJW0AASGUw.jpg""]","{""name"":""宝玉"",""url"":""https://x.com/dotey""}",https://x.com/dotey/status/1976485558319722711,"Chân dung, Nhiếp ảnh, Minh họa, 3D, Anime, Nhân vật, Văn bản, Logo, Poster, UI/UX"
+10,Tái hiện một cảnh hiện đại theo phong cách tranh Ukiyo-e thời Edo,"Một lời nhắc hình ảnh có cấu trúc cao để mô tả một cảnh hiện đại được tái hiện dưới dạng bản in khắc gỗ Ukiyo-e thời Edo của Nhật Bản, với hướng dẫn chi tiết về công nghệ lỗi thời, bố cục, họa tiết và màu sắc.","Một bản in khắc gỗ Ukiyo-e thời Edo của Nhật Bản. Cảm giác tổng thể là sự hợp tác siêu thực giữa các bậc thầy như Hokusai và Hiroshige, tái hiện công nghệ hiện đại qua lăng kính cổ xưa.
+
+**Bối cảnh:** {argument name=""modern scene"" default=""một ngã tư Shibuya đông đúc""}
+
+**Logic chuyển đổi thời Edo:**
+Các nhân vật mặc kimono thời Edo nhưng thực hiện các hành động hiện đại. Tất cả công nghệ được biến đổi thành các vật tương đương siêu thực thời Edo:
+* Điện thoại thông minh là những cuộn giấy minh họa phát sáng được đọc một cách chăm chú.
+* Ga tàu điện ngầm và tàu hỏa là những cỗ xe rết gỗ khổng lồ, có khớp nối, di chuyển qua đám đông.
+* Các tòa nhà chọc trời được tái hiện thành những ngôi chùa gỗ cao chót vót, vươn tới những đám mây ấn tượng.
+* Robot và mecha xuất hiện dưới dạng những người đá khắc gỗ khổng lồ, bọc thép.
+
+Bố cục sử dụng phối cảnh phẳng với các đường nét mực khắc thủ công lớn, đậm. Nền có các họa tiết sóng Ukiyo-e được cách điệu mạnh mẽ và những đám mây xoáy ấn tượng, với núi Phú Sĩ ở xa hiện rõ trên đường chân trời.
+
+Hình ảnh phải trông giống như một bản in vật lý, không phải một bức tranh kỹ thuật số.
+* Kết cấu: kết cấu vân gỗ rõ nét và sợi giấy thô xuyên suốt tác phẩm.
+* Lỗi in ấn: hiện rõ sự lem màu. Mô phỏng các bản in thủ công với sự lệch màu nhẹ để tăng tính chân thực.
+* Bảng màu: giới hạn nghiêm ngặt trong các sắc tố khoáng truyền thống, với việc sử dụng chủ đạo màu xanh Phổ, đỏ son và vàng đất xám.
+* Ánh sáng: ánh sáng dịu, phẳng, không bóng đổ và không có gradient kỹ thuật số.
+
+Tỷ lệ khung hình là 3:4 cho poster dọc. Bao gồm chữ thư pháp Nhật Bản dọc mô tả cảnh và một con dấu đỏ truyền thống của nghệ sĩ ở một góc.","[""https://cms-assets.youmind.com/media/1764915832381_renotr_G7FuPlzbYAAsuo2.jpg""]","{""name"":""VoxcatAI"",""url"":""https://x.com/VoxcatAI""}",https://x.com/VoxcatAI/status/1995497350543110411,"Minh họa, Ukiyo-e, Nhân vật, Xe cộ, Văn bản, Poster"
+20,Hồ sơ / Ảnh đại diện - E-Girl Chụp Ảnh Tự Sướng Trong Ánh Sáng Hoàng Hôn,"Một JSON prompt chi tiết cho Gemini Nano Banana Pro, tập trung vào việc tạo ra một bức ảnh selfie chân thực như ảnh chụp của một người phụ nữ theo phong cách 'e-girl' hoặc 'soft grunge'. Nó chỉ định tóc vàng bạch kim, áo corset satin trắng in hình hoạt hình, và bối cảnh là hành lang trong nhà ngập tràn ánh nắng vàng ấm áp của giờ vàng.","{
+  ""prompt_description"": {
+    ""subject"": {
+      ""type"": ""phụ nữ"",
+      ""hair"": ""tóc dài, thẳng, màu vàng bạch kim"",
+      ""features"": ""tông da sáng, trang điểm nhẹ nhàng, ngón tay đặt trên môi"",
+      ""tattoos"": ""hình xăm chữ nhỏ trên ngực, hình xăm 'XXX' trên cổ tay""
+    },
+    ""outfit"": {
+      ""top"": ""áo corset satin trắng có họa tiết hoạt hình/anime màu hồng (kiểu {argument name=\""cartoon character\"" default=\""My Melody\""}), viền ren, dây buộc nơ phía trước"",
+      ""bottom"": ""chân váy mini xếp ly màu đen, gấu váy cắt thô"",
+      ""accessories"": ""vớ đùi cao màu đen có ren phía trên, quần tất lưới"",
+      ""phone_case"": ""ốp điện thoại minh họa phong cách anime đen trắng đồ họa""
+    },
+    ""pose"": {
+      ""type"": ""selfie gương"",
+      ""stance"": ""đứng, một bên hông hếch lên"",
+      ""hand_position"": ""cầm điện thoại bằng tay phải, tay trái chạm môi""
+    },
+    ""environment"": {
+      ""location"": ""hành lang hoặc phòng ngủ trong nhà"",
+      ""background"": ""tường trắng, sàn gạch xám, áp phích đóng khung trên tường"",
+      ""lighting"": ""ánh sáng mặt trời hoàng hôn vàng ấm, bóng đổ mềm mại"",
+      ""decor"": ""tối giản, cây cảnh trong chậu ở hậu cảnh""
+    },
+    ""style"": {
+      ""aesthetic"": ""e-girl, soft grunge, coquette, hợp thời trang"",
+      ""camera_angle"": ""ngang tầm mắt, phản chiếu"",
+      ""quality"": ""độ nét cao, chân thực như ảnh, màu sắc sống động""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890708248_z2jdm2_G-_zv_DXYAAIGDC.jpg""]","{""name"":""Mira"",""url"":""https://x.com/xmiiru_""}",https://x.com/xmiiru_/status/2013095567547666866,"Chân dung, Nhiếp ảnh, Điện ảnh, Minh họa, Anime, Tối giản, Nhân vật, Xe cộ, Thời trang, Văn bản, Poster"
+22,Hồ sơ / Ảnh đại diện - E-Girl Tự Chụp Ảnh Trong Ánh Sáng Hoàng Hôn (Bản Sao),"Một JSON prompt chi tiết cho Gemini Nano Banana Pro, tập trung vào việc tạo ra một bức ảnh selfie chân thực như ảnh chụp của một người phụ nữ theo phong cách 'e-girl' hoặc 'soft grunge'. Nó chỉ định tóc vàng bạch kim, áo corset bằng sa tanh trắng có in hình hoạt hình và bối cảnh là hành lang trong nhà ngập tràn ánh nắng vàng ấm áp của giờ vàng. (Bản sao của 2013095567547666866)","{
+  ""prompt_description"": {
+    ""subject"": {
+      ""type"": ""phụ nữ"",
+      ""hair"": ""tóc dài, thẳng, vàng bạch kim"",
+      ""features"": ""da sáng, trang điểm nhẹ nhàng, ngón tay đặt trên môi"",
+      ""tattoos"": ""hình xăm chữ nhỏ trên ngực, hình xăm 'XXX' trên cổ tay""
+    },
+    ""outfit"": {
+      ""top"": ""áo corset satin trắng in hình hoạt hình/anime màu hồng (kiểu {argument name=\""cartoon character\"" default=\""My Melody\""}), viền ren, dây buộc nơ phía trước"",
+      ""bottom"": ""chân váy mini xếp ly màu đen, gấu váy cắt thô"",
+      ""accessories"": ""vớ đùi cao màu đen có ren, quần tất lưới"",
+      ""phone_case"": ""ốp điện thoại minh họa phong cách anime đen trắng đồ họa""
+    },
+    ""pose"": {
+      ""type"": ""tự chụp ảnh qua gương"",
+      ""stance"": ""đứng, một bên hông hếch lên"",
+      ""hand_position"": ""cầm điện thoại bằng tay phải, tay trái chạm môi""
+    },
+    ""environment"": {
+      ""location"": ""hành lang hoặc phòng ngủ trong nhà"",
+      ""background"": ""tường trắng, sàn gạch xám, áp phích đóng khung trên tường"",
+      ""lighting"": ""ánh sáng mặt trời hoàng hôn vàng ấm, bóng đổ mềm mại"",
+      ""decor"": ""tối giản, cây cảnh trong chậu ở hậu cảnh""
+    },
+    ""style"": {
+      ""aesthetic"": ""e-girl, soft grunge, coquette, hợp thời trang"",
+      ""camera_angle"": ""ngang tầm mắt, phản chiếu"",
+      ""quality"": ""độ nét cao, chân thực như ảnh, màu sắc sống động""
+    }
+  }
+}","[""https://cms-assets.youmind.com/media/1768890709718_8jx82s_G-_pBv0W0AAv4gM.jpg""]","{""name"":""Sudee🥀"",""url"":""https://x.com/NameIsSudee""}",https://x.com/NameIsSudee/status/2013083792937009531,"Chân dung, Nhiếp ảnh, Điện ảnh, Minh họa, Anime, Tối giản, Nhân vật, Xe cộ, Thời trang, Văn bản, Poster"
+47,Infographic / Hình ảnh giáo dục - Lệnh chụp ảnh kỹ thuật sơ đồ thực phẩm phân tách,"Một lời nhắc mang tính khái niệm cao được thiết kế để hình dung một món ăn nhiều lớp như một mô hình kiến trúc hoặc bản thiết kế kỹ thuật. Nó yêu cầu món ăn phải được cắt theo mặt cắt ngang, với các lớp được dán nhãn bằng các thanh acrylic, và bao gồm các yếu tố như công nhân xây dựng thu nhỏ và thông số kỹ thuật vật liệu, được thể hiện theo phong cách bản vẽ kỹ thuật.","<instructions>
+Đầu vào A: Bất kỳ món ăn nào có nhiều lớp/kết cấu (ví dụ: {argument name=""layered dish"" default=""lasagna, baklava, mille-feuille, biryani""})
+Đầu vào B: Mô hình giải phẫu / bản thiết kế kiến trúc
+Mục tiêu: Một lát cắt đã ăn một nửa được trưng bày như một mô hình kiến trúc với mỗi lớp được dán nhãn, thể hiện kỹ thuật kết cấu và khoa học vật liệu trong nấu ăn.
+Quy tắc:
+Món ăn được cắt lát hoàn hảo theo mặt cắt ngang, đứng thẳng
+Các thanh acrylic có cờ dán nhãn từng lớp
+Chỉ có các chú thích và số đo liên quan đến thực phẩm
+Nền liên quan đến thực phẩm
+Công nhân xây dựng thu nhỏ trên các lớp
+Lịch sử của bữa ăn được hình dung trên một tấm áp phích trên tường
+Ghi chú mẹo nấu ăn
+Thông số kỹ thuật vật liệu (mật độ, độ ẩm)
+Lớp nền không có nhãn
+Bao gồm các dụng cụ nấu ăn nhỏ
+Thẩm mỹ bản vẽ kỹ thuật với màu trắng và xanh
+Đầu ra: MỘT hình ảnh, nhiếp ảnh kỹ thuật, ánh sáng công nghiệp sạch, tỷ lệ 4:5
+</instructions>","[""https://cms-assets.youmind.com/media/1768804211731_xigzux_G-wbJpmbQAY6sK4.jpg""]","{""name"":""Gadgetify"",""url"":""https://x.com/Gdgtify""}",https://x.com/Gdgtify/status/2012918907305427332,"Nhiếp ảnh, Minh họa, Nội thất, Đồ ăn, Poster, UI/UX, Giáo dục"
+94,Tiếp thị sản phẩm - Chụp ảnh sản phẩm tối giản sang trọng dựa trên hình ảnh tham khảo,"Một lời nhắc để tạo ra ảnh chụp sản phẩm thương mại cao cấp, tối giản theo phong cách quảng cáo của các thương hiệu xa xỉ, sử dụng hình ảnh tham chiếu đã tải lên của sản phẩm cốt lõi làm cơ sở.","Sử dụng hình ảnh tham khảo đã tải lên làm cơ sở, tạo một bức ảnh tĩnh vật thương mại tối giản, chất lượng cao với phong cách quảng cáo của một thương hiệu xa xỉ.
+
+Giữ nguyên hình dạng tổng thể, tỷ lệ và bảng màu chính của sản phẩm cốt lõi trong hình tham khảo để nó có thể được nhận ra ngay lập tức là cùng một sản phẩm, nhưng nâng cấp kết cấu tổng thể và không khí của hình ảnh, làm cho nó trông giống như một quảng cáo cho một loại nước hoa, sản phẩm chăm sóc da hoặc sản phẩm điện tử cao cấp quốc tế.
+
+Sử dụng bố cục dọc 4:5. Nền phải là một không gian âm lớn, sạch sẽ, trung tính, chẳng hạn như màu trắng nhạt mềm mại, xám lạnh hoặc be nhạt, tạo ra một môi trường studio yên tĩnh, trang nhã và đắt tiền. Ngoài sản phẩm cốt lõi và một số lượng tối thiểu các vật hỗ trợ cần thiết, không thêm bất kỳ đồ trang trí nào khác. Không lộn xộn, không thiết lập cảnh phức tạp — chỉ giữ các vật hỗ trợ hình học rất đơn giản (chẳng hạn như một khối lập phương màu trắng trơn, một hình trụ hoặc một tấm trong suốt mỏng). Các vật hỗ trợ phải đơn giản và ít nổi bật, chỉ tồn tại để giữ và làm nổi bật sản phẩm.
+
+Nhấn mạnh mạnh mẽ các chi tiết vật liệu của sản phẩm, và để ánh sáng phục vụ hoàn toàn các vật liệu đó:
+Hiển thị kính mờ với kết cấu mờ mịn, mềm mại, gốm sứ với cảm giác mờ hoặc hơi tráng men, và kim loại đánh bóng với các điểm nhấn sáng bóng sắc nét, sạch sẽ. Chất lỏng phải có độ nhớt và thể tích rõ ràng. Tránh bất kỳ cảm giác nhựa rẻ tiền, hoa văn phức tạp hoặc nhãn dán lòe loẹt nào; chất lượng vật liệu tổng thể phải mang lại cảm giác mát mẻ, trang nhã và sang trọng.
+
+Sử dụng ánh sáng studio chuyên nghiệp: chủ yếu là ánh sáng mềm, khuếch tán từ softbox, cộng với ánh sáng viền chính xác làm nổi bật hình dạng của sản phẩm. Các đường nét phải sắc nét và có chiều sâu, và bóng phải mềm mại và sạch sẽ, không có nhiễu hoặc các mảng bóng bẩn. Bạn có thể sử dụng góc nhìn cận cảnh, tiến gần hơn đến sản phẩm để làm nổi bật vật liệu và chi tiết, đồng thời vẫn giữ đủ không gian âm xung quanh khung hình để sản phẩm có thể ""tự nói lên"" trong sự trống rỗng.
+
+Giữ bảng màu tổng thể trung tính và trầm. Màu sắc của sản phẩm có thể bão hòa hơn một chút, làm cho nó trở thành điểm nhấn thị giác duy nhất trong cảnh. Không sử dụng nền gradient phóng đại, ánh sáng màu lòe loẹt hoặc phong cách quảng cáo thương mại điện tử. Không có văn bản giá lớn, nhãn hiệu hoặc đồ họa hoạt hình.
+
+Kết quả cuối cùng phải là một hình ảnh chủ đạo thương mại có độ phân giải cao, trông sẵn sàng cho trang bìa sau của một tạp chí hoặc một áp phích thông báo thương hiệu cao cấp: tối giản, yên tĩnh, cao cấp, với sản phẩm cốt lõi tự tin nằm ở trung tâm, được bao quanh bởi không gian âm sạch sẽ và ánh sáng được kiểm soát chính xác.","[""https://cms-assets.youmind.com/media/1764915823213_skhwpb_G7Qvxi5bIAAqpfX.jpg""]","{""name"":""VoxcatAI"",""url"":""https://x.com/VoxcatAI""}",https://x.com/VoxcatAI/status/1996273073725780161,"Anime, Tối giản, Sản phẩm, Poster"

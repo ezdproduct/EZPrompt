@@ -1,0 +1,122 @@
+id,title,description,content,sourceMedia,author,sourceLink,keywords
+7,Sơ đồ 'Đầm lầy' Phát triển AI Agent,"Một lời nhắc dựa trên JSON chi tiết dành cho Nano Banana Pro để tạo ra sơ đồ 'Swamp' (một định dạng meme phổ biến trên internet) minh họa tính chất tuần hoàn của việc bị mắc kẹt trong quá trình phát triển AI Agent. Lời nhắc xác định cấu trúc, phong cách (đơn giản, minh họa dễ thương), bố cục (đường dẫn giới thiệu thẳng dẫn vào một vòng lặp theo chiều kim đồng hồ) và các nút cụ thể với nhân vật, hình ảnh và thuật ngữ đối thoại/suy nghĩ của sơ đồ.","diagram:
+  title: ""{argument name=""diagram title"" default=""Vòng Lặp Đầm Lầy Phát Triển AI Agent Sinh Thành""}""
+  style:
+    character: ""simple_editorial_cute""
+    tone: ""light_like_original""
+    line: ""soft_round""
+    shading: ""flat_minimal""
+    palette: ""muted_editorial""
+    background: ""light_beige_or_white""
+
+  rule:
+    first_character_only: ""Chỉ người đầu tiên là khác""
+    others_same_character: ""Tất cả những người khác đều là một""
+    anxiety_requires_tech_terms: true
+    dialogue_tone: ""Giữ nguyên cách diễn đạt ngắn gọn, nhẹ nhàng của sơ đồ gốc""
+
+layout:
+  intro_track: ""Phần trên là một đường thẳng (từ trái sang phải), sau đó rẽ xuống để nối vào vòng lặp""
+  loop_track: ""Sắp xếp thành một vòng lặp (hình tròn), với các mũi tên cong theo chiều kim đồng hồ dọc theo chu vi""
+
+nodes:
+  # ===== Upper Section: Straight Introduction =====
+  - id: A
+    zone: ""intro""
+    position: ""upper_left""
+    actor: ""Người khác (Kỹ sư cấp cao)""
+    visual: ""Chỉ vào máy tính xách tay""
+    item: ""Màn hình Demo AI Agent""
+    says: ""Nó sẽ làm bạn hạnh phúc.""
+    arrow_to: { id: B, shape: ""straight"", direction: ""right"" }
+
+  - id: B
+    zone: ""intro""
+    position: ""upper_center""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Vẫy tay nhẹ""
+    says: ""Ngay cả một agent đơn giản...""
+    arrow_to: { id: C, shape: ""straight"", direction: ""right"" }
+
+  - id: C
+    zone: ""intro""
+    position: ""upper_right""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Thực thi mã mẫu""
+    item: ""Mẫu LangChain / CrewAI""
+    arrow_to: { id: D, shape: ""straight"", direction: ""down"" }
+
+  # ===== D: Awakening Point =====
+  - id: D
+    zone: ""connector""
+    position: ""right_outer_before_loop""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual:
+      face: ""Mắt mở to (dễ thương)""
+      effect: ""Vệt sáng nhỏ của sự cảm hứng""
+      posture: ""Nghiêng người về phía trước""
+    state: ""Thức tỉnh""
+    says: ""Agent, cái này thật điên rồ...""
+    micro_text: ""(Thức tỉnh ở đây)""
+    arrow_to:
+      id: E
+      shape: ""gentle_curve""
+      direction: ""down_into_ring""
+
+  # ===== Loop Start (Must rotate from here) =====
+  - id: E
+    zone: ""loop""
+    position: ""loop_right_upper""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Ôm đầu (dễ thương)""
+    state: ""Bắt đầu lo lắng/khó chịu""
+    says: ""Khó chịu""
+    thought_terms:
+      - ""Thiết kế Prompt""
+      - ""Lựa chọn công cụ""
+      - ""Thiết kế bộ nhớ""
+    thought_text: ""Nó không hoạt động như mong đợi...""
+    arrow_to: { id: F, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: F
+    zone: ""loop""
+    position: ""loop_right_lower""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Bị bao quanh bởi mã và nhật ký""
+    state: ""Sự khó chịu lắng xuống""
+    says: ""Trong trạng thái khó chịu""
+    callout: ""Vòng lặp! Chạy loạn! Ảo giác!""
+    thought_terms:
+      - ""RAG""
+      - ""Gọi hàm""
+      - ""Sử dụng công cụ""
+    arrow_to: { id: G, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: G
+    zone: ""loop""
+    position: ""loop_bottom""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Bị bao phủ bởi ghi chú và sơ đồ""
+    says: ""Cơ thể dần dần phát triển khả năng chịu đựng, và việc sử dụng tăng lên.""
+    items:
+      - ""Sơ đồ kiến trúc Agent""
+      - ""Ghi nhớ phân công vai trò""
+      - ""Luồng chuyển đổi trạng thái""
+    arrow_to: { id: H, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: H
+    zone: ""loop""
+    position: ""loop_left_lower""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Hoạt động tốt, nắm tay nhỏ""
+    state: ""Thỏa mãn tạm thời""
+    says: ""Mong muốn tạm thời được thỏa mãn""
+    arrow_to: { id: I, shape: ""curved_along_ring"", direction: ""clockwise"" }
+
+  - id: I
+    zone: ""loop""
+    position: ""loop_left_upper""
+    actor: ""Nhân vật chính (Cùng một người)""
+    visual: ""Suy nghĩ lại""
+    state: ""Ám ảnh/Chiếm hữu suy nghĩ""
+    says: ""Suy nghĩ về agent""","[""https://cms-assets.youmind.com/media/1766667407596_i77nzi_G8ybmHWagAUO-CF.jpg""]","{""name"":""Studio Veco|日本一ダサい画像を生成する人"",""url"":""https://x.com/studio_veco""}",https://x.com/studio_veco/status/2003147059298443496,"Chân dung, Minh họa, Tối giản, Nội thất, Nhân vật, Văn bản, UI/UX, Meme"
